@@ -1,7 +1,7 @@
 :root {
     --color-primary: #212121;
     --color-secondary: #FA681B;
-    --color-accent: #e74c3c;
+    --color-accent: #ad2516;
     --color-background: #ecf0f1;
     --color-text: #2c3e50;
     --color-subtext: #64666c;
@@ -9,4 +9,5 @@
     --bg-cards-target-optional: #0a0a0a;
     --bg-card-optional: #040201;
     --bg-card-into-optional: #29150a;
+    --color-secondary-optio: #e5824d;
 }

@@ -1,0 +1,444 @@
+:root {
+    /** color system **/
+   
+ 
+  
+
+
+    /** planet's radius **/
+    /* ♂ Mars real radius ≈ 3389.5km. */
+    --planet-radius-mars: 2.1184rem;
+    /* 🜨 Earth real radius ≈ 6371km. */
+    --planet-radius-earth: 3.9819rem;
+    /* ♀ Venus real radius ≈ 6051.8km. */
+    --planet-radius-venus: 3.7824rem;
+    /* ☿ Mercury real radius ≈ 2439.7km. */
+    --planet-radius-mercury: 1.5248rem;
+    /* ☉ Sun real radius ≈ 696340km (40 times smaller compared to the planet's dimensions values). */
+    --star-radius-sun: 10.8803rem;
+
+    /** planet's trajectories **/
+    --planet-trajectory-mars: 27.8803rem;
+    --planet-trajectory-earth: 20.7553rem;
+    --planet-trajectory-venus: 16.0678rem;
+    --planet-trajectory-mercury: 12.6928rem;
+
+    /** units **/
+    --system-margin-mars: 18.25rem;
+    --system-margin-earth: 2.1875rem;
+    --system-margin-venus: .9375rem;
+    --system-margin-mercury: 2.375rem;
+    --system-border-width: min(.125rem, 0.4dvmin);
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ☛ ⚠ The distances between the planets and the Sun are not respected because of the diameter of it.
+     Also note that for aesthetic reasons, the planet's trajectories are not elliptical and are not oriented as they should be. */
+
+.solar-system {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inline-size: 100%;
+    block-size: 100%;
+    transform: skewX(-45deg);
+    -webkit-transform: skewX(-45deg);
+}
+
+.solar-system .solar-system__sun {
+    z-index: 100;
+    /* ☛ ⚠ Size of the Sun is not respected here. */
+    aspect-ratio: 1;
+    inline-size: var(--star-radius-sun);
+    border-radius: 50%;
+    background-color: var(--color-secondary);
+    background: linear-gradient(135deg, var(--color-secondary) 20%, transparent);
+    filter: drop-shadow(0rem 0rem .125rem var(--color-secondary)) blur(.0625rem);
+    -webkit-filter: drop-shadow(0rem 0rem .125rem var(--color-secondary)) blur(.0625rem);
+    transform: skewX(45deg);
+    -webkit-transform: skewX(45deg);
+}
+
+.solar-system article:not(.solar-system__sun) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: transparent;
+    border-width: var( --color-secondary-optio);
+    border-style: solid;
+    border-color: var( --color-secondary-optio);
+}
+
+.solar-system article:not(.solar-system__sun)::after {
+    content: "";
+    aspect-ratio: 1;
+    inline-size: 40%;
+    border-radius: 50%;
+    background: var(--color-secondary);
+    -webkit-filter: drop-shadow(0rem 0rem .3rem var(--color-accent)) blur(.0313rem);
+    filter: drop-shadow(0rem 0rem .3rem var(--color-accent)) blur(.0313rem);
+}
+
+.solar-system section {
+    position: absolute;
+    z-index: 98;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border-width: var(--system-border-width);
+    border-style: solid;
+    border-color: var(  --bg-card-into-optional);
+}
+
+.solar-system .solar-system__mercury-trajectory {
+    inline-size: var(--planet-trajectory-mercury);
+    /* ☿ Mercury revolution duration ≈ 87.969 days. */
+    -webkit-animation: revolution 43.9845s linear infinite;
+    animation: revolution 43.9845s linear infinite;
+}
+
+.solar-system .solar-system__mercury-trajectory .solar-system__mercury-trajectory__mercury {
+    inline-size: var(--planet-radius-mercury);
+    top: var(--system-margin-mercury);
+    /* ☿ Mercury rotation period ≈ 58.645 days. */
+    -webkit-animation: revolution 29.3225s linear infinite;
+    animation: revolution 29.3225s linear infinite;
+}
+
+.solar-system .solar-system__venus-trajectory {
+    inline-size: var(--planet-trajectory-venus);
+    /* ♀ Venus revolution duration ≈ 224.667 days. */
+    -webkit-animation: revolution 112.3335s linear infinite;
+    animation: revolution 112.3335s linear infinite;
+}
+
+.solar-system .solar-system__venus-trajectory .solar-system__venus-trajectory__venus {
+    inline-size: var(--planet-radius-venus);
+    top: var(--system-margin-venus);
+    /* ♀ Venus rotation period ≈ 243.023 days. */
+    -webkit-animation: revolution 121.513s linear infinite;
+    animation: revolution 121.513s linear infinite;
+}
+
+.solar-system .solar-system__earth-trajectory {
+    inline-size: var(--planet-trajectory-earth);
+    /* 🜨 Earth revolution duration ≈ 365.2422 days. */
+    -webkit-animation: revolution 182.6211s linear infinite;
+    animation: revolution 182.6211s linear infinite;
+}
+
+.solar-system .solar-system__earth-trajectory .solar-system__earth-trajectory__earth {
+    inline-size: var(--planet-radius-earth);
+    top: var(--system-margin-earth);
+    /* ✑ animation-duration: .5s ≈ 24 hours on Earth. */
+    -webkit-animation: revolution 0.4874s linear infinite;
+    animation: revolution 0.4874s linear infinite;
+}
+
+.solar-system .solar-system__earth-trajectory .solar-system__earth-trajectory__earth::after {
+    -webkit-animation: blink 2s linear infinite;
+    animation: blink 2s linear infinite;
+}
+
+.solar-system .solar-system__mars-trajectory {
+    inline-size: var(--planet-trajectory-mars);
+    /* ♂ Mars revolution duration ≈ 686.885 days. */
+    -webkit-animation: revolution 343.4425s linear infinite;
+    animation: revolution 343.4425s linear infinite;
+}
+
+.solar-system .solar-system__mars-trajectory .solar-system__mars-trajectory__mars {
+    inline-size: var(--planet-radius-mars);
+    top: var(--system-margin-mars);
+    /* ✑ animation-duration: .5s ≈ 24 hours on Earth. */
+    -webkit-animation: revolution 0.5128s linear infinite;
+    animation: revolution 0.5128s linear infinite;
+}
+
+#logo {
+    inline-size: 8dvmin;
+    aspect-ratio: 1;
+    position: fixed;
+    inset: auto 1.6dvmin 1.6dvmin auto;
+    opacity: 0.3;
+    -webkit-filter: saturate(60%);
+    filter: saturate(60%);
+    transition: opacity 0.7s linear, filter 0.7s linear;
+}
+
+#logo circle {
+    -webkit-fill: var(--system-color-logo);
+    fill: var(--system-color-logo);
+}
+
+#logo path {
+    -webkit-fill: var(--system-color-dark);
+    fill: var(--system-color-dark);
+}
+
+#logo:hover {
+    opacity: 1;
+    -webkit-filter: saturate(100%);
+    filter: saturate(100%);
+}
+
+/* ▀▄▀▄▀▄▀▄▀▄▀▄ ANIMATIONS ▀▄▀▄▀▄▀▄▀▄▀▄ */
+
+@keyframes revolution {
+    to {
+        transform: rotateZ(1turn);
+    }
+}
+
+@keyframes blink {
+    to {
+        background-color: var(--system-color-dark);
+        filter: drop-shadow(0 0 0 var(--color-accent)) blur(0);
+    }
+}
+
+/*** ◰ media queries ***/
+/** smartphone **/
+@media screen and (width < 48rem) {
+    .solar-system .solar-system__sun {
+        inline-size: calc(var(--star-radius-sun) / 2);
+    }
+
+    .solar-system .solar-system__mercury-trajectory {
+        inline-size: calc(var(--planet-trajectory-mercury) / 2);
+    }
+
+    .solar-system .solar-system__mercury-trajectory .solar-system__mercury-trajectory__mercury {
+        inline-size: calc(var(--planet-radius-mercury) / 2);
+        top: calc(var(--system-margin-mercury) - 1.25rem);
+    }
+
+    .solar-system .solar-system__venus-trajectory {
+        inline-size: calc(var(--planet-trajectory-venus) / 2);
+    }
+
+    .solar-system .solar-system__venus-trajectory .solar-system__venus-trajectory__venus {
+        inline-size: calc(var(--planet-radius-venus) / 2);
+        top: calc(var(--system-margin-venus) - .5625rem);
+    }
+
+    .solar-system .solar-system__earth-trajectory {
+        inline-size: calc(var(--planet-trajectory-earth) / 2);
+    }
+
+    .solar-system .solar-system__earth-trajectory .solar-system__earth-trajectory__earth {
+        inline-size: calc(var(--planet-radius-earth) / 2);
+        top: calc(var(--system-margin-earth) - 1.1875rem);
+    }
+
+    .solar-system .solar-system__mars-trajectory {
+        inline-size: calc(var(--planet-trajectory-mars) / 2);
+    }
+
+    .solar-system .solar-system__mars-trajectory .solar-system__mars-trajectory__mars {
+        inline-size: calc(var(--planet-radius-mars) / 2);
+        top: calc(var(--system-margin-mars) - 14.625rem);
+    }
+}
+
+/** 4K and 8K Ultra HD **/
+/*
+  @media screen and (width > 120rem) {
+     .solar-system .solar-system__sun {
+      inline-size: calc(var(--star-radius-sun) * 2);
+    }
+  }
+  
+  @media screen and (width > 240rem) {
+     .solar-system .solar-system__sun {
+      inline-size: calc(var(--star-radius-sun) * 4);
+    }
+  }
+  */
+
+
+
+/* Tabs */
+
+.margin-div-universe {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+
+.window {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+        0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.nav-tab {
+    background: var(--bg-cards-target-optional);
+
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 1px solid var(--bg-card-into-optional);
+
+}
+
+.image-planets {
+    width: 12rem;
+    margin: auto;
+    display: block;
+}
+
+.title-tabs-p {
+    font-size: 1.8rem;
+}
+
+.container-tabs-p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-p {
+    flex: 1;
+    padding: 10px;
+    padding: 0rem 4rem;
+}
+
+@media (max-width: 768px) {
+    .column-p {
+        flex-basis: 100%;
+    }
+}
+
+/* .tabs {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    width: 100%;
+} */
+
+.main-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 128px;
+    flex-grow: 1;
+    user-select: none;
+    background: var(--bg-cards-target-optional);
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+}
+
+li {
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    padding: 10px 15px;
+    position: relative;
+    background: var(--bg-cards-target-optional);
+    cursor: pointer;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+    position: relative;
+    user-select: none;
+}
+
+.underline {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--accent);
+}
+
+li.selected {
+    background: var(--color-secondary);
+}
+
+li button {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background: #fff;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    stroke: #000;
+    margin-left: 10px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background: #fff;
+}
+
+.add-item {
+    width: 30px;
+    height: 30px;
+    background: #eee;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    align-self: center;
+}
+
+.add-item:disabled {
+    opacity: 0.4;
+    cursor: default;
+    pointer-events: none;
+}

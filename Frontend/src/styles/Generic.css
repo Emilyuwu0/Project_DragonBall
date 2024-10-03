@@ -16,6 +16,10 @@ p {
   font-size: 1.1rem;
 }
 
+.display-block {
+  display: block;
+}
+
 .font-white {
   color: white;
 }

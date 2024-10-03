@@ -1,20 +1,34 @@
-import { useState, useEffect } from "react";
-export default function ApiDBZPlanets() {
-    const [data, setData] = useState([]);
+// Función para obtener los planetas desde la API
+async function fetchPlanets() {
+  try {
+    const response = await fetch("https://dragonball-api.com/api/planets");
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    const planets = await response.json();
+    
+    // Verifica si la respuesta contiene datos válidos
+    if (!planets || planets.length === 0) {
+      throw new Error("No planets data found.");
+    }
 
-    useEffect(() => {
-      fetch("https://dragonball-api.com/api/characters")
-        .then((response) => response.json())
-        .then((data) => setData(data.items)); // Guardar los datos en el estado local
-    }, []);
-
-    return (
-      <div> 
-          <ul>
-            {data.map((item) => (
-              <li key={item.id}>{item.name}</li>
-            ))}
-          </ul>
-      </div>
-    )
+    return planets;
+  } catch (error) {
+    console.error("Error fetching planets:", error);
+  }
 }
+
+// Función que muestra los planetas
+async function displayPlanets() {
+  const planets = await fetchPlanets();
+
+  if (planets) {
+    console.log("Planets from API:", planets);
+    // Aquí puedes renderizar los planetas en el DOM si es necesario
+  } else {
+    console.log("No planets available to display.");
+  }
+}
+
+// Llamada para mostrar los planetas
+displayPlanets();

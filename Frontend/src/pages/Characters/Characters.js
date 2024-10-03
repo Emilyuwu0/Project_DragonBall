@@ -4,7 +4,6 @@ import Character from "../../assets/Characters.png";
 import "./index.css";
 import { AnimatePresence, motion } from "framer-motion";
 
-
 export default function Characters() {
   const [characters, setCharacters] = useState([]);
   const [filteredCharacters, setFilteredCharacters] = useState([]);
@@ -12,7 +11,6 @@ export default function Characters() {
   const [speciesFilter, setSpeciesFilter] = useState("All");
   const [selectedItemCharact, setSelectedItemCharact] = useState(null);
 
-  // Obtener todos los personajes (sin paginación)
   useEffect(() => {
     const fetchAllCharacters = async () => {
       setLoading(true);
@@ -20,7 +18,6 @@ export default function Characters() {
       let page = 1;
       let totalPages = 1;
 
-      // Continuar haciendo requests hasta obtener todas las páginas
       while (page <= totalPages) {
         const data = await getData(page);
         if (data && Array.isArray(data.items)) {
@@ -89,41 +86,38 @@ export default function Characters() {
                 interacciones de estos personajes a lo largo de la historia.
               </p>
             </div>
-            <div className="div-right"> 
-
-              <img src={Character}/>
+            <div className="div-right">
+              <img src={Character} />
             </div>
           </div>
         </div>
 
         <div className="parents" id="about">
           <div className="content-parents border-div padding-max">
-          <h1 className="title-gradient-left titles-mobile center-text">
-                Lista de 
-                <span className="highlight text-degrade"> Personajes</span>
-              </h1>
+            <h1 className="title-gradient-left titles-mobile center-text">
+              Lista de
+              <span className="highlight text-degrade"> Personajes</span>
+            </h1>
 
-<div>
-
-
-            <label htmlFor="species">Filtrar por raza: </label>
-            <select
-              id="species"
-              value={speciesFilter}
-              onChange={handleSpeciesChange}
-            >
-              <option value="All">Todos</option>
-              <option value="Saiyan">Saiyan</option>
-              <option value="Human">Humano</option>
-              <option value="Namekian">Namekiano</option>
-              <option value="Android">Android</option>
-              <option value="Frieza Race">Raza de Freezer</option>
-              <option value="Majin">Majin</option>
-              <option value="Angel">Angel</option>
-              <option value="God">Dios</option>
-              <option value="Nucleico benigno">Otras</option>
-            </select>
-</div>
+            <div>
+              <label htmlFor="species">Filtrar por raza: </label>
+              <select
+                id="species"
+                value={speciesFilter}
+                onChange={handleSpeciesChange}
+              >
+                <option value="All">Todos</option>
+                <option value="Saiyan">Saiyan</option>
+                <option value="Human">Humano</option>
+                <option value="Namekian">Namekiano</option>
+                <option value="Android">Android</option>
+                <option value="Frieza Race">Raza de Freezer</option>
+                <option value="Majin">Majin</option>
+                <option value="Angel">Angel</option>
+                <option value="God">Dios</option>
+                <option value="Nucleico benigno">Otras</option>
+              </select>
+            </div>
             <div className="container-list-characters">
               {loading ? (
                 <div className="div-center-loading">
