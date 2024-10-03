@@ -1,0 +1,177 @@
+.trans-div {
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.div-father{
+  box-shadow: unset;
+}
+.content-trans-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 85%;
+}
+.text-trans-description{
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--color-subtext);
+}
+.div-trans {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.div-trans-2 {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+}
+
+.link-trans {
+  text-align: left;
+}
+
+.card-back {
+  text-align: center;
+}
+
+.name-card-trans {
+  margin-bottom: -0.1rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.ki-text {
+  font-weight: 200;
+  color: rgb(187, 187, 187);
+  display: block;
+}
+.race-text {
+  font-size: 0.8rem;
+  color: rgb(187, 187, 187);
+}
+
+.image-card {
+  width: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: contain;
+  transition: all 0.3s;
+  display: flex;
+  margin-top: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid #1a1a1a;
+}
+
+.redirect-button {
+  text-align: right;
+  display: block;
+  margin-right: 34rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.carousel {
+  width: 60%;
+  height: 30%;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+  margin: auto;
+}
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%;
+}
+.carousel-item {
+  flex: 0 0 35%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.card {
+  background: linear-gradient(
+    42deg,
+    rgba(254, 123, 30, 0.8673844537815126) 0%,
+    rgba(80, 39, 9, 1) 0%,
+    rgba(0, 0, 0, 1) 46%
+  );
+  border: 2px solid #1a1a1a;
+  border-radius: 8px;
+  padding: 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.logo {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.description {
+  font-size: 14px;
+  text-align: center;
+}
+.view-more {
+  color: #c1c1c1;
+  border: 2px solid #838383;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+  width: 6%;
+  margin-top: 2rem;
+  margin-bottom: 12rem;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-20%);
+  }
+  50% {
+    transform: translateX(-40%);
+  }
+  75% {
+    transform: translateX(-90%);
+  }
+  100% {
+    transform: translateX(-90%);
+  }
+}
+
+.carousel-inner {
+  animation: slide 12s infinite;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner:hover {
+  animation-play-state: paused;
+}
+
+@media (max-width: 480px) {
+.text-trans-description{
+  font-size: 0.8rem;
+}}
