@@ -1,0 +1,563 @@
+[
+    {
+      "name": "Goku",
+      "ki": "60.000.000",
+      "maxKi": "90 Septillion",
+      "race": "Saiyan",
+      "gender": "Male",
+      "description": "El protagonista de la serie, conocido por su gran poder y personalidad amigable.",
+      "image": "https://dragonball-api.com/characters/goku_normal.webp",
+      "affiliation": "Z Fighter",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 3,
+        "name": "Vegeta",
+        "isDestroyed": true,
+        "description": "Planeta natal de los Saiyans, destruido por Freezer.",
+        "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Bulma",
+      "ki": "5",
+      "maxKi": "5",
+      "race": "Human",
+      "gender": "Female",
+      "description": "Una científica brillante y amiga cercana de Goku. Fundadora de la Corporación Cápsula.",
+      "image": "https://dragonball-api.com/characters/bulma.webp",
+      "affiliation": "Z Fighter",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Yamcha",
+      "ki": "10.000",
+      "maxKi": "100.000",
+      "race": "Human",
+      "gender": "Male",
+      "description": "Un bandido reformado que se convierte en uno de los amigos cercanos y aliados de Goku.",
+      "image": "https://dragonball-api.com/characters/yamcha.webp",
+      "affiliation": "Z Fighter",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Puar",
+      "ki": "50",
+      "maxKi": "50",
+      "race": "Shapeshifter",
+      "gender": "Male",
+      "description": "Un compañero fiel de Yamcha que tiene la habilidad de cambiar de forma.",
+      "image": "https://dragonball-api.com/characters/puar.webp",
+      "affiliation": "None",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Oolong",
+      "ki": "100",
+      "maxKi": "100",
+      "race": "Shapeshifter",
+      "gender": "Male",
+      "description": "Un cerdo parlante con la capacidad de cambiar de forma.",
+      "image": "https://dragonball-api.com/characters/oolong.webp",
+      "affiliation": "None",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Krillin",
+      "ki": "75.000",
+      "maxKi": "200.000",
+      "race": "Human",
+      "gender": "Male",
+      "description": "El mejor amigo de Goku y uno de los guerreros Z más poderosos de la Tierra.",
+      "image": "https://dragonball-api.com/characters/krillin.webp",
+      "affiliation": "Z Fighter",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Maestro Roshi (Kame Sen'nin)",
+      "ki": "139",
+      "maxKi": "139",
+      "race": "Human",
+      "gender": "Male",
+      "description": "El maestro de artes marciales de Goku y Krillin, y el creador del Kamehameha.",
+      "image": "https://dragonball-api.com/characters/roshi.webp",
+      "affiliation": "Z Fighter",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Chi-Chi",
+      "ki": "150",
+      "maxKi": "150",
+      "race": "Human",
+      "gender": "Female",
+      "description": "La esposa de Goku y madre de Gohan, conocida por su carácter fuerte.",
+      "image": "https://dragonball-api.com/characters/chichi.webp",
+      "affiliation": "None",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Pilaf",
+      "ki": "20",
+      "maxKi": "20",
+      "race": "Monster",
+      "gender": "Male",
+      "description": "Un villano cómico que busca las esferas del dragón para gobernar el mundo.",
+      "image": "https://dragonball-api.com/characters/pilaf.webp",
+      "affiliation": "Pilaf Gang",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Ten Shin Han",
+      "ki": "180.000",
+      "maxKi": "500.000",
+      "race": "Human",
+      "gender": "Male",
+      "description": "Un maestro de artes marciales con tres ojos que se convierte en aliado de Goku.",
+      "image": "https://dragonball-api.com/characters/tenshinhan.webp",
+      "affiliation": "Z Fighter",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Chaoz",
+      "ki": "8.000",
+      "maxKi": "30.000",
+      "race": "Human",
+      "gender": "Male",
+      "description": "Un pequeño luchador con habilidades psíquicas y leal amigo de Ten Shin Han.",
+      "image": "https://dragonball-api.com/characters/chaoz.webp",
+      "affiliation": "Z Fighter",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Piccolo Daimao",
+      "ki": "260.000",
+      "maxKi": "500.000",
+      "race": "Namekian",
+      "gender": "Male",
+      "description": "El lado malvado de Kami que desea conquistar la Tierra.",
+      "image": "https://dragonball-api.com/characters/piccolo_daimao.webp",
+      "affiliation": "None",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 4,
+        "name": "Namek",
+        "isDestroyed": false,
+        "description": "Planeta natal de los Namekianos.",
+        "image": "https://dragonball-api.com/planetas/Namek.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Son Gohan",
+      "ki": "100.000",
+      "maxKi": "300.000",
+      "race": "Human-Saiyan Hybrid",
+      "gender": "Male",
+      "description": "El hijo de Goku y Chi-Chi, conocido por su gran potencial oculto.",
+      "image": "https://dragonball-api.com/characters/gohan.webp",
+      "affiliation": "Z Fighter",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Ox King",
+      "ki": "2.000",
+      "maxKi": "2.000",
+      "race": "Human",
+      "gender": "Male",
+      "description": "El padre de Chi-Chi y un antiguo estudiante del Maestro Roshi.",
+      "image": "https://dragonball-api.com/characters/ox_king.webp",
+      "affiliation": "None",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Launch",
+      "ki": "5",
+      "maxKi": "5",
+      "race": "Human",
+      "gender": "Female",
+      "description": "Una mujer con doble personalidad: dulce o violenta según su estornudo.",
+      "image": "https://dragonball-api.com/characters/launch.webp",
+      "affiliation": "None",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Yajirobe",
+      "ki": "970",
+      "maxKi": "1.000",
+      "race": "Human",
+      "gender": "Male",
+      "description": "Un samurái perezoso pero habilidoso que ayuda a Goku en momentos cruciales.",
+      "image": "https://dragonball-api.com/characters/yajirobe.webp",
+      "affiliation": "Z Fighter",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Korin",
+      "ki": "200",
+      "maxKi": "300",
+      "race": "Cat",
+      "gender": "Male",
+      "description": "Un gato inmortal que entrena a Goku y vive en lo alto de una torre.",
+      "image": "https://dragonball-api.com/characters/korin.webp",
+      "affiliation": "None",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Upa",
+      "ki": "50",
+      "maxKi": "50",
+      "race": "Human",
+      "gender": "Male",
+      "description": "El hijo de Bora, que ayuda a Goku en su búsqueda de las esferas del dragón.",
+      "image": "https://dragonball-api.com/characters/upa.webp",
+      "affiliation": "None",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Bora",
+      "ki": "1.000",
+      "maxKi": "1.000",
+      "race": "Human",
+      "gender": "Male",
+      "description": "El padre de Upa, un guerrero indígena que protege la Torre de Karin.",
+      "image": "https://dragonball-api.com/characters/bora.webp",
+      "affiliation": "None",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Selypa",
+      "ki": "1.200",
+      "maxKi": "3.000",
+      "race": "Saiyan",
+      "gender": "Female",
+      "description": "Una Saiyan del equipo de Bardock y una guerrera feroz.",
+      "image": "https://dragonball-api.com/characters/selypa.webp",
+      "affiliation": "Bardock's Team",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 3,
+        "name": "Vegeta",
+        "isDestroyed": true,
+        "description": "Planeta natal de los Saiyans, destruido por Freezer.",
+        "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Emperor Pilaf",
+      "ki": "20",
+      "maxKi": "20",
+      "race": "Monster",
+      "gender": "Male",
+      "description": "Un villano cómico que busca las esferas del dragón para gobernar el mundo.",
+      "image": "https://dragonball-api.com/characters/pilaf.webp",
+      "affiliation": "Pilaf Gang",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Mai",
+      "ki": "10",
+      "maxKi": "10",
+      "race": "Human",
+      "gender": "Female",
+      "description": "La compañera de Pilaf, leal y astuta.",
+      "image": "https://dragonball-api.com/characters/mai.webp",
+      "affiliation": "Pilaf Gang",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Shu",
+      "ki": "8",
+      "maxKi": "8",
+      "race": "Anthropomorphic Dog",
+      "gender": "Male",
+      "description": "Un ninja torpe que sirve a Pilaf.",
+      "image": "https://dragonball-api.com/characters/shu.webp",
+      "affiliation": "Pilaf Gang",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Puar",
+      "ki": "50",
+      "maxKi": "50",
+      "race": "Shapeshifting Cat",
+      "gender": "Male",
+      "description": "El mejor amigo y compañero de Yamcha, con la habilidad de cambiar de forma.",
+      "image": "https://dragonball-api.com/characters/puar.webp",
+      "affiliation": "Z Fighter",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Mr. Popo",
+      "ki": "500",
+      "maxKi": "500",
+      "race": "Genie",
+      "gender": "Male",
+      "description": "El asistente de Kami y protector del Templo Sagrado.",
+      "image": "https://dragonball-api.com/characters/mr_popo.webp",
+      "affiliation": "None",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Kami",
+      "ki": "300",
+      "maxKi": "400",
+      "race": "Namekian",
+      "gender": "Male",
+      "description": "El antiguo guardián de la Tierra y creador de las esferas del dragón.",
+      "image": "https://dragonball-api.com/characters/kami.webp",
+      "affiliation": "None",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 4,
+        "name": "Namek",
+        "isDestroyed": false,
+        "description": "Planeta natal de los Namekianos.",
+        "image": "https://dragonball-api.com/planetas/Namek.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "Dr. Briefs",
+      "ki": "5",
+      "maxKi": "5",
+      "race": "Human",
+      "gender": "Male",
+      "description": "El padre de Bulma y el inventor de la tecnología Capsule.",
+      "image": "https://dragonball-api.com/characters/dr_briefs.webp",
+      "affiliation": "Capsule Corporation",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 1,
+        "name": "Earth",
+        "isDestroyed": false,
+        "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
+        "image": "https://dragonball-api.com/planetas/Tierra.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    },
+    {
+      "name": "King Vegeta",
+      "ki": "100.000",
+      "maxKi": "150.000",
+      "race": "Saiyan",
+      "gender": "Male",
+      "description": "El rey de los Saiyans y padre del Príncipe Vegeta.",
+      "image": "https://dragonball-api.com/characters/king_vegeta.webp",
+      "affiliation": "Saiyan Royal Family",
+      "deletedAt": null,
+      "originPlanet": {
+        "id": 3,
+        "name": "Vegeta",
+        "isDestroyed": true,
+        "description": "Planeta natal de los Saiyans, destruido por Freezer.",
+        "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp",
+        "deletedAt": null
+      },
+      "transformations": []
+    }
+  ]
+  
