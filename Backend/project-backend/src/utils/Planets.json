@@ -3,21 +3,18 @@
     "name": "Vegeta",
     "isDestroyed": true,
     "description": "Planeta natal de los Saiyans, destruido por Freezer.",
-    "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp",
-    "deletedAt": null
+    "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp"
   },
   {
     "name": "Earth",
     "isDestroyed": false,
     "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-    "image": "https://dragonball-api.com/planetas/Tierra.webp",
-    "deletedAt": null
+    "image": "https://dragonball-api.com/planetas/Tierra.webp"
   },
   {
     "name": "Namek",
     "isDestroyed": false,
     "description": "Planeta natal de los Namekianos.",
-    "image": "https://dragonball-api.com/planetas/Namek.webp",
-    "deletedAt": null
+    "image": "https://dragonball-api.com/planetas/Namek.webp"
   }
 ]
