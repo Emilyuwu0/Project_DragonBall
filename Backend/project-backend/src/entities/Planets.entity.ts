@@ -6,7 +6,7 @@ export class PlanetEntity {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @Column('varchar')
+  @Column('varchar', { unique: true })
   name: string;
 
   @Column('boolean')
@@ -15,7 +15,7 @@ export class PlanetEntity {
   @Column('text')
   description: string;
 
-  @Column('varchar')
+  @Column('varchar', { nullable: true })
   image: string;
 
   @OneToMany(() => CharacterEntity, (character) => character.originPlanet)

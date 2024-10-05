@@ -9,7 +9,6 @@
     "image": "https://dragonball-api.com/characters/goku_normal.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 3,
       "name": "Vegeta",
       "isDestroyed": true,
       "description": "Planeta natal de los Saiyans, destruido por Freezer.",
@@ -17,37 +16,31 @@
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Goku SSJ",
         "image": "https://dragonball-api.com/transformaciones/goku_ssj.webp",
         "ki": "150 Million"
       },
       {
-        "id": 2,
         "name": "Goku SSJ2",
         "image": "https://dragonball-api.com/transformaciones/goku_ssj2.webp",
         "ki": "300 Million"
       },
       {
-        "id": 3,
         "name": "Goku SSJ3",
         "image": "https://dragonball-api.com/transformaciones/goku_ssj3.webp",
         "ki": "4 Billion"
       },
       {
-        "id": 4,
         "name": "Goku SSJ God",
         "image": "https://dragonball-api.com/transformaciones/goku_ssj_god.webp",
         "ki": "1 Trillion"
       },
       {
-        "id": 5,
         "name": "Goku SSJ Blue",
         "image": "https://dragonball-api.com/transformaciones/goku_ssjb.webp",
         "ki": "200 Quintillion"
       },
       {
-        "id": 6,
         "name": "Goku Ultra Instinct",
         "image": "https://dragonball-api.com/transformaciones/goku_ultra_instinct.webp",
         "ki": "Over 20 Quintillion"
@@ -64,7 +57,6 @@
     "image": "https://dragonball-api.com/characters/bulma.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -82,7 +74,6 @@
     "image": "https://dragonball-api.com/characters/yamcha.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -100,7 +91,6 @@
     "image": "https://dragonball-api.com/characters/puar.webp",
     "affiliation": "None",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -118,7 +108,6 @@
     "image": "https://dragonball-api.com/characters/oolong.webp",
     "affiliation": "None",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -136,7 +125,6 @@
     "image": "https://dragonball-api.com/characters/krillin.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -154,7 +142,6 @@
     "image": "https://dragonball-api.com/characters/roshi.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -172,7 +159,6 @@
     "image": "https://dragonball-api.com/characters/chichi.webp",
     "affiliation": "None",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -190,7 +176,6 @@
     "image": "https://dragonball-api.com/characters/tenshinhan.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -208,7 +193,6 @@
     "image": "https://dragonball-api.com/characters/chaoz.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -226,7 +210,6 @@
     "image": "https://dragonball-api.com/characters/piccolo_daimao.webp",
     "affiliation": "None",
     "originPlanet": {
-      "id": 4,
       "name": "Namek",
       "isDestroyed": false,
       "description": "Planeta natal de los Namekianos.",
@@ -244,7 +227,6 @@
     "image": "https://dragonball-api.com/characters/gohan.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -262,7 +244,6 @@
     "image": "https://dragonball-api.com/characters/ox_king.webp",
     "affiliation": "None",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -280,7 +261,6 @@
     "image": "https://dragonball-api.com/characters/launch.webp",
     "affiliation": "None",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -298,7 +278,6 @@
     "image": "https://dragonball-api.com/characters/yajirobe.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -316,7 +295,6 @@
     "image": "https://dragonball-api.com/characters/upa.webp",
     "affiliation": "None",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -334,7 +312,6 @@
     "image": "https://dragonball-api.com/characters/bora.webp",
     "affiliation": "None",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -352,7 +329,6 @@
     "image": "https://dragonball-api.com/characters/selypa.webp",
     "affiliation": "Bardock's Team",
     "originPlanet": {
-      "id": 3,
       "name": "Vegeta",
       "isDestroyed": true,
       "description": "Planeta natal de los Saiyans, destruido por Freezer.",
@@ -370,7 +346,6 @@
     "image": "https://dragonball-api.com/characters/pilaf.webp",
     "affiliation": "Pilaf Gang",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -388,7 +363,6 @@
     "image": "https://dragonball-api.com/characters/mai.webp",
     "affiliation": "Pilaf Gang",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -406,7 +380,6 @@
     "image": "https://dragonball-api.com/characters/shu.webp",
     "affiliation": "Pilaf Gang",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -424,7 +397,6 @@
     "image": "https://dragonball-api.com/characters/mr_popo.webp",
     "affiliation": "None",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -442,7 +414,6 @@
     "image": "https://dragonball-api.com/characters/kami.webp",
     "affiliation": "None",
     "originPlanet": {
-      "id": 4,
       "name": "Namek",
       "isDestroyed": false,
       "description": "Planeta natal de los Namekianos.",
@@ -460,7 +431,6 @@
     "image": "https://dragonball-api.com/characters/dr_briefs.webp",
     "affiliation": "Capsule Corporation",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -478,7 +448,6 @@
     "image": "https://dragonball-api.com/characters/king_vegeta.webp",
     "affiliation": "Saiyan Royal Family",
     "originPlanet": {
-      "id": 3,
       "name": "Vegeta",
       "isDestroyed": true,
       "description": "Planeta natal de los Saiyans, destruido por Freezer.",
@@ -496,7 +465,6 @@
     "image": "https://dragonball-api.com/characters/gohan.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
@@ -504,19 +472,16 @@
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Gohan SSJ",
         "image": "https://dragonball-api.com/transformaciones/gohan_ssj.webp",
         "ki": "5 Billion"
       },
       {
-        "id": 2,
         "name": "Gohan SSJ2",
         "image": "https://dragonball-api.com/transformaciones/gohan_ssj2.webp",
         "ki": "15 Billion"
       },
       {
-        "id": 3,
         "name": "Gohan Ultimate",
         "image": "https://dragonball-api.com/transformaciones/gohan_ultimate.webp",
         "ki": "100 Quadrillion"
@@ -533,7 +498,6 @@
     "image": "https://dragonball-api.com/characters/vegeta.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 3,
       "name": "Vegeta",
       "isDestroyed": true,
       "description": "Planeta natal de los Saiyans, destruido por Freezer.",
@@ -541,19 +505,16 @@
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Vegeta SSJ",
         "image": "https://dragonball-api.com/transformaciones/vegeta_ssj.webp",
         "ki": "4 Billion"
       },
       {
-        "id": 2,
         "name": "Vegeta SSJ2",
         "image": "https://dragonball-api.com/transformaciones/vegeta_ssj2.webp",
         "ki": "8 Billion"
       },
       {
-        "id": 3,
         "name": "Vegeta SSJ Blue",
         "image": "https://dragonball-api.com/transformaciones/vegeta_ssjb.webp",
         "ki": "200 Quintillion"
@@ -570,7 +531,6 @@
     "image": "https://dragonball-api.com/characters/nappa.webp",
     "affiliation": "Saiyan Army",
     "originPlanet": {
-      "id": 3,
       "name": "Vegeta",
       "isDestroyed": true,
       "description": "Planeta natal de los Saiyans, destruido por Freezer.",
@@ -588,7 +548,6 @@
     "image": "https://dragonball-api.com/characters/raditz.webp",
     "affiliation": "Saiyan Army",
     "originPlanet": {
-      "id": 3,
       "name": "Vegeta",
       "isDestroyed": true,
       "description": "Planeta natal de los Saiyans, destruido por Freezer.",
@@ -606,7 +565,6 @@
     "image": "https://dragonball-api.com/characters/piccolo.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 2,
       "name": "Namek",
       "isDestroyed": true,
       "description": "Planeta natal de los namekianos, destruido durante la batalla contra Freezer.",
@@ -624,7 +582,6 @@
     "image": "https://dragonball-api.com/characters/freezer.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
@@ -632,13 +589,11 @@
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Freezer Final Form",
         "image": "https://dragonball-api.com/transformaciones/freezer_final.webp",
         "ki": "120 Million"
       },
       {
-        "id": 2,
         "name": "Golden Freezer",
         "image": "https://dragonball-api.com/transformaciones/golden_freezer.webp",
         "ki": "100 Quintillion"
@@ -655,7 +610,6 @@
     "image": "https://dragonball-api.com/characters/zarbon.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
@@ -663,7 +617,6 @@
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Zarbon Transformed",
         "image": "https://dragonball-api.com/transformaciones/zarbon_transformed.webp",
         "ki": "55.000"
@@ -680,7 +633,6 @@
     "image": "https://dragonball-api.com/characters/dodoria.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
@@ -698,7 +650,6 @@
     "image": "https://dragonball-api.com/characters/capitan_ginyu.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
@@ -716,7 +667,6 @@
     "image": "https://dragonball-api.com/characters/recoome.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
@@ -734,7 +684,6 @@
     "image": "https://dragonball-api.com/characters/jeice.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
@@ -752,7 +701,6 @@
     "image": "https://dragonball-api.com/characters/burter.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
@@ -770,7 +718,6 @@
     "image": "https://dragonball-api.com/characters/guldo.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
@@ -788,7 +735,6 @@
     "image": "https://dragonball-api.com/characters/future_trunks.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -813,7 +759,6 @@
     "image": "https://dragonball-api.com/characters/android_16.webp",
     "affiliation": "Red Ribbon Army",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -831,7 +776,6 @@
     "image": "https://dragonball-api.com/characters/android_17.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -849,7 +793,6 @@
     "image": "https://dragonball-api.com/characters/android_18.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -867,7 +810,6 @@
     "image": "https://dragonball-api.com/characters/cell.webp",
     "affiliation": "Red Ribbon Army",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -875,7 +817,6 @@
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Cell Perfecto",
         "image": "https://dragonball-api.com/transformaciones/cell_perfecto.webp",
         "ki": "50 Billion"
@@ -892,7 +833,6 @@
     "image": "https://dragonball-api.com/characters/mr_satan.webp",
     "affiliation": "World Martial Arts",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -910,7 +850,6 @@
     "image": "https://dragonball-api.com/characters/majin_buu.webp",
     "affiliation": "Babidi's Army",
     "originPlanet": {
-      "id": 7,
       "name": "Unknown",
       "isDestroyed": false,
       "description": "Planeta de origen desconocido.",
@@ -918,25 +857,21 @@
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Fat Buu",
         "image": "https://dragonball-api.com/transformaciones/fat_buu.webp",
         "ki": "Infinite"
       },
       {
-        "id": 2,
         "name": "Evil Buu",
         "image": "https://dragonball-api.com/transformaciones/evil_buu.webp",
         "ki": "Infinite"
       },
       {
-        "id": 3,
         "name": "Super Buu",
         "image": "https://dragonball-api.com/transformaciones/super_buu.webp",
         "ki": "Infinite"
       },
       {
-        "id": 4,
         "name": "Kid Buu",
         "image": "https://dragonball-api.com/transformaciones/kid_buu.webp",
         "ki": "Infinite"
@@ -953,7 +888,6 @@
     "image": "https://dragonball-api.com/characters/dende.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
-      "id": 2,
       "name": "Namek",
       "isDestroyed": true,
       "description": "El planeta natal de los Namekianos, destruido durante la batalla entre Goku y Freezer.",
@@ -971,7 +905,6 @@
     "image": "https://dragonball-api.com/characters/kibito.webp",
     "affiliation": "Kaioshin",
     "originPlanet": {
-      "id": 4,
       "name": "World of the Kais",
       "isDestroyed": false,
       "description": "El hogar de los Kaioshin, los dioses supremos encargados de la protección del universo.",
@@ -989,7 +922,6 @@
     "image": "https://dragonball-api.com/characters/kaioshin.webp",
     "affiliation": "Kaioshin",
     "originPlanet": {
-      "id": 4,
       "name": "World of the Kais",
       "isDestroyed": false,
       "description": "El hogar de los Kaioshin, los dioses supremos encargados de la protección del universo.",
@@ -1007,7 +939,6 @@
     "image": "https://dragonball-api.com/characters/tenshinhan.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1025,7 +956,6 @@
     "image": "https://dragonball-api.com/characters/korin.webp",
     "affiliation": "Earth's Guardians",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1043,7 +973,6 @@
     "image": "https://dragonball-api.com/characters/babidi.webp",
     "affiliation": "Majin Buu",
     "originPlanet": {
-      "id": 7,
       "name": "Unknown",
       "isDestroyed": false,
       "description": "Planeta de origen desconocido.",
@@ -1061,7 +990,6 @@
     "image": "https://dragonball-api.com/characters/dabura.webp",
     "affiliation": "Majin Buu",
     "originPlanet": {
-      "id": 6,
       "name": "Demon Realm",
       "isDestroyed": false,
       "description": "Mundo de los Demonios, hogar de Dabura.",
@@ -1079,7 +1007,6 @@
     "image": "https://dragonball-api.com/characters/goten.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1087,7 +1014,6 @@
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Goten Super Saiyan",
         "ki": "Unknown",
         "description": "Goten alcanza esta transformación a una edad sorprendentemente joven.",
@@ -1105,7 +1031,6 @@
     "image": "https://dragonball-api.com/characters/videl.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1123,7 +1048,6 @@
     "image": "https://dragonball-api.com/characters/pan.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1141,7 +1065,6 @@
     "image": "https://dragonball-api.com/characters/dr_gero.webp",
     "affiliation": "Red Ribbon Army",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1159,7 +1082,6 @@
     "image": "https://dragonball-api.com/characters/krillin.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1177,7 +1099,6 @@
     "image": "https://dragonball-api.com/characters/baby.webp",
     "affiliation": "Tsufurujin",
     "originPlanet": {
-      "id": 4,
       "name": "Planet Tsufuru",
       "isDestroyed": true,
       "description": "Planeta original de los Tsufurujins antes de ser destruido por los Saiyans.",
@@ -1185,7 +1106,6 @@
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Baby Vegeta",
         "image": "https://dragonball-api.com/transformaciones/baby_vegeta.webp",
         "ki": "200 Billion"
@@ -1202,7 +1122,6 @@
     "image": "https://dragonball-api.com/characters/super_17.webp",
     "affiliation": "Machine Mutants",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1220,7 +1139,6 @@
     "image": "https://dragonball-api.com/characters/omega_shenron.webp",
     "affiliation": "Shadow Dragons",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1238,7 +1156,6 @@
     "image": "https://dragonball-api.com/characters/uub.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1246,7 +1163,6 @@
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Majuub",
         "image": "https://dragonball-api.com/transformaciones/majuub.webp",
         "ki": "1 Billion"
@@ -1263,7 +1179,6 @@
     "image": "https://dragonball-api.com/characters/goku_jr.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1281,7 +1196,6 @@
     "image": "https://dragonball-api.com/characters/vegeta_jr.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1299,7 +1213,6 @@
     "image": "https://dragonball-api.com/characters/trunks.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1317,7 +1230,6 @@
     "image": "https://dragonball-api.com/characters/gotenks.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1325,7 +1237,6 @@
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Gotenks Super Saiyan 3",
         "image": "https://dragonball-api.com/transformaciones/gotenks_ssj3.webp",
         "ki": "10 Trillion"
@@ -1342,7 +1253,6 @@
     "image": "https://dragonball-api.com/characters/dr_myuu.webp",
     "affiliation": "Machine Mutants",
     "originPlanet": {
-      "id": 5,
       "name": "M2",
       "isDestroyed": true,
       "description": "Planeta natal de los Machine Mutants, hogar de las creaciones del Dr. Myuu.",
@@ -1360,7 +1270,6 @@
     "image": "https://dragonball-api.com/characters/general_rilldo.webp",
     "affiliation": "Machine Mutants",
     "originPlanet": {
-      "id": 5,
       "name": "M2",
       "isDestroyed": true,
       "description": "Planeta natal de los Machine Mutants, hogar de las creaciones del Dr. Myuu.",
@@ -1368,7 +1277,6 @@
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Meta-Rilldo",
         "image": "https://dragonball-api.com/transformaciones/meta_rilldo.webp",
         "ki": "2 Billion"
@@ -1385,7 +1293,6 @@
     "image": "https://dragonball-api.com/characters/cardinal_mutchy.webp",
     "affiliation": "Machine Mutants",
     "originPlanet": {
-      "id": 5,
       "name": "M2",
       "isDestroyed": true,
       "description": "Planeta natal de los Machine Mutants, hogar de las creaciones del Dr. Myuu.",
@@ -1403,7 +1310,6 @@
     "image": "https://dragonball-api.com/characters/eis_shenron.webp",
     "affiliation": "Shadow Dragons",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1421,7 +1327,6 @@
     "image": "https://dragonball-api.com/characters/nuova_shenron.webp",
     "affiliation": "Shadow Dragons",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1439,7 +1344,6 @@
     "image": "https://dragonball-api.com/characters/rage_shenron.webp",
     "affiliation": "Shadow Dragons",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1457,7 +1361,6 @@
     "image": "https://dragonball-api.com/characters/naturon_shenron.webp",
     "affiliation": "Shadow Dragons",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
@@ -1475,7 +1378,6 @@
     "image": "https://dragonball-api.com/characters/nazo.webp",
     "affiliation": "Unknown",
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",

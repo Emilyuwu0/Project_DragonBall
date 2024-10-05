@@ -9,8 +9,11 @@ export class TransformationEntity {
   @Column('varchar')
   name: string;
 
-  @Column('text')
-  description: string;
+  @Column('varchar')
+  image: string;
+
+  @Column('varchar')
+  ki: string;
 
   @ManyToOne(() => CharacterEntity, (character) => character.transformations)
   character: CharacterEntity;
