@@ -1,0 +1,14 @@
+import { Injectable } from '@nestjs/common';
+import { CharactersRepository } from './Characters.repository';
+
+@Injectable()
+export class CharactersService {
+  constructor(private readonly charactersRepository: CharactersRepository) {}
+  seederCharacters() {
+    return this.charactersRepository.seederCharacters();
+  }
+
+  getCharacters() {
+    return this.charactersRepository.getCharacters();
+  }
+}
