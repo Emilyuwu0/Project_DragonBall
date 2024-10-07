@@ -136,6 +136,7 @@
 .heading {
     color: var(--color-secondary);
     font-size: 1.1rem;
+    margin-bottom: 1rem;
 }
 
 .card-dbz:hover:after {
@@ -218,6 +219,8 @@
 
 
 .notification {
+    height: 8.5rem;
+    max-height: 12rem;
     justify-content: space-between;
     cursor: pointer;
     margin-right: 2rem;
@@ -226,7 +229,7 @@
     flex-direction: column;
     isolation: isolate;
     position: relative;
-    width: 100%;
+    width: 80% !important;
     border: 1px solid var(--bg-card-into-optional);
     background: var(--bg-cards-target-optional);
     border-radius: 1rem;
@@ -324,7 +327,7 @@
 /* GT */
 
 .div-cards-gt{
-    height: 9em;
+    height: 10em;
 }
 
 .wrapper-super {

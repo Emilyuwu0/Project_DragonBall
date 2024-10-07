@@ -1,19 +1,18 @@
 import React, { useEffect, useState } from "react";
-import { initialTabs as tabs } from "../../api/planets";
-import "./index.css";
 import { AnimatePresence, motion } from "framer-motion";
 import Footer from "../../components/Home/Footer";
-export default function Planets() {
-  const [tabs, setTabs] = useState([]); // Para guardar los planetas de la API
-  const [selectedTab, setSelectedTab] = useState(null); // La pestaña seleccionada
+import "./index.css";
 
-  // Fetch de los planetas de la API
+export default function Planets() {
+  const [tabs, setTabs] = useState([]); 
+  const [selectedTab, setSelectedTab] = useState(null); 
+
   useEffect(() => {
     fetch("https://dragonball-api.com/api/planets")
       .then((response) => response.json())
       .then((data) => {
-        setTabs(data.items); // Aquí asumimos que "items" contiene los datos
-        setSelectedTab(data.items[0]); // Inicializa con el primer elemento
+        setTabs(data.items); 
+        setSelectedTab(data.items[0]); 
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, []);

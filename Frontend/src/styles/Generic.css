@@ -103,7 +103,7 @@ p {
 
 .line-decoration {
   width: 100%;
-  height: 1px;
+  height: 2px;
   background-image: linear-gradient(80deg, rgba(221, 221, 221, 0), rgba(255, 255, 255, .25) 52%, rgba(255, 255, 255, 0));
 }
 

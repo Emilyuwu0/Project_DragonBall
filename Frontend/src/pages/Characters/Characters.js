@@ -116,6 +116,7 @@ export default function Characters() {
                 <option value="Angel">Angel</option>
                 <option value="God">Dios</option>
                 <option value="Nucleico benigno">Otras</option>
+                <option value="Saiyan-Human Hybrid">Hibrido</option>
               </select>
             </div>
             <div className="container-list-characters">
@@ -163,7 +164,7 @@ export default function Characters() {
                             </li>
                           </ul>
                         </div>
-                      </div>
+                  </div>
                     </div>
                   </div>
                 ))
