@@ -366,12 +366,12 @@ li {
     font-size: 1rem;
 }
 
-ul {
+.div-list-planets {
     display: flex;
     width: 100%;
 }
 
-li {
+.list-item-planets {
     border-radius: 5px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;

@@ -4,7 +4,7 @@ export default function ApiDBZCharacters() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-      fetch("https://dragonball-api.com/api/characters")
+      fetch("http://localhost:3001/characters")
         .then((response) => response.json())
         .then((data) => setData(data.items)); // Guardar los datos en el estado local
     }, []);

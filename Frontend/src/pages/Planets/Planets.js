@@ -28,7 +28,9 @@ export default function Planets() {
               <span className="highlight text-degrade"> 7</span>
             </h1>
             <p className="subtitle-about margin-top-min">
-            es uno de los doce universos en el multiverso de Dragon Ball y es el escenario principal de la serie. Este universo es conocido por su diversidad de planetas, razas y seres poderosos.
+              es uno de los doce universos en el multiverso de Dragon Ball y es
+              el escenario principal de la serie. Este universo es conocido por
+              su diversidad de planetas, razas y seres poderosos.
             </p>
           </div>
           <div className="div-right ">
@@ -63,11 +65,13 @@ export default function Planets() {
           </div>{" "}
           <div className="window">
             <nav className="nav-tab">
-              <ul>
+              <ul className="div-list-planets">
                 {tabs.map((item) => (
                   <li
                     key={item.name}
-                    className={item === selectedTab ? "selected" : ""}
+                    className={`list-item-planets ${
+                      item === selectedTab ? "selected" : ""
+                    }`}
                     onClick={() => setSelectedTab(item)}
                   >
                     {`${item.name}`}
