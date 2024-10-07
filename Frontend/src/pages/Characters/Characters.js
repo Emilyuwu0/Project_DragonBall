@@ -3,6 +3,7 @@ import { getData } from "../../api/characters";
 import Character from "../../assets/Characters.png";
 import "./index.css";
 import { AnimatePresence, motion } from "framer-motion";
+import Footer from "../../components/Home/Footer";
 
 export default function Characters() {
   const [characters, setCharacters] = useState([]);
@@ -94,17 +95,147 @@ export default function Characters() {
 
         <div className="parents" id="about">
           <div className="content-parents border-div padding-max">
-            <h1 className="title-gradient-left titles-mobile center-text">
-              Lista de
-              <span className="highlight text-degrade"> Personajes</span>
-            </h1>
+            <div className="container-filter-principal ">
+              <div className="display-no-flex">
 
-            <div>
+       
+              <h1 className="title-gradient-left titles-mobile center-text">
+                Lista de
+                <span className="highlight text-degrade"> Personajes</span>
+              </h1>
+              <div className="container-filter-principal ">
+                <div className="container-filter">
+                  <div className="tabs-filter">
+                    <input
+                      type="radio"
+                      id="radio-all"
+                      name="species"
+                      value="All"
+                      checked={speciesFilter === "All"}
+                      onChange={handleSpeciesChange}
+                    />
+                    <label className="tab-filter" htmlFor="radio-all">
+                      Todos
+                    </label>
+
+                    <input
+                      type="radio"
+                      id="radio-saiyan"
+                      name="species"
+                      value="Saiyan"
+                      checked={speciesFilter === "Saiyan"}
+                      onChange={handleSpeciesChange}
+                    />
+                    <label htmlFor="radio-saiyan" className="tab-filter">
+                      Saiyan
+                    </label>
+
+                    <input
+                      type="radio"
+                      id="radio-human"
+                      name="species"
+                      value="Human"
+                      checked={speciesFilter === "Human"}
+                      onChange={handleSpeciesChange}
+                    />
+                    <label className="tab-filter" htmlFor="radio-human">
+                      Humano
+                    </label>
+
+                    <input
+                      type="radio"
+                      id="radio-namekian"
+                      name="species"
+                      value="Namekian"
+                      checked={speciesFilter === "Namekian"}
+                      onChange={handleSpeciesChange}
+                    />
+                    <label className="tab-filter" htmlFor="radio-namekian">
+                      Namekiano
+                    </label>
+
+                    <input
+                      type="radio"
+                      id="radio-android"
+                      name="species"
+                      value="Android"
+                      checked={speciesFilter === "Android"}
+                      onChange={handleSpeciesChange}
+                    />
+                    <label className="tab-filter" htmlFor="radio-android">
+                      Android
+                    </label>
+
+                    <input
+                      type="radio"
+                      id="radio-frieza"
+                      name="species"
+                      value="Frieza Race"
+                      checked={speciesFilter === "Frieza Race"}
+                      onChange={handleSpeciesChange}
+                    />
+                    <label className="tab-filter" htmlFor="radio-frieza">
+                      Raza de Freezer
+                    </label>
+
+                    <input
+                      type="radio"
+                      id="radio-majin"
+                      name="species"
+                      value="Majin"
+                      checked={speciesFilter === "Majin"}
+                      onChange={handleSpeciesChange}
+                    />
+                    <label className="tab-filter" htmlFor="radio-majin">
+                      Majin
+                    </label>
+
+                    <input
+                      type="radio"
+                      id="radio-angel"
+                      name="species"
+                      value="Angel"
+                      checked={speciesFilter === "Angel"}
+                      onChange={handleSpeciesChange}
+                    />
+                    <label className="tab-filter" htmlFor="radio-angel">
+                      Angel
+                    </label>
+
+                    <input
+                      type="radio"
+                      id="radio-god"
+                      name="species"
+                      value="God"
+                      checked={speciesFilter === "God"}
+                      onChange={handleSpeciesChange}
+                    />
+                    <label className="tab-filter" htmlFor="radio-god">
+                      Dios
+                    </label>
+
+                    <input
+                      type="radio"
+                      id="radio-other"
+                      name="species"
+                      value="Nucleico benigno"
+                      checked={speciesFilter === "Nucleico benigno"}
+                      onChange={handleSpeciesChange}
+                    />
+                    <label className="tab-filter" htmlFor="radio-other">
+                      Otras
+                    </label>
+                  </div>
+                </div>
+              </div>{" "}
+            </div>
+            {/*  <div>
               <label htmlFor="species">Filtrar por raza: </label>
               <select
                 id="species"
                 value={speciesFilter}
                 onChange={handleSpeciesChange}
+                
               >
                 <option value="All">Todos</option>
                 <option value="Saiyan">Saiyan</option>
@@ -116,15 +247,24 @@ export default function Characters() {
                 <option value="Angel">Angel</option>
                 <option value="God">Dios</option>
                 <option value="Nucleico benigno">Otras</option>
+                <option value="Saiyan-Human Hybrid">Hibrido</option>
               </select>
-            </div>
-            <div className="container-list-characters">
+            </div> */}
+            <div>
+
+        
+            <div>
               {loading ? (
-                <div className="div-center-loading">
+                <div className="container-filter-principal">
+
+            
+                <div className="loader-container">
                   <span className="loader"></span>
-                </div>
+                </div>    </div>
               ) : (
-                filteredCharacters.map((character) => (
+               
+               <div className="container-list-characters">
+                {filteredCharacters.map((character) => (
                   <div
                     className="item-list-character"
                     key={character.id || character.name}
@@ -166,10 +306,11 @@ export default function Characters() {
                       </div>
                     </div>
                   </div>
-                ))
+                ))}
+</div>
               )}
             </div>
-          </div>
+          </div>    </div>       </div>
           <AnimatePresence>
             {selectedItemCharact && (
               <motion.div
@@ -197,6 +338,8 @@ export default function Characters() {
           </AnimatePresence>
         </div>
       </div>
+
+      <Footer/>
     </div>
   );
 }

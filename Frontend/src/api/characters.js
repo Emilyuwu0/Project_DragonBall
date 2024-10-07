@@ -4,7 +4,7 @@ export default function ApiDBZCharacters() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-      fetch("http://localhost:3001/characters")
+      fetch("https://www.youtube.com/watch?v=ScCzrDDj7io")
         .then((response) => response.json())
         .then((data) => setData(data.items)); // Guardar los datos en el estado local
     }, []);
