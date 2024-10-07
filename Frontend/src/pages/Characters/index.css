@@ -1,3 +1,15 @@
+.display-no-flex{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.loader-container{
+    margin-top: 4rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
 .container-list-characters {
     display: grid;
     gap: 10px;
@@ -39,7 +51,7 @@
 
 }
 
-.div-center-loading{
+.div-center-loading {
     margin: auto;
     display: block;
 }
@@ -223,4 +235,102 @@ ul {
 
 .card-characters-individual .add-to-cart-btn button:hover {
     background-position: 100% 100%;
+}
+
+
+
+
+/* Filtro */
+
+/* From Uiverse.io by Pradeepsaranbishnoi */
+
+.container-filter-principal {
+    display: block;
+    margin: auto;
+}
+
+.tabs-filter {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    display: flex;
+    position: relative;
+    background-color: var(--color-secondary);
+    box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
+    padding: 0.75rem;
+    border-radius: 99px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.tabs-filter * {
+    z-index: 2;
+}
+
+.container-filter input[type="radio"] {
+    display: none;
+}
+
+.tab-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    padding: 1rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 99px;
+    cursor: pointer;
+    transition: color 0.15s ease-in;
+}
+
+.notification-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: .8rem;
+    height: .8rem;
+    position: absolute;
+    top: 10px;
+    left: 30%;
+
+    margin-left: 0.75rem;
+    border-radius: 50%;
+    margin: 0px;
+    background-color: #e6eef9;
+    transition: 0.15s ease-in;
+}
+
+
+.container-filter input[type="radio"]:checked+label>.notification-filter {
+    background-color: #185ee0;
+    color: #fff;
+    margin: 0px;
+}
+
+.container input[id="radio-1"]:checked~.glider {
+    transform: translateX(0);
+}
+
+.container-filter input[id="radio-2"]:checked~.glider {
+    transform: translateX(100%);
+}
+
+.container-filter input[id="radio-3"]:checked~.glider {
+    transform: translateX(200%);
+}
+
+
+input[type="radio"]:checked+.tab-filter {
+    background-color: var(--bg-card-into-optional);
+    padding: 1rem;
+    color: white;
+    border-radius: 6.1875rem;
+    transition: 0.25s ease-out;
+}
+
+@media (max-width: 700px) {
+
+    .tabs-filter {
+        transform: scale(0.6);
+    }
 }
