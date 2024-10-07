@@ -30,4 +30,8 @@ export class PlanetsRepository {
       message: 'Planetas guardados con exito',
     };
   }
+
+  async getPlanets() {
+    return this.planetDBRepository.find();
+  }
 }
