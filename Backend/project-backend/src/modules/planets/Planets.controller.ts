@@ -9,4 +9,9 @@ export class PlanetsController {
   seedPlanets() {
     return this.planetsService.seedPlanets();
   }
+
+  @Get()
+  getPlanets() {
+    return this.planetsService.getPlanets();
+  }
 }

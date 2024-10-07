@@ -7,4 +7,8 @@ export class PlanetsService {
   seedPlanets() {
     return this.planetRepository.seedPlanets();
   }
+
+  getPlanets() {
+    return this.planetRepository.getPlanets();
+  }
 }
