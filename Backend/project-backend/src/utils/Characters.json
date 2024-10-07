@@ -8,57 +8,42 @@
     "description": "El protagonista de la serie, conocido por su gran poder y personalidad amigable.",
     "image": "https://dragonball-api.com/characters/goku_normal.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 3,
       "name": "Vegeta",
       "isDestroyed": true,
       "description": "Planeta natal de los Saiyans, destruido por Freezer.",
-      "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp"
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Goku SSJ",
         "image": "https://dragonball-api.com/transformaciones/goku_ssj.webp",
-        "ki": "150 Million",
-        "deletedAt": null
+        "ki": "150 Million"
       },
       {
-        "id": 2,
         "name": "Goku SSJ2",
         "image": "https://dragonball-api.com/transformaciones/goku_ssj2.webp",
-        "ki": "300 Million",
-        "deletedAt": null
+        "ki": "300 Million"
       },
       {
-        "id": 3,
         "name": "Goku SSJ3",
         "image": "https://dragonball-api.com/transformaciones/goku_ssj3.webp",
-        "ki": "4 Billion",
-        "deletedAt": null
+        "ki": "4 Billion"
       },
       {
-        "id": 4,
         "name": "Goku SSJ God",
         "image": "https://dragonball-api.com/transformaciones/goku_ssj_god.webp",
-        "ki": "1 Trillion",
-        "deletedAt": null
+        "ki": "1 Trillion"
       },
       {
-        "id": 5,
         "name": "Goku SSJ Blue",
         "image": "https://dragonball-api.com/transformaciones/goku_ssjb.webp",
-        "ki": "200 Quintillion",
-        "deletedAt": null
+        "ki": "200 Quintillion"
       },
       {
-        "id": 6,
         "name": "Goku Ultra Instinct",
         "image": "https://dragonball-api.com/transformaciones/goku_ultra_instinct.webp",
-        "ki": "Over 20 Quintillion",
-        "deletedAt": null
+        "ki": "Over 20 Quintillion"
       }
     ]
   },
@@ -71,14 +56,11 @@
     "description": "Una científica brillante y amiga cercana de Goku. Fundadora de la Corporación Cápsula.",
     "image": "https://dragonball-api.com/characters/bulma.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -91,14 +73,11 @@
     "description": "Un bandido reformado que se convierte en uno de los amigos cercanos y aliados de Goku.",
     "image": "https://dragonball-api.com/characters/yamcha.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -111,14 +90,11 @@
     "description": "Un compañero fiel de Yamcha que tiene la habilidad de cambiar de forma.",
     "image": "https://dragonball-api.com/characters/puar.webp",
     "affiliation": "None",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -131,14 +107,11 @@
     "description": "Un cerdo parlante con la capacidad de cambiar de forma.",
     "image": "https://dragonball-api.com/characters/oolong.webp",
     "affiliation": "None",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -151,14 +124,11 @@
     "description": "El mejor amigo de Goku y uno de los guerreros Z más poderosos de la Tierra.",
     "image": "https://dragonball-api.com/characters/krillin.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -171,14 +141,11 @@
     "description": "El maestro de artes marciales de Goku y Krillin, y el creador del Kamehameha.",
     "image": "https://dragonball-api.com/characters/roshi.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -191,14 +158,11 @@
     "description": "La esposa de Goku y madre de Gohan, conocida por su carácter fuerte.",
     "image": "https://dragonball-api.com/characters/chichi.webp",
     "affiliation": "None",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -211,14 +175,11 @@
     "description": "Un maestro de artes marciales con tres ojos que se convierte en aliado de Goku.",
     "image": "https://dragonball-api.com/characters/tenshinhan.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -231,14 +192,11 @@
     "description": "Un pequeño luchador con habilidades psíquicas y leal amigo de Ten Shin Han.",
     "image": "https://dragonball-api.com/characters/chaoz.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -251,14 +209,11 @@
     "description": "El lado malvado de Kami que desea conquistar la Tierra.",
     "image": "https://dragonball-api.com/characters/piccolo_daimao.webp",
     "affiliation": "None",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 4,
       "name": "Namek",
       "isDestroyed": false,
       "description": "Planeta natal de los Namekianos.",
-      "image": "https://dragonball-api.com/planetas/Namek.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Namek.webp"
     },
     "transformations": []
   },
@@ -271,14 +226,11 @@
     "description": "El hijo de Goku y Chi-Chi, conocido por su gran potencial oculto.",
     "image": "https://dragonball-api.com/characters/gohan.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -291,14 +243,11 @@
     "description": "El padre de Chi-Chi y un antiguo estudiante del Maestro Roshi.",
     "image": "https://dragonball-api.com/characters/ox_king.webp",
     "affiliation": "None",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -311,14 +260,11 @@
     "description": "Una mujer con doble personalidad: dulce o violenta según su estornudo.",
     "image": "https://dragonball-api.com/characters/launch.webp",
     "affiliation": "None",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -331,14 +277,11 @@
     "description": "Un samurái perezoso pero habilidoso que ayuda a Goku en momentos cruciales.",
     "image": "https://dragonball-api.com/characters/yajirobe.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -351,14 +294,11 @@
     "description": "El hijo de Bora, que ayuda a Goku en su búsqueda de las esferas del dragón.",
     "image": "https://dragonball-api.com/characters/upa.webp",
     "affiliation": "None",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -371,14 +311,11 @@
     "description": "El padre de Upa, un guerrero indígena que protege la Torre de Karin.",
     "image": "https://dragonball-api.com/characters/bora.webp",
     "affiliation": "None",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -391,14 +328,11 @@
     "description": "Una Saiyan del equipo de Bardock y una guerrera feroz.",
     "image": "https://dragonball-api.com/characters/selypa.webp",
     "affiliation": "Bardock's Team",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 3,
       "name": "Vegeta",
       "isDestroyed": true,
       "description": "Planeta natal de los Saiyans, destruido por Freezer.",
-      "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp"
     },
     "transformations": []
   },
@@ -411,14 +345,11 @@
     "description": "Un villano cómico que busca las esferas del dragón para gobernar el mundo.",
     "image": "https://dragonball-api.com/characters/pilaf.webp",
     "affiliation": "Pilaf Gang",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -431,14 +362,11 @@
     "description": "La compañera de Pilaf, leal y astuta.",
     "image": "https://dragonball-api.com/characters/mai.webp",
     "affiliation": "Pilaf Gang",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -451,14 +379,11 @@
     "description": "Un ninja torpe que sirve a Pilaf.",
     "image": "https://dragonball-api.com/characters/shu.webp",
     "affiliation": "Pilaf Gang",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -471,14 +396,11 @@
     "description": "El asistente de Kami y protector del Templo Sagrado.",
     "image": "https://dragonball-api.com/characters/mr_popo.webp",
     "affiliation": "None",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -491,14 +413,11 @@
     "description": "El antiguo guardián de la Tierra y creador de las esferas del dragón.",
     "image": "https://dragonball-api.com/characters/kami.webp",
     "affiliation": "None",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 4,
       "name": "Namek",
       "isDestroyed": false,
       "description": "Planeta natal de los Namekianos.",
-      "image": "https://dragonball-api.com/planetas/Namek.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Namek.webp"
     },
     "transformations": []
   },
@@ -511,14 +430,11 @@
     "description": "El padre de Bulma y el inventor de la tecnología Capsule.",
     "image": "https://dragonball-api.com/characters/dr_briefs.webp",
     "affiliation": "Capsule Corporation",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": []
   },
@@ -531,14 +447,11 @@
     "description": "El rey de los Saiyans y padre del Príncipe Vegeta.",
     "image": "https://dragonball-api.com/characters/king_vegeta.webp",
     "affiliation": "Saiyan Royal Family",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 3,
       "name": "Vegeta",
       "isDestroyed": true,
       "description": "Planeta natal de los Saiyans, destruido por Freezer.",
-      "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp"
     },
     "transformations": []
   },
@@ -551,36 +464,27 @@
     "description": "Hijo de Goku y Chi-Chi, Gohan es un híbrido saiyan-human con un inmenso poder latente. A lo largo de su vida, Gohan se convierte en uno de los guerreros más fuertes de la Tierra, pero prefiere una vida tranquila como académico. Su furia es la clave para liberar su verdadero potencial.",
     "image": "https://dragonball-api.com/characters/gohan.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "El planeta natal de la mayoría de los personajes de Dragon Ball.",
-      "image": "https://dragonball-api.com/planetas/Tierra.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Tierra.webp"
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Gohan SSJ",
         "image": "https://dragonball-api.com/transformaciones/gohan_ssj.webp",
-        "ki": "5 Billion",
-        "deletedAt": null
+        "ki": "5 Billion"
       },
       {
-        "id": 2,
         "name": "Gohan SSJ2",
         "image": "https://dragonball-api.com/transformaciones/gohan_ssj2.webp",
-        "ki": "15 Billion",
-        "deletedAt": null
+        "ki": "15 Billion"
       },
       {
-        "id": 3,
         "name": "Gohan Ultimate",
         "image": "https://dragonball-api.com/transformaciones/gohan_ultimate.webp",
-        "ki": "100 Quadrillion",
-        "deletedAt": null
+        "ki": "100 Quadrillion"
       }
     ]
   },
@@ -593,36 +497,27 @@
     "description": "El príncipe de los Saiyans, Vegeta es uno de los guerreros más poderosos del universo. Aunque inicialmente es un antagonista, más tarde se convierte en un aliado y rival de Goku. Vegeta se caracteriza por su orgullo y deseo de ser el más fuerte.",
     "image": "https://dragonball-api.com/characters/vegeta.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 3,
       "name": "Vegeta",
       "isDestroyed": true,
       "description": "Planeta natal de los Saiyans, destruido por Freezer.",
-      "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp"
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Vegeta SSJ",
         "image": "https://dragonball-api.com/transformaciones/vegeta_ssj.webp",
-        "ki": "4 Billion",
-        "deletedAt": null
+        "ki": "4 Billion"
       },
       {
-        "id": 2,
         "name": "Vegeta SSJ2",
         "image": "https://dragonball-api.com/transformaciones/vegeta_ssj2.webp",
-        "ki": "8 Billion",
-        "deletedAt": null
+        "ki": "8 Billion"
       },
       {
-        "id": 3,
         "name": "Vegeta SSJ Blue",
         "image": "https://dragonball-api.com/transformaciones/vegeta_ssjb.webp",
-        "ki": "200 Quintillion",
-        "deletedAt": null
+        "ki": "200 Quintillion"
       }
     ]
   },
@@ -635,14 +530,11 @@
     "description": "Nappa es un saiyan de alto rango que acompaña a Vegeta en su misión para conquistar la Tierra. Aunque poderoso, es superado por los Guerreros Z y finalmente traicionado por Vegeta.",
     "image": "https://dragonball-api.com/characters/nappa.webp",
     "affiliation": "Saiyan Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 3,
       "name": "Vegeta",
       "isDestroyed": true,
       "description": "Planeta natal de los Saiyans, destruido por Freezer.",
-      "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp"
     },
     "transformations": []
   },
@@ -655,14 +547,11 @@
     "description": "Hermano mayor de Goku, Raditz es un saiyan de baja clase que llega a la Tierra para forzar a Goku a unirse a la conquista del universo. Es derrotado por Goku y Piccolo en un acto de sacrificio.",
     "image": "https://dragonball-api.com/characters/raditz.webp",
     "affiliation": "Saiyan Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 3,
       "name": "Vegeta",
       "isDestroyed": true,
       "description": "Planeta natal de los Saiyans, destruido por Freezer.",
-      "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Planeta_Vegeta.webp"
     },
     "transformations": []
   },
@@ -675,14 +564,11 @@
     "description": "Piccolo es un guerrero Namekian y ex enemigo de Goku, que luego se convierte en uno de sus aliados más fuertes. Es el mentor de Gohan y uno de los luchadores más sabios y estratégicos en la defensa de la Tierra.",
     "image": "https://dragonball-api.com/characters/piccolo.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 2,
       "name": "Namek",
       "isDestroyed": true,
       "description": "Planeta natal de los namekianos, destruido durante la batalla contra Freezer.",
-      "image": "https://dragonball-api.com/planetas/Namek.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/Namek.webp"
     },
     "transformations": []
   },
@@ -695,29 +581,22 @@
     "description": "Freezer es el emperador del universo que gobierna con mano de hierro y es responsable de la destrucción del planeta Vegeta. Es uno de los enemigos más icónicos de Goku y los Guerreros Z.",
     "image": "https://dragonball-api.com/characters/freezer.webp",
     "affiliation": "Frieza's Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
-      "image": "https://dragonball-api.com/planetas/frieza_planet.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/frieza_planet.webp"
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Freezer Final Form",
         "image": "https://dragonball-api.com/transformaciones/freezer_final.webp",
-        "ki": "120 Million",
-        "deletedAt": null
+        "ki": "120 Million"
       },
       {
-        "id": 2,
         "name": "Golden Freezer",
         "image": "https://dragonball-api.com/transformaciones/golden_freezer.webp",
-        "ki": "100 Quintillion",
-        "deletedAt": null
+        "ki": "100 Quintillion"
       }
     ]
   },
@@ -730,22 +609,17 @@
     "description": "Zarbon es uno de los comandantes de élite de Freezer, conocido tanto por su apariencia como por su poder. Puede transformarse en una versión más poderosa pero menos atractiva de sí mismo.",
     "image": "https://dragonball-api.com/characters/zarbon.webp",
     "affiliation": "Frieza's Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
-      "image": "https://dragonball-api.com/planetas/frieza_planet.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/frieza_planet.webp"
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Zarbon Transformed",
         "image": "https://dragonball-api.com/transformaciones/zarbon_transformed.webp",
-        "ki": "55.000",
-        "deletedAt": null
+        "ki": "55.000"
       }
     ]
   },
@@ -758,14 +632,11 @@
     "description": "Dodoria es un guerrero corpulento y brutal que sirve como uno de los principales secuaces de Freezer. Es conocido por su fuerza física y su falta de compasión.",
     "image": "https://dragonball-api.com/characters/dodoria.webp",
     "affiliation": "Frieza's Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
-      "image": "https://dragonball-api.com/planetas/frieza_planet.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/frieza_planet.webp"
     },
     "transformations": []
   },
@@ -778,14 +649,11 @@
     "description": "El Capitán Ginyu es el líder del escuadrón de élite de Freezer, las Fuerzas Especiales Ginyu. Es un maestro del cambio de cuerpo, lo que le permite tomar el control de cuerpos más fuertes para mejorar su poder.",
     "image": "https://dragonball-api.com/characters/capitan_ginyu.webp",
     "affiliation": "Frieza's Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
-      "image": "https://dragonball-api.com/planetas/frieza_planet.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/frieza_planet.webp"
     },
     "transformations": []
   },
@@ -798,14 +666,11 @@
     "description": "Recoome es uno de los miembros más poderosos de las Fuerzas Especiales Ginyu, famoso por su fuerza bruta y su capacidad de recibir grandes cantidades de daño sin ser derrotado.",
     "image": "https://dragonball-api.com/characters/recoome.webp",
     "affiliation": "Frieza's Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
-      "image": "https://dragonball-api.com/planetas/frieza_planet.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/frieza_planet.webp"
     },
     "transformations": []
   },
@@ -818,14 +683,11 @@
     "description": "Jeice es uno de los miembros de las Fuerzas Especiales Ginyu, conocido por su velocidad y su lucha en equipo junto a Burter. Su apariencia y acento lo distinguen de los demás.",
     "image": "https://dragonball-api.com/characters/jeice.webp",
     "affiliation": "Frieza's Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
-      "image": "https://dragonball-api.com/planetas/frieza_planet.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/frieza_planet.webp"
     },
     "transformations": []
   },
@@ -838,14 +700,11 @@
     "description": "Burter es uno de los guerreros más rápidos de las Fuerzas Especiales Ginyu. Su velocidad es su mayor ventaja en combate, y normalmente lucha en tándem con Jeice.",
     "image": "https://dragonball-api.com/characters/burter.webp",
     "affiliation": "Frieza's Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
-      "image": "https://dragonball-api.com/planetas/frieza_planet.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/frieza_planet.webp"
     },
     "transformations": []
   },
@@ -858,14 +717,11 @@
     "description": "Guldo es el miembro más débil de las Fuerzas Especiales Ginyu, pero compensa su falta de fuerza con la habilidad de detener el tiempo brevemente, lo que le da una ventaja estratégica en combate.",
     "image": "https://dragonball-api.com/characters/guldo.webp",
     "affiliation": "Frieza's Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 6,
       "name": "Frieza Planet",
       "isDestroyed": false,
       "description": "Planeta donde Freezer y su ejército operan.",
-      "image": "https://dragonball-api.com/planetas/frieza_planet.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/frieza_planet.webp"
     },
     "transformations": []
   },
@@ -878,22 +734,18 @@
     "description": "Trunks es el hijo de Vegeta y Bulma, que viaja desde el futuro para advertir a los Guerreros Z sobre la amenaza de los androides. Es un poderoso luchador y capaz de transformarse en Super Saiyan.",
     "image": "https://dragonball-api.com/characters/future_trunks.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": [
       {
         "id": 1,
         "name": "Super Saiyan",
         "image": "https://dragonball-api.com/transformaciones/super_saiyan.webp",
-        "ki": "50 Million",
-        "deletedAt": null
+        "ki": "50 Million"
       }
     ]
   },
@@ -906,14 +758,11 @@
     "description": "El Androide 16 es un androide creado por el Dr. Gero, diseñado para ser pacífico, pero extremadamente poderoso en combate. Está programado para destruir a Goku, pero desarrolla una conexión con la naturaleza.",
     "image": "https://dragonball-api.com/characters/android_16.webp",
     "affiliation": "Red Ribbon Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -926,14 +775,11 @@
     "description": "El Androide 17 es uno de los androides creados por el Dr. Gero, originalmente con el objetivo de destruir a Goku. Sin embargo, más tarde se vuelve independiente y ayuda a proteger la Tierra.",
     "image": "https://dragonball-api.com/characters/android_17.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -946,14 +792,11 @@
     "description": "El Androide 18 es la hermana gemela del Androide 17, creada por el Dr. Gero. Tras ser derrotada por los Guerreros Z, eventualmente se casa con Krillin y se convierte en una aliada.",
     "image": "https://dragonball-api.com/characters/android_18.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -966,22 +809,17 @@
     "description": "Cell es un bio-androide creado por el Dr. Gero utilizando las células de varios guerreros poderosos, incluyendo Goku, Vegeta, Piccolo, y Freezer. Su objetivo es alcanzar la perfección y destruir todo.",
     "image": "https://dragonball-api.com/characters/cell.webp",
     "affiliation": "Red Ribbon Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Cell Perfecto",
         "image": "https://dragonball-api.com/transformaciones/cell_perfecto.webp",
-        "ki": "50 Billion",
-        "deletedAt": null
+        "ki": "50 Billion"
       }
     ]
   },
@@ -994,14 +832,11 @@
     "description": "Mr. Satán es el campeón mundial de artes marciales y el autoproclamado salvador de la Tierra. Aunque carece de habilidades comparables a los Guerreros Z, es muy popular entre los humanos.",
     "image": "https://dragonball-api.com/characters/mr_satan.webp",
     "affiliation": "World Martial Arts",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1014,43 +849,32 @@
     "description": "Majin Buu es una entidad malévola creada hace millones de años por el mago Bibidi. Con el tiempo, adopta varias formas, desde el Majin Buu gordo y amable hasta el malvado Super Buu y Kid Buu.",
     "image": "https://dragonball-api.com/characters/majin_buu.webp",
     "affiliation": "Babidi's Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 7,
       "name": "Unknown",
       "isDestroyed": false,
       "description": "Planeta de origen desconocido.",
-      "image": "https://dragonball-api.com/planetas/desconocido.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Fat Buu",
         "image": "https://dragonball-api.com/transformaciones/fat_buu.webp",
-        "ki": "Infinite",
-        "deletedAt": null
+        "ki": "Infinite"
       },
       {
-        "id": 2,
         "name": "Evil Buu",
         "image": "https://dragonball-api.com/transformaciones/evil_buu.webp",
-        "ki": "Infinite",
-        "deletedAt": null
+        "ki": "Infinite"
       },
       {
-        "id": 3,
         "name": "Super Buu",
         "image": "https://dragonball-api.com/transformaciones/super_buu.webp",
-        "ki": "Infinite",
-        "deletedAt": null
+        "ki": "Infinite"
       },
       {
-        "id": 4,
         "name": "Kid Buu",
         "image": "https://dragonball-api.com/transformaciones/kid_buu.webp",
-        "ki": "Infinite",
-        "deletedAt": null
+        "ki": "Infinite"
       }
     ]
   },
@@ -1063,14 +887,11 @@
     "description": "Dende es un Namekiano con habilidades curativas que se convierte en el nuevo Dios de la Tierra después de la muerte de Kami. También juega un papel crucial en la creación de las Esferas del Dragón de la Tierra.",
     "image": "https://dragonball-api.com/characters/dende.webp",
     "affiliation": "Z Fighters",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 2,
       "name": "Namek",
       "isDestroyed": true,
       "description": "El planeta natal de los Namekianos, destruido durante la batalla entre Goku y Freezer.",
-      "image": "https://dragonball-api.com/planetas/namek.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/namek.webp"
     },
     "transformations": []
   },
@@ -1083,14 +904,11 @@
     "description": "Kibito es el asistente personal de Kaio Shin. Tiene habilidades de teletransportación y curación. Más tarde, se fusiona con Kaio Shin para formar Kibitoshin.",
     "image": "https://dragonball-api.com/characters/kibito.webp",
     "affiliation": "Kaioshin",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 4,
       "name": "World of the Kais",
       "isDestroyed": false,
       "description": "El hogar de los Kaioshin, los dioses supremos encargados de la protección del universo.",
-      "image": "https://dragonball-api.com/planetas/kaioshin.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/kaioshin.webp"
     },
     "transformations": []
   },
@@ -1103,14 +921,11 @@
     "description": "Kaio Shin es uno de los dioses supremos del universo que supervisa la protección del mismo. Durante la saga de Majin Buu, trabaja junto con Goku y los demás para derrotar a Buu.",
     "image": "https://dragonball-api.com/characters/kaioshin.webp",
     "affiliation": "Kaioshin",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 4,
       "name": "World of the Kais",
       "isDestroyed": false,
       "description": "El hogar de los Kaioshin, los dioses supremos encargados de la protección del universo.",
-      "image": "https://dragonball-api.com/planetas/kaioshin.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/kaioshin.webp"
     },
     "transformations": []
   },
@@ -1123,14 +938,11 @@
     "description": "Tenshinhan es un guerrero humanoide que se entrena junto a su mejor amigo, Chaoz. Es conocido por su técnica de combate de múltiples brazos y su habilidad en artes marciales.",
     "image": "https://dragonball-api.com/characters/tenshinhan.webp",
     "affiliation": "Z Fighter",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1143,14 +955,11 @@
     "description": "Korin es un gato inmortal que vive en la Torre Korin. Es un maestro que entrenó a Goku y otros guerreros. También es el guardián de las Semillas del Ermitaño, que son esenciales para la recuperación rápida.",
     "image": "https://dragonball-api.com/characters/korin.webp",
     "affiliation": "Earth's Guardians",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1163,14 +972,11 @@
     "description": "Babidi es un mago maligno que busca revivir a Majin Buu para dominar el universo. Es el hijo de Bibidi y utiliza el poder de la magia para controlar a los guerreros más fuertes.",
     "image": "https://dragonball-api.com/characters/babidi.webp",
     "affiliation": "Majin Buu",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 7,
       "name": "Unknown",
       "isDestroyed": false,
       "description": "Planeta de origen desconocido.",
-      "image": null,
-      "deletedAt": null
+      "image": null
     },
     "transformations": []
   },
@@ -1183,14 +989,11 @@
     "description": "Dabura es el rey del Mundo de los Demonios y el principal sirviente de Babidi. Tiene la habilidad de convertir a sus enemigos en piedra mediante su saliva y es un combatiente formidable.",
     "image": "https://dragonball-api.com/characters/dabura.webp",
     "affiliation": "Majin Buu",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 6,
       "name": "Demon Realm",
       "isDestroyed": false,
       "description": "Mundo de los Demonios, hogar de Dabura.",
-      "image": null,
-      "deletedAt": null
+      "image": null
     },
     "transformations": []
   },
@@ -1203,19 +1006,15 @@
     "description": "Goten es el segundo hijo de Goku y Chi-Chi. Aunque es joven, muestra un gran potencial en combate, al punto de alcanzar la forma de Super Saiyan a una edad temprana.",
     "image": "https://dragonball-api.com/characters/goten.webp",
     "affiliation": "Z Fighters",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": [
       {
-        "id": 1,
-        "name": "Super Saiyan",
+        "name": "Goten Super Saiyan",
         "ki": "Unknown",
         "description": "Goten alcanza esta transformación a una edad sorprendentemente joven.",
         "image": "https://dragonball-api.com/transformations/goten_super_saiyan.webp"
@@ -1231,14 +1030,11 @@
     "description": "Videl es la hija de Mr. Satán y más tarde se convierte en la esposa de Gohan. Es una luchadora talentosa y valiente, a pesar de no tener las habilidades de los Saiyans.",
     "image": "https://dragonball-api.com/characters/videl.webp",
     "affiliation": "Z Fighters",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1251,14 +1047,11 @@
     "description": "Pan es la hija de Gohan y Videl. A pesar de su corta edad, muestra gran potencial de combate, heredando las habilidades de lucha de su padre.",
     "image": "https://dragonball-api.com/characters/pan.webp",
     "affiliation": "Z Fighters",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1271,14 +1064,11 @@
     "description": "Dr. Gero es un científico malvado de la Red Ribbon Army y el creador de muchos androides, incluidos los Androides 17, 18 y Cell. Después de modificar su propio cuerpo, se convierte en Androide 20.",
     "image": "https://dragonball-api.com/characters/dr_gero.webp",
     "affiliation": "Red Ribbon Army",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1291,14 +1081,11 @@
     "description": "Kuririn (o Krillin) es uno de los amigos más cercanos de Goku y un miembro importante de los Guerreros Z. Aunque no posee las habilidades de un Saiyan, es uno de los humanos más poderosos y un luchador valiente.",
     "image": "https://dragonball-api.com/characters/krillin.webp",
     "affiliation": "Z Fighters",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1311,22 +1098,17 @@
     "description": "Baby es un parásito de la raza Tsufurujin, creado con el objetivo de vengar la destrucción de su raza por los Saiyans. Controla los cuerpos de otros seres y se convierte en uno de los mayores antagonistas de Dragon Ball GT.",
     "image": "https://dragonball-api.com/characters/baby.webp",
     "affiliation": "Tsufurujin",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 4,
       "name": "Planet Tsufuru",
       "isDestroyed": true,
       "description": "Planeta original de los Tsufurujins antes de ser destruido por los Saiyans.",
-      "image": "https://dragonball-api.com/planetas/tsufuru_planet.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/tsufuru_planet.webp"
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Baby Vegeta",
         "image": "https://dragonball-api.com/transformaciones/baby_vegeta.webp",
-        "ki": "200 Billion",
-        "deletedAt": null
+        "ki": "200 Billion"
       }
     ]
   },
@@ -1339,14 +1121,11 @@
     "description": "Super A-17 es la fusión del Androide 17 original con un nuevo Androide 17 creado por el Dr. Myuu y el Dr. Gero, haciéndolo uno de los androides más poderosos y un formidable enemigo en Dragon Ball GT.",
     "image": "https://dragonball-api.com/characters/super_17.webp",
     "affiliation": "Machine Mutants",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1359,14 +1138,11 @@
     "description": "Omega Shenron es el último de los dragones oscuros y el más poderoso, formado por la energía negativa de los deseos realizados con las Dragon Balls.",
     "image": "https://dragonball-api.com/characters/omega_shenron.webp",
     "affiliation": "Shadow Dragons",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1379,22 +1155,17 @@
     "description": "Uub es la reencarnación humana de Kid Buu. Aunque al principio es inexperto, se convierte en un valioso luchador bajo el entrenamiento de Goku.",
     "image": "https://dragonball-api.com/characters/uub.webp",
     "affiliation": "Z Fighters",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Majuub",
         "image": "https://dragonball-api.com/transformaciones/majuub.webp",
-        "ki": "1 Billion",
-        "deletedAt": null
+        "ki": "1 Billion"
       }
     ]
   },
@@ -1407,14 +1178,11 @@
     "description": "Goku Jr. es un descendiente lejano de Goku que aparece en los últimos episodios de Dragon Ball GT. Aunque joven y débil, muestra el potencial Saiyan.",
     "image": "https://dragonball-api.com/characters/goku_jr.webp",
     "affiliation": "Z Fighters",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1427,14 +1195,11 @@
     "description": "Vegeta Jr. es un descendiente lejano de Vegeta, similar a Goku Jr. en poder y potencial. Participa en un torneo de artes marciales en el futuro de Dragon Ball GT.",
     "image": "https://dragonball-api.com/characters/vegeta_jr.webp",
     "affiliation": "Z Fighters",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1447,14 +1212,11 @@
     "description": "Trunks es el hijo de Vegeta y Bulma, un guerrero fuerte y experimentado que viaja por el espacio en Dragon Ball GT para ayudar a Goku y Pan.",
     "image": "https://dragonball-api.com/characters/trunks.webp",
     "affiliation": "Z Fighters",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1467,22 +1229,17 @@
     "description": "Gotenks es la fusión de Goten y Trunks mediante la Danza de la Fusión. Aunque muy poderoso, es impulsivo y tiende a subestimar a sus oponentes.",
     "image": "https://dragonball-api.com/characters/gotenks.webp",
     "affiliation": "Z Fighters",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": [
       {
-        "id": 1,
-        "name": "Super Saiyan 3",
+        "name": "Gotenks Super Saiyan 3",
         "image": "https://dragonball-api.com/transformaciones/gotenks_ssj3.webp",
-        "ki": "10 Trillion",
-        "deletedAt": null
+        "ki": "10 Trillion"
       }
     ]
   },
@@ -1495,14 +1252,11 @@
     "description": "Dr. Myuu es el científico detrás de la creación de Baby y otros enemigos poderosos en Dragon Ball GT. Es un genio malvado que busca venganza contra los Saiyans.",
     "image": "https://dragonball-api.com/characters/dr_myuu.webp",
     "affiliation": "Machine Mutants",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 5,
       "name": "M2",
       "isDestroyed": true,
       "description": "Planeta natal de los Machine Mutants, hogar de las creaciones del Dr. Myuu.",
-      "image": "https://dragonball-api.com/planetas/m2_planet.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/m2_planet.webp"
     },
     "transformations": []
   },
@@ -1515,22 +1269,17 @@
     "description": "General Rilldo es uno de los principales antagonistas en la saga de Baby. Es el general supremo del ejército Machine Mutant y un poderoso guerrero.",
     "image": "https://dragonball-api.com/characters/general_rilldo.webp",
     "affiliation": "Machine Mutants",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 5,
       "name": "M2",
       "isDestroyed": true,
       "description": "Planeta natal de los Machine Mutants, hogar de las creaciones del Dr. Myuu.",
-      "image": "https://dragonball-api.com/planetas/m2_planet.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/m2_planet.webp"
     },
     "transformations": [
       {
-        "id": 1,
         "name": "Meta-Rilldo",
         "image": "https://dragonball-api.com/transformaciones/meta_rilldo.webp",
-        "ki": "2 Billion",
-        "deletedAt": null
+        "ki": "2 Billion"
       }
     ]
   },
@@ -1543,14 +1292,11 @@
     "description": "Cardinal Mutchy es un subordinado de Dr. Myuu que comanda el Mutchy Army. Controla a los Mutchy Mutchy, poderosos enemigos que atacan a Goku y sus amigos.",
     "image": "https://dragonball-api.com/characters/cardinal_mutchy.webp",
     "affiliation": "Machine Mutants",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 5,
       "name": "M2",
       "isDestroyed": true,
       "description": "Planeta natal de los Machine Mutants, hogar de las creaciones del Dr. Myuu.",
-      "image": "https://dragonball-api.com/planetas/m2_planet.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/m2_planet.webp"
     },
     "transformations": []
   },
@@ -1563,14 +1309,11 @@
     "description": "Eis Shenron es uno de los dragones oscuros nacidos de las Dragon Balls. Representa la bola de tres estrellas y controla el poder del hielo, enfrentándose a Goku.",
     "image": "https://dragonball-api.com/characters/eis_shenron.webp",
     "affiliation": "Shadow Dragons",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1583,14 +1326,11 @@
     "description": "Nuova Shenron es otro de los dragones oscuros, nacido de la bola de cuatro estrellas. A diferencia de los demás, tiene un sentido del honor y respeto hacia sus enemigos.",
     "image": "https://dragonball-api.com/characters/nuova_shenron.webp",
     "affiliation": "Shadow Dragons",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1603,14 +1343,11 @@
     "description": "Rage Shenron es el dragón oscuro de la bola de cinco estrellas. Usa la electricidad como su principal arma en combate, pero es derrotado por Goku.",
     "image": "https://dragonball-api.com/characters/rage_shenron.webp",
     "affiliation": "Shadow Dragons",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1623,14 +1360,11 @@
     "description": "Naturon Shenron es el dragón oscuro de la bola de siete estrellas. Usa el poder de la tierra para manipular su entorno y enfrenta a Goku en una batalla.",
     "image": "https://dragonball-api.com/characters/naturon_shenron.webp",
     "affiliation": "Shadow Dragons",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   },
@@ -1643,14 +1377,11 @@
     "description": "Nazo es un personaje de Dragon Ball GT cuya información es muy escasa. Aparece en material promocional y fuera de la serie principal.",
     "image": "https://dragonball-api.com/characters/nazo.webp",
     "affiliation": "Unknown",
-    "deletedAt": null,
     "originPlanet": {
-      "id": 1,
       "name": "Earth",
       "isDestroyed": false,
       "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp",
-      "deletedAt": null
+      "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
   }
