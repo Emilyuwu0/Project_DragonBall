@@ -8,7 +8,7 @@ export class CharactersService {
     return this.charactersRepository.seederCharacters();
   }
 
-  getCharacters() {
-    return this.charactersRepository.getCharacters();
+  getCharacters(page, limit) {
+    return this.charactersRepository.getCharacters(page, limit);
   }
 }

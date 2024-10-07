@@ -54,7 +54,13 @@ export class CharactersRepository {
     };
   }
 
-  async getCharacters() {
-    return await this.characterDBRepository.find();
+  async getCharacters(page = 1, limit = 5) {
+    const offSet = (page - 1) * limit;
+
+    const characters = await this.characterDBRepository.find({
+      skip: offSet,
+      take: limit,
+    });
+    return characters;
   }
 }

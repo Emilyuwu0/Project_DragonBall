@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Query } from '@nestjs/common';
 import { CharactersService } from './Characters.service';
 
 @Controller('characters')
@@ -11,7 +11,7 @@ export class CharactersController {
   }
 
   @Get()
-  getCharacters() {
-    return this.charactersService.getCharacters();
+  getCharacters(@Query('page') page: number, @Query('limit') limit: number) {
+    return this.charactersService.getCharacters(page, limit);
   }
 }
