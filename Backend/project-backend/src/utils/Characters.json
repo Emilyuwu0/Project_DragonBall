@@ -6,7 +6,7 @@
     "race": "Saiyan",
     "gender": "Male",
     "description": "El protagonista de la serie, conocido por su gran poder y personalidad amigable.",
-    "image": "https://dragonball-api.com/characters/goku_normal.webp",
+    "image": "https://postimg.cc/RqhMRLXS",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Vegeta",
@@ -54,7 +54,7 @@
     "race": "Human",
     "gender": "Female",
     "description": "Una científica brillante y amiga cercana de Goku. Fundadora de la Corporación Cápsula.",
-    "image": "https://dragonball-api.com/characters/bulma.webp",
+    "image": "https://postimg.cc/v4hq3kYD",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -156,7 +156,7 @@
     "race": "Human",
     "gender": "Female",
     "description": "La esposa de Goku y madre de Gohan, conocida por su carácter fuerte.",
-    "image": "https://dragonball-api.com/characters/chichi.webp",
+    "image": "https://postimg.cc/bZMKP4nr",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -462,7 +462,7 @@
     "race": "Saiyan-Human Hybrid",
     "gender": "Male",
     "description": "Hijo de Goku y Chi-Chi, Gohan es un híbrido saiyan-human con un inmenso poder latente. A lo largo de su vida, Gohan se convierte en uno de los guerreros más fuertes de la Tierra, pero prefiere una vida tranquila como académico. Su furia es la clave para liberar su verdadero potencial.",
-    "image": "https://dragonball-api.com/characters/gohan.webp",
+    "image": "https://postimg.cc/PC8XsW7W",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
