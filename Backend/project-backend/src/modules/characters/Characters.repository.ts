@@ -65,6 +65,6 @@ export class CharactersRepository {
   }
 
   async allCharacters() {
-    return this.characterDBRepository.find();
+    return await this.characterDBRepository.find();
   }
 }
