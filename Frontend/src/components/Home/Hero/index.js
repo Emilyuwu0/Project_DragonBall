@@ -1,9 +1,12 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
-import { motion,useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
+import Characters from "../../../pages/Characters/Characters";
+import About from "../../../pages/About/About";
 import GokuHero from "../../../assets/goku-hero.png";
 import useWindowSize from "../../../hook/sizeScreen";
 import Planets from "../Planets";
+import Esfera from "../../../assets/esfera.png";
 import "./index.css";
 
 export default function HeroIndex() {
@@ -38,7 +41,14 @@ export default function HeroIndex() {
               </div>
             </>
           ) : (
-            <>
+            <nav className="navbar-desktop">
+            <div className="logo-icon">
+              <Link to="/">
+                {" "}
+                <img src={Esfera} alt="logo" className="logo-image" />
+              </Link>
+            </div>
+            <div className="nav-links">
               {header.map((item) => (
                 <Link
                   key={item.id}
@@ -48,7 +58,12 @@ export default function HeroIndex() {
                   <span className="title-hero-link"> {item.title}</span>
                 </Link>
               ))}
-            </>
+            </div>
+
+            <a href="#" className="sign-up">
+              +
+            </a>
+          </nav>
           )}
         </div>
       </div>
@@ -67,7 +82,7 @@ export default function HeroIndex() {
               Ball
             </h1>
             <div className="line-hero"></div>
-        
+
             <Link to="/about" className="button-colors button-hero">
               Demos un vistazo
             </Link>
@@ -83,22 +98,22 @@ export default function HeroIndex() {
 const header = [
   {
     id: 1,
-    title: "Inicio",
+    title: "Información",
     href: "/about",
-    view: <Planets />,
+    view: <About />,
   },
   {
     id: 2,
     title: " Personajes",
     href: "/personajes",
-    view: <Planets />,
+    view: <Characters />,
   },
-  {
+/*   {
     id: 3,
     title: " Razas",
     href: "/razas",
     view: <Planets />,
-  },
+  }, */
   {
     id: 4,
     title: " Planetas",

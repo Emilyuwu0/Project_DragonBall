@@ -1,7 +1,9 @@
 .display-no-flex{
     display: flex;
-    flex-direction: column;
-    
+   flex-direction: column;
+}
+.margin-top-characters{
+    margin-top: 12rem;
 }
 
 .loader-container{

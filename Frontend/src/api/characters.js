@@ -24,7 +24,25 @@ export default function ApiDBZCharacters() {
 
 
 export async function getData(page = 1) {
-  const url = `https://dragonball-api.com/api/characters?page=${page}&limit=5`;
+  const url = `http://localhost:4000/characters/paginado?page=${page}&limit=5`;
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    const json = await response.json();
+    return json; // Retornamos los datos
+  } catch (error) {
+    console.error(error.message);
+    return null;
+  }
+}
+/* http://localhost:4000/characters/paginado?page=${page}&limit=5 */
+
+
+export async function getDataNotPage() {
+  const url = `https://dragonball-api.com/api/characters`; // Eliminamos el parámetro page
   try {
     const response = await fetch(url);
     if (!response.ok) {

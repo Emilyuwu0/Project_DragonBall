@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import NavbarComponent from "../../components/Home/Hero/navbar";
 import { Link } from "react-router-dom";
 import { Series } from "./data-about";
 import Akira from "../../assets/R.png";
@@ -20,12 +21,15 @@ export default function Index() {
   };
   return (
     <div className="about-parent">
-      <span className="title-head-section center-text"> Historia </span>
+      <NavbarComponent />
+      <span className="title-head-section center-text margin-top-about ">
+
+        Historia
+      </span>
       <h1 className="title-gradient-left titles-mobile center-text">
         Una Fusión de Mitología, <br /> Ciencia Ficción
         <span className="highlight text-degrade"> y Batallas Épicas</span>
       </h1>
-      <div className="line-decoration"></div>
       <div className="framer-general">
         <h1 className="title-gradient-left titles-mobile center-text subtitle-info">
           El Comienzo

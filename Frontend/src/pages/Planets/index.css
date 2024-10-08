@@ -46,7 +46,8 @@
      Also note that for aesthetic reasons, the planet's trajectories are not elliptical and are not oriented as they should be. */
 
 .solar-system {
-    margin-top: 4rem;
+    padding: 4em;
+/*     margin-top: 2.5rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -441,4 +442,8 @@ li button {
     opacity: 0.4;
     cursor: default;
     pointer-events: none;
+}
+
+.margin-top-planets{
+    margin-top: 10rem;
 }

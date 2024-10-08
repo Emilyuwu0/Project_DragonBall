@@ -9,6 +9,10 @@
     position: relative;
 }
 
+.margin-top-about {
+    margin-top: 12rem !important;
+    margin-bottom: 3rem;
+}
 .carousel-wrapper {
     display: flex;
     flex-direction: column;

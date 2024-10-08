@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Footer from "../../components/Home/Footer";
 import "./index.css";
+import NavbarComponent from "../../components/Home/Hero/navbar";
 
 export default function Planets() {
   const [tabs, setTabs] = useState([]); 
@@ -18,8 +19,9 @@ export default function Planets() {
   }, []);
   return (
     <div>
-      <div className="parents margin-top-min margin-bottom-min">
-        <div className="content-parents border-div padding-max">
+       <NavbarComponent/>
+      <div className="parents margin-top-min margin-bottom-min" >
+        <div className="content-parents border-div padding-max margin-top-planets">
           <div className="div-left ">
             {" "}
             <h1 className="title-gradient-left titles-mobile margin-top-min">

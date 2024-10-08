@@ -1,4 +1,5 @@
 .hero {
+
   height: 100%;
   position: relative;
   background-size: cover;
@@ -7,13 +8,65 @@
 }
 
 .hero-content {
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   padding: 12rem 2rem 0 2rem;
   margin-bottom: 15rem;
+
 }
+
+/* .desktop-header {
+  background: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  width: 62%;
+  margin-top: 2rem;
+} */
+
+.title-hero-link-a {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.title-hero-link {
+  position: relative;
+  display: inline-block;
+  padding: 5px 20px;
+  transition: color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.title-hero-link-a:hover .title-hero-link {
+  color: #fff;
+}
+
+.title-hero-link-a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  border-radius: 30px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.title-hero-link-a:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+
+
 
 .title-hero-text {
   font-size: 6vw;
@@ -165,21 +218,16 @@
   --_g: var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%,
     var(--c1) 36% 44%, var(--c2) 46% 54%, var(--c1) 56% 64%, var(--c2) 66% 74%,
     var(--c1) 76% 84%, var(--c2) 86% 94%;
-  background: radial-gradient(
-      100% 100% at 100% 0,
+  background: radial-gradient(100% 100% at 100% 0,
       var(--c1) 4%,
       var(--_g),
       #0008 96%,
-      #0000
-    ),
-    radial-gradient(
-        100% 100% at 0 100%,
-        #0000,
-        #0008 4%,
-        var(--_g),
-        var(--c1) 96%
-      )
-      var(--c1);
+      #0000),
+    radial-gradient(100% 100% at 0 100%,
+      #0000,
+      #0008 4%,
+      var(--_g),
+      var(--c1) 96%) var(--c1);
   background-size: var(--s) var(--s);
   /*background: linear-gradient(90deg, #f92c78, #4114a1);*/
   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
@@ -187,7 +235,7 @@
   transition: all 0.6s ease-in-out;
 }
 
-#active:checked ~ .wrapper-mobile {
+#active:checked~.wrapper-mobile {
   /*left: 0;*/
   right: 0;
 }
@@ -237,16 +285,16 @@
 }
 
 /* closing animation */
-#active:checked + .menu-btn span {
+#active:checked+.menu-btn span {
   transform: scaleX(0);
 }
 
-#active:checked + .menu-btn:before {
+#active:checked+.menu-btn:before {
   transform: rotate(45deg);
   border-color: #fff;
 }
 
-#active:checked + .menu-btn:after {
+#active:checked+.menu-btn:after {
   transform: rotate(-45deg);
   border-color: #fff;
 }
@@ -276,7 +324,7 @@ input[type="checkbox"] {
   font-weight: 600;
 }
 
-#active:checked ~ .wrapper-mobile ul li a {
+#active:checked~.wrapper-mobile ul li a {
   opacity: 1;
 }
 
@@ -285,7 +333,7 @@ input[type="checkbox"] {
   transform: translateX(100px);
 }
 
-#active:checked ~ .wrapper .item-nav {
+#active:checked~.wrapper .item-nav {
   transform: none;
   transition-timing-function: ease, cubic-bezier(0.1, 1.3, 0.3, 1);
   /* easeOutBackを緩めた感じ */
@@ -304,4 +352,47 @@ input[type="checkbox"] {
   align-items: flex-end;
   margin-top: 2rem;
   font-size: 1.5rem;
+}
+
+
+
+
+
+.navbar-desktop {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+  background-color: var(--color-secondary);
+  border-radius: 2.5rem;
+  width: 62%;
+}
+
+.logo-icon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.logo-image {
+  width: 3rem;
+  margin-top: 0.5rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.sign-up {
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 40px;
+  text-decoration: none;
 }
