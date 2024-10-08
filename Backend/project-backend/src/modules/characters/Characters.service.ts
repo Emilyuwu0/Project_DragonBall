@@ -11,4 +11,8 @@ export class CharactersService {
   getCharacters(page, limit) {
     return this.charactersRepository.getCharacters(page, limit);
   }
+
+  allCharacters() {
+    return this.charactersRepository.allCharacters();
+  }
 }

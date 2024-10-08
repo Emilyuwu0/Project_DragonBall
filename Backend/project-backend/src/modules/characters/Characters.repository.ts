@@ -63,4 +63,8 @@ export class CharactersRepository {
     });
     return characters;
   }
+
+  async allCharacters() {
+    return this.characterDBRepository.find();
+  }
 }

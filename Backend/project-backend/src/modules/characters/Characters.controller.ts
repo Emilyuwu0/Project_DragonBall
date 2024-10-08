@@ -10,8 +10,13 @@ export class CharactersController {
     return this.charactersService.seederCharacters();
   }
 
-  @Get()
+  @Get('paginado')
   getCharacters(@Query('page') page: number, @Query('limit') limit: number) {
     return this.charactersService.getCharacters(page, limit);
+  }
+
+  @Get()
+  allCharacters() {
+    return this.charactersService.allCharacters();
   }
 }
