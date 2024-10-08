@@ -31,17 +31,56 @@ export default function CharacterDetail() {
       <div className="parents" id="about">
         <div className="content-parents border-div padding-max margin-top-characters">
           <div className="div-left">
-            {" "}
-            <h1>{character.name}</h1>
-            <img src={character.image} alt={character.name} />
-          </div>
-          <div className="div-right">
-            {" "}
-            <p>Raza: {character.race || "Desconocido"}</p>
+            <div>
+                
+            </div>
+            <span className="title-head-section ">Caracter</span>
+            <h1 className="title-gradient-left titles-mobile">
+              {character.name}
+            </h1>
+            <img src={character.image} alt={character.name} className="image-view-characters " />
             <p>Ki: {character.ki}</p>
             <p>Max Ki: {character.max_ki || character.ki}</p>
           </div>
+          <div className="div-right">
+            {" "}
+            <p>{character.description}</p>
+            <p>Raza: {character.race || "Desconocido"}</p>
+          </div>
         </div>
+      </div>
+      <div>
+        {character.transformations && character.transformations.length > 0 ? (
+          <div className="parents" id="about">
+            <div className="content-parents border-div padding-max  center-cards-trans">
+              <div>
+                <h1 className="title-gradient-left titles-mobile center-text">
+                  Tranforma
+                  <span className="highlight text-degrade">ciones </span>
+                </h1>
+              </div>
+              <div className="cards-tranfors">
+                {character.transformations.map((item) => (
+                  <div className="card-trans">
+                    <div className="main-content">
+                      <div className="header-cards">
+                        <img
+                          src={item.image}
+                          className="image-characters"
+                          alt={item.name}
+                        />
+                      </div>
+                      <p className="heading">{item.name}</p>
+                    </div>
+                    <div className="footer">{item.ki}</div>
+                  </div>
+                ))}
+              </div>
+            </div>{" "}
+          </div>
+        ) : (
+          <></>
+        )}
       </div>
     </div>
   );

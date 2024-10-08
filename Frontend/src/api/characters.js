@@ -24,7 +24,7 @@ export default function ApiDBZCharacters() {
 
 
 export async function getData(page = 1) {
-  const url = `http://localhost:4000/characters/paginado?page=${page}&limit=5`;
+  const url = `http://localhost:4000/characters/paginado?page=${page}&limit=50`;
   try {
     const response = await fetch(url);
     if (!response.ok) {

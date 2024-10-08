@@ -22,20 +22,22 @@ export default function Characters() {
       let allCharacters = [];
       let page = 1;
       let totalPages = 1;
-
+  
       while (page <= totalPages) {
         const data = await getData(page);
+        console.log(`Page ${page}:`, data.items); // Log de personajes por página
         if (data && Array.isArray(data.items)) {
           allCharacters = [...allCharacters, ...data.items];
           totalPages = data.meta.totalPages;
           page++;
         }
       }
-
+  
       setCharacters(allCharacters);
+      console.log('All Characters:', allCharacters); // Log de todos los personajes
       setLoading(false);
     };
-
+  
     fetchAllCharacters();
   }, []);
 
