@@ -57,11 +57,19 @@ export class CharactersRepository {
   async getCharacters(page = 1, limit = 5) {
     const offSet = (page - 1) * limit;
 
-    const characters = await this.characterDBRepository.find({
+    const [characters, total] = await this.characterDBRepository.findAndCount({
       skip: offSet,
       take: limit,
     });
-    return characters;
+    return {
+      items: characters, // Los personajes paginados
+      meta: {
+        totalItems: total, // Número total de personajes
+        totalPages: Math.ceil(total / limit), // Total de páginas
+        currentPage: page, // Página actual
+        limit: limit, // Límite de personajes por página
+      },
+    };
   }
 
   async allCharacters() {
