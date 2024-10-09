@@ -11,7 +11,7 @@ import "./index.css";
 
 export default function HeroIndex() {
   const windowWidth = useWindowSize();
-  const isMobile = windowWidth < 768;
+  const isMobile = windowWidth < 788;
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 

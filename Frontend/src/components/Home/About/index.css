@@ -116,7 +116,7 @@
  */
 @media (max-width: 480px) {
   .about-parent {
-    margin-top: 4rem;
+    margin-top: 2rem;
     padding: 1rem;
   }
  
@@ -178,7 +178,13 @@
   .line-info {
     height: 1px;
   }
+      .card-into-about {
+        height: 100%;
+        width: 100%;
+    }
 }
+
+
 
 @media (min-width: 1024px) and (max-width: 1200px) {
   .about-parent {

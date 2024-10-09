@@ -378,7 +378,7 @@ p {
     max-width: 12rem;
     width: 7rem;
     font-size: 0.8rem;
-    height: 1rem;
+    height: 2.5rem;
     text-align: center;
     margin: auto;
   }
@@ -387,7 +387,7 @@ p {
     max-width: 12rem;
     width: 7rem;
     font-size: 0.8rem;
-    height: 1rem;
+    height: 2.5rem;
   }
 
   .subtitle-about {
@@ -416,7 +416,7 @@ p {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1020px) {
+@media (min-width: 700px) and (max-width: 1020px) {
   .framer-left {
     flex: none;
     width: 100%;
@@ -459,7 +459,7 @@ p {
   }
 
   .padding-max {
-    padding: 4rem;
+    padding: 2rem;
   }
 
   .framer-blur {

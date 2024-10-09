@@ -13,8 +13,8 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 12rem 2rem 0 2rem;
-  margin-bottom: 15rem;
+  padding: 18rem 2rem 0 0rem;
+  margin-bottom: 14rem;
 
 }
 
@@ -89,9 +89,9 @@
   object-fit: contain;
   position: absolute;
   top: 0rem;
-  width: 50%;
-  right: 10rem;
-  padding-top: 4rem;
+  width: 45%;
+  right: 14rem;
+  padding-top: 2rem;
 }
 
 .header-content {
@@ -121,11 +121,38 @@
 }
 
 /* Media Queries */
+
+
+@media (max-width: 1700px) {
+  .hero-content {
+
+    padding-top: 14rem;
+    margin-bottom: 6rem !important;
+  }
+
+}
+
+@media (max-width: 1300px) {
+  .hero-content {
+    flex-direction: column;
+    padding-top: 12rem;
+    margin-bottom: 2rem !important;
+  }
+
+  .hero-image img {
+    position: relative;
+    width: 90%;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 1024px) {
   .hero-content {
     flex-direction: column;
     padding-top: 8rem;
-    margin-bottom: 10rem;
+    margin-bottom: 4rem !important;
   }
 
   .hero-image img {
@@ -204,6 +231,7 @@
 }
 
 .wrapper-mobile {
+  padding: 2rem;
   position: fixed;
   top: 0;
   /*left: -100%;*/
@@ -218,7 +246,7 @@
   --_g: var(--c2) 6% 14%, var(--c1) 16% 24%, var(--c2) 26% 34%,
     var(--c1) 36% 44%, var(--c2) 46% 54%, var(--c1) 56% 64%, var(--c2) 66% 74%,
     var(--c1) 76% 84%, var(--c2) 86% 94%;
-  background: radial-gradient(100% 100% at 100% 0,
+  /*   background: radial-gradient(100% 100% at 100% 0,
       var(--c1) 4%,
       var(--_g),
       #0008 96%,
@@ -228,9 +256,9 @@
       #0008 4%,
       var(--_g),
       var(--c1) 96%) var(--c1);
-  background-size: var(--s) var(--s);
-  /*background: linear-gradient(90deg, #f92c78, #4114a1);*/
-  /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+  background-size: var(--s) var(--s); */
+
+  background: linear-gradient(375deg, var(--color-secondary), var(--c1));
   /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
   transition: all 0.6s ease-in-out;
 }
@@ -243,9 +271,8 @@
 .menu-btn {
   position: absolute;
   z-index: 2;
-  right: 20px;
 
-  top: 60px;
+  top: 2px;
   height: 50px;
   width: 50px;
   text-align: center;
@@ -342,14 +369,17 @@ input[type="checkbox"] {
 }
 
 .menu-mobile {
-  margin-top: 10rem;
-  margin-right: 3rem;
+  margin-top: 8rem;
+  background-color: var(--bg-card-into-optional);
+  border-radius: 40px;
+  padding: 1rem;
+
 }
 
 .nav-menu-mobile {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   margin-top: 2rem;
   font-size: 1.5rem;
 }
@@ -359,14 +389,15 @@ input[type="checkbox"] {
 
 
 .navbar-desktop {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0rem 2rem;
-  background-color: var(--color-secondary);
+  background-color: black;
   border-radius: 2.5rem;
   width: 62%;
+  border: 1px solid #fa681b30;
 }
 
 .logo-icon {

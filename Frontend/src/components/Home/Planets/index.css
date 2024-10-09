@@ -308,6 +308,9 @@
 
 
 @media (max-width: 480px) {
+.margin-planets-top{
+  margin-top: 4rem;
+}
 
 .randar-content {
   width: 200px;

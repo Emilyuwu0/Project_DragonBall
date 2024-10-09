@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getData } from "../../api/characters";
-import Character from "../../assets/Characters.png";
+import Character from "../../assets/dragonballch.png";
 import { AnimatePresence, motion } from "framer-motion";
 import Footer from "../../components/Home/Footer";
 import { useNavigate } from "react-router-dom"; // Importa el hook useNavigate

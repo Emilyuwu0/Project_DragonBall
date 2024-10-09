@@ -5,6 +5,9 @@ body {
   font-family: "Poppins", system-ui !important;
   color: #fff;
 }
+
+
+
 @media (max-width: 500px) {
 .button-wrapper{
   display: flex;
