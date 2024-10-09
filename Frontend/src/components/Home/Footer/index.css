@@ -38,6 +38,12 @@
   }
 }
 
+@media (min-width: 400px) {
+  .text-mobile-footer{
+    text-align: left !important;;
+  }
+}
+
 .footer-name {
   font-size: 1.8rem;
   font-weight: 600;
@@ -57,3 +63,4 @@
 .title-contact-footer {
   margin-bottom: 2rem;
 }
+

@@ -13,7 +13,7 @@ export default function Footer() {
           {" "}
           <img src={CatEmily} alt="LogoEmily" className="cat-color" />
           <p className="footer-name">Emily Orduz.</p>
-          <p className="subtitle-about"> Frontend / Diseño.</p>
+          <p className="subtitle-about text-mobile-footer"> Frontend / Diseño.</p>
         </div>
         <div class="column-footer ">
           <p className="title-contact-footer">Contacto</p>

@@ -80,7 +80,7 @@ export default function Characters() {
               </p>
             </div>
             <div className="div-right">
-              <img src={Character} alt="Character" />
+              <img src={Character} alt="Character" className="img-character" />
             </div>
           </div>
         </div>

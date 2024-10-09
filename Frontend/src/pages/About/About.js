@@ -67,7 +67,7 @@ export default function Index() {
       </div>{" "}
       {/*  Dragon ball */}
       <div className="parents" id="about">
-        <div className="content-parents border-div padding-max">
+        <div className="content-parents border-div padding-max-about flex-column">
           <div className="div-left ">
             <span className="title-head-section "> 1986-1989</span>
             <h1 className="title-gradient-left titles-mobile">
@@ -139,8 +139,8 @@ export default function Index() {
         </div>
       </div>
       {/* Dragon ball Z */}
-      <div className="parents" id="about">
-        <div className="content-parents border-div padding-max">
+      <div className="parents margin-top-about-mobile" id="about">
+        <div className="content-parents border-div padding-max-about-z column-mobile  flex-column-reverse">
           <div className="div-left ">
             <div className="parent-cards-divs">
               {" "}
@@ -179,8 +179,8 @@ export default function Index() {
         </div>
       </div>
       {/* Dragon ball GT */}
-      <div className="parents" id="about">
-        <div className="content-parents border-div padding-max">
+      <div className="parents margin-top-about-mobile" id="about">
+        <div className="content-parents border-div padding-max-about ">
           <div className=" ">
             <span className="title-head-section center-text"> 1996-1997</span>
             <h1 className="title-gradient-left titles-mobile center-text margin-bottom-min">
@@ -214,8 +214,8 @@ export default function Index() {
         </div>
       </div>
       {/* Dragon ball Super */}
-      <div className="parents" id="about">
-        <div className="content-parents border-div padding-max">
+      <div className="parents margin-top-about-mobile" id="about">
+        <div className="content-parents border-div padding-max-about column-mobile flex-column-reverse">
           <div className="div-left ">
             <div className="super-div-principal">
               {Series.filter((item) => item.saga === "Dragon Ball Super").map(

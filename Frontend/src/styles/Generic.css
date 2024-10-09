@@ -320,7 +320,7 @@ p {
   overflow: visible;
 
   position: relative;
-  width: 1px;
+
   flex: 1;
   padding: 1rem;
 }
@@ -330,6 +330,10 @@ p {
   .framer-divs-center {
     border-radius: 16px;
     gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding:0.5rem;
   }
 
   .framer-general {
@@ -343,6 +347,7 @@ p {
 
   .content-parents {
     max-width: 90%;
+    border-radius: 20px;
   }
 
   .padding-min {
@@ -423,14 +428,15 @@ p {
   }
 
   .framer-divs-center {
-    width: 100%;
+ 
     padding: 24px;
     flex-direction: column;
     gap: 24px;
+       width: 100%;
   }
 
   .framer-general {
-    padding: 60px 0;
+    padding: 4rem ;
     max-width: 100%;
   }
 
@@ -456,6 +462,7 @@ p {
 
   .content-parents {
     max-width: 80%;
+    border-radius: 2rem;
   }
 
   .padding-max {
@@ -472,6 +479,9 @@ p {
     width: 7rem;
 
   }
+  .parents{
+    padding: 0rem;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
@@ -482,6 +492,7 @@ p {
 
   .title-gradient-left {
     text-align: center;
+    padding: 1rem;
   }
 
   .subtitle-about {
@@ -502,5 +513,11 @@ p {
   .parents {
     flex-wrap: wrap;
   }
-
+  .framer-divs-center {
+ 
+    padding: 24px;
+    flex-direction: column;
+    gap: 24px;
+       width: 100%;
+  }
 }

@@ -257,8 +257,8 @@
       var(--_g),
       var(--c1) 96%) var(--c1);
   background-size: var(--s) var(--s); */
-
-  background: linear-gradient(375deg, var(--color-secondary), var(--c1));
+background: black;
+/*   background: linear-gradient(375deg, var(--color-secondary), var(--c1)); */
   /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
   transition: all 0.6s ease-in-out;
 }
@@ -370,9 +370,10 @@ input[type="checkbox"] {
 
 .menu-mobile {
   margin-top: 8rem;
-  background-color: var(--bg-card-into-optional);
+  background-color: var(--bg-card-optional);
   border-radius: 40px;
-  padding: 1rem;
+  padding: 4rem;
+  border-top: 1px solid #fa681b30;
 
 }
 
@@ -380,8 +381,11 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
-  font-size: 1.5rem;
+  /* margin-top: 2rem; */
+  border-bottom: 1px solid;
+  padding: 1rem;
+  width: 38%;
+  margin: auto;
 }
 
 
@@ -399,7 +403,13 @@ input[type="checkbox"] {
   width: 62%;
   border: 1px solid #fa681b30;
 }
-
+@media (max-width: 1200px) {
+  .navbar-desktop {
+    width: 90%; /* Aumentamos el ancho para usar más espacio horizontal */
+    padding: 0.5rem; /* Reducimos el padding */
+    border-radius: 1.5rem
+  }
+}
 .logo-icon {
   width: 20px;
   margin-right: 10px;
