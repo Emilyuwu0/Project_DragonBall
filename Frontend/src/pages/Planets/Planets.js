@@ -1,26 +1,28 @@
 import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Footer from "../../components/Home/Footer";
-import "./index.css";
 import NavbarComponent from "../../components/Home/Hero/navbar";
+import useWindowSize from "../../hook/sizeScreen";
+import "./index.css";
 
 export default function Planets() {
-  const [tabs, setTabs] = useState([]); 
-  const [selectedTab, setSelectedTab] = useState(null); 
-
+  const [tabs, setTabs] = useState([]);
+  const [selectedTab, setSelectedTab] = useState(null);
+  const windowWidth = useWindowSize();
+  const isMobile = windowWidth < 788;
   useEffect(() => {
     fetch("https://dragonball-api.com/api/planets")
       .then((response) => response.json())
       .then((data) => {
-        setTabs(data.items); 
-        setSelectedTab(data.items[0]); 
+        setTabs(data.items);
+        setSelectedTab(data.items[0]);
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
   return (
     <div>
-       <NavbarComponent/>
-      <div className="parents margin-top-min margin-bottom-min" >
+      <NavbarComponent />
+      <div className="parents margin-top-min margin-bottom-min">
         <div className="content-parents border-div padding-max margin-top-planets">
           <div className="div-left ">
             {" "}
@@ -28,8 +30,8 @@ export default function Planets() {
               Universo
               <span className="highlight text-degrade"> 7</span>
             </h1>
-            <p className="subtitle-about margin-top-min">
-              es uno de los doce universos en el multiverso de Dragon Ball y es
+            <p className="subtitle-about margin-top-min margin-bottom-text ">
+              Es uno de los doce universos en el multiverso de Dragon Ball y es
               el escenario principal de la serie. Este universo es conocido por
               su diversidad de planetas, razas y seres poderosos.
             </p>
@@ -60,29 +62,46 @@ export default function Planets() {
             <span className="title-head-section center-text margin-bottom-min">
               Planetas
             </span>
-            <p className="subtitle-about display-block center-text">
+            <p className="subtitle-about display-block center-text margin-top-min-planets">
               Listado de planetas universo 7
             </p>
           </div>{" "}
           <div className="window">
-            <nav className="nav-tab">
-              <ul className="div-list-planets">
-                {tabs.map((item) => (
-                  <li
-                    key={item.name}
-                    className={`list-item-planets ${
-                      item === selectedTab ? "selected" : ""
-                    }`}
-                    onClick={() => setSelectedTab(item)}
-                  >
-                    {`${item.name}`}
-                    {item === selectedTab ? (
-                      <motion.div className="underline" layoutId="underline" />
-                    ) : null}
-                  </li>
-                ))}
-              </ul>
-            </nav>
+            {isMobile ? (
+            <select
+            className="select-planets"
+            value={selectedTab ? selectedTab.name : ""}
+            onChange={(e) => setSelectedTab(tabs.find(tab => tab.name === e.target.value))}
+          >
+            {tabs.map((item) => (
+              <option key={item.name} value={item.name}>
+                {item.name}
+              </option>
+            ))}
+          </select>
+            ) : (
+              <nav className="nav-tab">
+                <ul className="div-list-planets">
+                  {tabs.map((item) => (
+                    <li
+                      key={item.name}
+                      className={`list-item-planets ${
+                        item === selectedTab ? "selected" : ""
+                      }`}
+                      onClick={() => setSelectedTab(item)}
+                    >
+                      {`${item.name}`}
+                      {item === selectedTab ? (
+                        <motion.div
+                          className="underline"
+                          layoutId="underline"
+                        />
+                      ) : null}
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )}
             <main className="main-tabs">
               <AnimatePresence mode="wait">
                 <motion.div
@@ -96,7 +115,7 @@ export default function Planets() {
                     <div className="container-tabs-p">
                       <div className="column-p">
                         <p className="title-tabs-p">{selectedTab.name} </p>
-                        <p>{selectedTab.description}</p>
+                        <p className=" left-description-planets">{selectedTab.description}</p>
                       </div>
                       <div className="column-p">
                         <img
@@ -105,7 +124,6 @@ export default function Planets() {
                           className="image-planets"
                         />
                       </div>
-                      {/*  */}
                     </div>
                   ) : (
                     <>
