@@ -65,7 +65,7 @@ export default function CharacterDetail() {
                     <div className="main-content">
                       <div className="header-cards">
                         <img
-                          src={`http://localhost:4000/${item.image}`}
+                          src={`http://localhost:4000/assets/transformations/${item.image}`}
                           className="image-characters"
                           alt={item.name}
                         />
