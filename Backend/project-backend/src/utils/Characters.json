@@ -54,7 +54,7 @@
     "race": "Human",
     "gender": "Female",
     "description": "Una científica brillante y amiga cercana de Goku. Fundadora de la Corporación Cápsula.",
-    "image": "https://postimg.cc/v4hq3kYD",
+    "image": "/assets/pj/Bulma.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -71,7 +71,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Un bandido reformado que se convierte en uno de los amigos cercanos y aliados de Goku.",
-    "image": "https://e7.pngegg.com/pngimages/293/255/png-clipart-yamcha-dragon-ball-fighterz-gohan-tien-shinhan-vegeta-goku-fictional-character-cartoon.png",
+    "image": "/assets/pj/Yamcha.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -88,7 +88,7 @@
     "race": "Shapeshifter",
     "gender": "Male",
     "description": "Un compañero fiel de Yamcha que tiene la habilidad de cambiar de forma.",
-    "image": "https://w7.pngwing.com/pngs/65/721/png-transparent-krillin-goku-chiaotzu-puar-bulma-ox-mammal-cat-like-mammal-carnivoran-thumbnail.png",
+    "image": "/assets/pj/Puar.png",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -105,7 +105,7 @@
     "race": "Shapeshifter",
     "gender": "Male",
     "description": "Un cerdo parlante con la capacidad de cambiar de forma.",
-    "image": "https://static.wikia.nocookie.net/mangakaart/images/e/e4/Final_oolong_mbs.png/revision/latest?cb=20140905173612&path-prefix=es",
+    "image": "/assets/pj/Oolong.webp",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -122,7 +122,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El mejor amigo de Goku y uno de los guerreros Z más poderosos de la Tierra.",
-    "image": "https://w7.pngwing.com/pngs/231/606/png-transparent-krillin-goku-gohan-master-roshi-trunks-goku-child-dragon-hand-thumbnail.png",
+    "image": "/assets/pj/Krillin.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -139,7 +139,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El maestro de artes marciales de Goku y Krillin, y el creador del Kamehameha.",
-    "image": "https://e7.pngegg.com/pngimages/827/538/png-clipart-master-roshi-dragon-ball-dragon-ball-fighterz-master-roshi-goku-trunks-tien-shinhan-character-hand-fictional-character-thumbnail.png",
+    "image": "/assets/pj/MaestroRoshi.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -156,7 +156,7 @@
     "race": "Human",
     "gender": "Female",
     "description": "La esposa de Goku y madre de Gohan, conocida por su carácter fuerte.",
-    "image": "https://postimg.cc/bZMKP4nr",
+    "image": "/assets/pj/Chi-Chi.png",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -173,7 +173,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Un maestro de artes marciales con tres ojos que se convierte en aliado de Goku.",
-    "image": "https://e7.pngegg.com/pngimages/431/173/png-clipart-tien-shinhan-goku-chiaotzu-piccolo-krillin-shinning-superhero-hand-thumbnail.png",
+    "image": "/assets/pj/TenChinHan.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -190,7 +190,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Un pequeño luchador con habilidades psíquicas y leal amigo de Ten Shin Han.",
-    "image": "https://w7.pngwing.com/pngs/420/654/png-transparent-dragonball-z-chiaotzu-dragon-ball-z-ultimate-tenkaichi-chiaotzu-goku-tien-shinhan-gohan-dragon-ball-z-trunks-fictional-character-cartoon-thumbnail.png",
+    "image": "/assets/pj/Chaoz.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -207,7 +207,7 @@
     "race": "Namekian",
     "gender": "Male",
     "description": "El lado malvado de Kami que desea conquistar la Tierra.",
-    "image": "https://dragonball-api.com/characters/piccolo_daimao.webp",
+    "image": "/assets/pj/PiccoloDaimao.png",
     "affiliation": "None",
     "originPlanet": {
       "name": "Namek",
@@ -224,7 +224,7 @@
     "race": "Human-Saiyan Hybrid",
     "gender": "Male",
     "description": "El hijo de Goku y Chi-Chi, conocido por su gran potencial oculto.",
-    "image": "https://static.wikia.nocookie.net/featteca/images/7/72/Kid-gohan.png/revision/latest?cb=20210924150825&path-prefix=es",
+    "image": "/assets/pj/sonGohan.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -241,7 +241,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El padre de Chi-Chi y un antiguo estudiante del Maestro Roshi.",
-    "image": "https://static.wikia.nocookie.net/teamfourstar/images/2/24/Ox-King-psd61345.png/revision/latest?cb=20130627212350",
+    "image": "/assets/pj/OxKing.png",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -258,7 +258,7 @@
     "race": "Human",
     "gender": "Female",
     "description": "Una mujer con doble personalidad: dulce o violenta según su estornudo.",
-    "image": "https://dragonball-api.com/characters/launch.webp",
+    "image": "/assets/pj/Launch.png",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -275,7 +275,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Un samurái perezoso pero habilidoso que ayuda a Goku en momentos cruciales.",
-    "image": "https://dragonball-api.com/characters/yajirobe.webp",
+    "image": "/assets/pj/Yajirobe.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -292,7 +292,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El hijo de Bora, que ayuda a Goku en su búsqueda de las esferas del dragón.",
-    "image": "https://dragonball-api.com/characters/upa.webp",
+    "image": "/assets/pj/Upa.png",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -309,7 +309,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El padre de Upa, un guerrero indígena que protege la Torre de Karin.",
-    "image": "https://dragonball-api.com/characters/bora.webp",
+    "image": "/assets/pj/Bora.png",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -326,7 +326,7 @@
     "race": "Saiyan",
     "gender": "Female",
     "description": "Una Saiyan del equipo de Bardock y una guerrera feroz.",
-    "image": "https://dragonball-api.com/characters/selypa.webp",
+    "image": "/assets/pj/Selypar.webp",
     "affiliation": "Bardock's Team",
     "originPlanet": {
       "name": "Vegeta",
@@ -343,7 +343,7 @@
     "race": "Monster",
     "gender": "Male",
     "description": "Un villano cómico que busca las esferas del dragón para gobernar el mundo.",
-    "image": "https://dragonball-api.com/characters/pilaf.webp",
+    "image": "/assets/pj/Pilaf.png",
     "affiliation": "Pilaf Gang",
     "originPlanet": {
       "name": "Earth",
@@ -360,7 +360,7 @@
     "race": "Human",
     "gender": "Female",
     "description": "La compañera de Pilaf, leal y astuta.",
-    "image": "https://dragonball-api.com/characters/mai.webp",
+    "image": "/assets/pj/Mai.webp",
     "affiliation": "Pilaf Gang",
     "originPlanet": {
       "name": "Earth",
