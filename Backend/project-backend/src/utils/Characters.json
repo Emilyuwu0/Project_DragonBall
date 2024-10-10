@@ -17,32 +17,32 @@
     "transformations": [
       {
         "name": "Goku SSJ",
-        "image": "https://dragonball-api.com/transformaciones/goku_ssj.webp",
+        "image": "https://w7.pngwing.com/pngs/123/322/png-transparent-goku-gohan-trunks-vegeta-super-saiyan-goku-fictional-character-trunks-cartoon.png",
         "ki": "150 Million"
       },
       {
         "name": "Goku SSJ2",
-        "image": "https://dragonball-api.com/transformaciones/goku_ssj2.webp",
+        "image": "https://static.wikia.nocookie.net/dragonballmultiverse/images/5/5e/250px-Goku_super_saiyajin_2.png/revision/latest?cb=20120703213320&path-prefix=es",
         "ki": "300 Million"
       },
       {
         "name": "Goku SSJ3",
-        "image": "https://dragonball-api.com/transformaciones/goku_ssj3.webp",
+        "image": "https://eltallerdehector.com/wp-content/uploads/2022/08/goku-super-saiyan-3.png",
         "ki": "4 Billion"
       },
       {
         "name": "Goku SSJ God",
-        "image": "https://dragonball-api.com/transformaciones/goku_ssj_god.webp",
+        "image": "https://i.pinimg.com/originals/71/af/fd/71affd1f5813caed9ad3aa7013bf143e.png",
         "ki": "1 Trillion"
       },
       {
         "name": "Goku SSJ Blue",
-        "image": "https://dragonball-api.com/transformaciones/goku_ssjb.webp",
+        "image": "https://w7.pngwing.com/pngs/189/223/png-transparent-goku-vegeta-kai%C5%8D-super-saiyan-beerus-dragonball-evolution-manga-fictional-character-cartoon.png",
         "ki": "200 Quintillion"
       },
       {
         "name": "Goku Ultra Instinct",
-        "image": "https://dragonball-api.com/transformaciones/goku_ultra_instinct.webp",
+        "image": "https://w7.pngwing.com/pngs/426/286/png-transparent-goku-ultra-instinct-thumbnail.png",
         "ki": "Over 20 Quintillion"
       }
     ]
@@ -71,7 +71,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Un bandido reformado que se convierte en uno de los amigos cercanos y aliados de Goku.",
-    "image": "https://dragonball-api.com/characters/yamcha.webp",
+    "image": "https://e7.pngegg.com/pngimages/293/255/png-clipart-yamcha-dragon-ball-fighterz-gohan-tien-shinhan-vegeta-goku-fictional-character-cartoon.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -88,7 +88,7 @@
     "race": "Shapeshifter",
     "gender": "Male",
     "description": "Un compañero fiel de Yamcha que tiene la habilidad de cambiar de forma.",
-    "image": "https://dragonball-api.com/characters/puar.webp",
+    "image": "https://w7.pngwing.com/pngs/65/721/png-transparent-krillin-goku-chiaotzu-puar-bulma-ox-mammal-cat-like-mammal-carnivoran-thumbnail.png",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -105,7 +105,7 @@
     "race": "Shapeshifter",
     "gender": "Male",
     "description": "Un cerdo parlante con la capacidad de cambiar de forma.",
-    "image": "https://dragonball-api.com/characters/oolong.webp",
+    "image": "https://static.wikia.nocookie.net/mangakaart/images/e/e4/Final_oolong_mbs.png/revision/latest?cb=20140905173612&path-prefix=es",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -122,7 +122,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El mejor amigo de Goku y uno de los guerreros Z más poderosos de la Tierra.",
-    "image": "https://dragonball-api.com/characters/krillin.webp",
+    "image": "https://w7.pngwing.com/pngs/231/606/png-transparent-krillin-goku-gohan-master-roshi-trunks-goku-child-dragon-hand-thumbnail.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -139,7 +139,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El maestro de artes marciales de Goku y Krillin, y el creador del Kamehameha.",
-    "image": "https://dragonball-api.com/characters/roshi.webp",
+    "image": "https://e7.pngegg.com/pngimages/827/538/png-clipart-master-roshi-dragon-ball-dragon-ball-fighterz-master-roshi-goku-trunks-tien-shinhan-character-hand-fictional-character-thumbnail.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -173,7 +173,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Un maestro de artes marciales con tres ojos que se convierte en aliado de Goku.",
-    "image": "https://dragonball-api.com/characters/tenshinhan.webp",
+    "image": "https://e7.pngegg.com/pngimages/431/173/png-clipart-tien-shinhan-goku-chiaotzu-piccolo-krillin-shinning-superhero-hand-thumbnail.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -190,7 +190,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Un pequeño luchador con habilidades psíquicas y leal amigo de Ten Shin Han.",
-    "image": "https://dragonball-api.com/characters/chaoz.webp",
+    "image": "https://w7.pngwing.com/pngs/420/654/png-transparent-dragonball-z-chiaotzu-dragon-ball-z-ultimate-tenkaichi-chiaotzu-goku-tien-shinhan-gohan-dragon-ball-z-trunks-fictional-character-cartoon-thumbnail.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -213,7 +213,7 @@
       "name": "Namek",
       "isDestroyed": false,
       "description": "Planeta natal de los Namekianos.",
-      "image": "https://dragonball-api.com/planetas/Namek.webp"
+      "image": "https://i.pinimg.com/originals/66/ab/a2/66aba2c67e787211fb3545ccf2242816.png"
     },
     "transformations": []
   },
@@ -224,7 +224,7 @@
     "race": "Human-Saiyan Hybrid",
     "gender": "Male",
     "description": "El hijo de Goku y Chi-Chi, conocido por su gran potencial oculto.",
-    "image": "https://dragonball-api.com/characters/gohan.webp",
+    "image": "https://static.wikia.nocookie.net/featteca/images/7/72/Kid-gohan.png/revision/latest?cb=20210924150825&path-prefix=es",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -241,7 +241,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El padre de Chi-Chi y un antiguo estudiante del Maestro Roshi.",
-    "image": "https://dragonball-api.com/characters/ox_king.webp",
+    "image": "https://static.wikia.nocookie.net/teamfourstar/images/2/24/Ox-King-psd61345.png/revision/latest?cb=20130627212350",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
