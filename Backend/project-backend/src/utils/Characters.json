@@ -6,7 +6,7 @@
     "race": "Saiyan",
     "gender": "Male",
     "description": "El protagonista de la serie, conocido por su gran poder y personalidad amigable.",
-    "image": "https://postimg.cc/RqhMRLXS",
+    "image": "/assets/pj/goku.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Vegeta",
@@ -17,32 +17,32 @@
     "transformations": [
       {
         "name": "Goku SSJ",
-        "image": "https://w7.pngwing.com/pngs/123/322/png-transparent-goku-gohan-trunks-vegeta-super-saiyan-goku-fictional-character-trunks-cartoon.png",
+        "image": "/assets/transformations/gokuSSJ1.png",
         "ki": "150 Million"
       },
       {
         "name": "Goku SSJ2",
-        "image": "https://static.wikia.nocookie.net/dragonballmultiverse/images/5/5e/250px-Goku_super_saiyajin_2.png/revision/latest?cb=20120703213320&path-prefix=es",
+        "image": "/assets/transformations/Goku_super2.webp",
         "ki": "300 Million"
       },
       {
         "name": "Goku SSJ3",
-        "image": "https://eltallerdehector.com/wp-content/uploads/2022/08/goku-super-saiyan-3.png",
+        "image": "/assets/transformations/gokuSSJ3.png",
         "ki": "4 Billion"
       },
       {
         "name": "Goku SSJ God",
-        "image": "https://i.pinimg.com/originals/71/af/fd/71affd1f5813caed9ad3aa7013bf143e.png",
+        "image": "/assets/transformations/gokuSSJGod.png",
         "ki": "1 Trillion"
       },
       {
         "name": "Goku SSJ Blue",
-        "image": "https://w7.pngwing.com/pngs/189/223/png-transparent-goku-vegeta-kai%C5%8D-super-saiyan-beerus-dragonball-evolution-manga-fictional-character-cartoon.png",
+        "image": "/assets/transformations/GokuSSJBlue.png",
         "ki": "200 Quintillion"
       },
       {
         "name": "Goku Ultra Instinct",
-        "image": "https://w7.pngwing.com/pngs/426/286/png-transparent-goku-ultra-instinct-thumbnail.png",
+        "image": "/assets/transformations/GokuUltraInstint.png",
         "ki": "Over 20 Quintillion"
       }
     ]

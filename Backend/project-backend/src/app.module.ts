@@ -6,6 +6,8 @@ import typeOrmConfig from './config/typeorm';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { CharactersModule } from './modules/characters/Characters.module';
 import { PlanetsModule } from './modules/planets/Planets.module';
+import { ServeStaticModule } from '@nestjs/serve-static';
+import { join } from 'path';
 
 @Module({
   imports: [
@@ -17,6 +19,10 @@ import { PlanetsModule } from './modules/planets/Planets.module';
       inject: [ConfigService],
       useFactory: (ConfigService: ConfigService) =>
         ConfigService.get('typeorm'),
+    }),
+    ServeStaticModule.forRoot({
+      rootPath: join(__dirname, '..', 'src', 'assets'),
+      serveRoot: '/assets',
     }),
     CharactersModule,
     PlanetsModule,

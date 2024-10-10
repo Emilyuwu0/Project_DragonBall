@@ -240,7 +240,7 @@ export default function Characters() {
                           onClick={() => handleRedirectItemCard(character.id)} // Redirige al hacer clic
                         >
                           <img
-                            src={character.image}
+                            src={`http://localhost:4000${character.image}`}
                             className="image-characters"
                             alt={character.name}
                           />

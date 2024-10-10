@@ -38,7 +38,7 @@ export default function CharacterDetail() {
             <h1 className="title-gradient-left titles-mobile">
               {character.name}
             </h1>
-            <img src={character.image} alt={character.name} className="image-view-characters " />
+            <img src={`http://localhost:4000${character.image}`} alt={character.name} className="image-view-characters " />
             <p>Ki: {character.ki}</p>
             <p>Max Ki: {character.max_ki || character.ki}</p>
           </div>
@@ -65,7 +65,7 @@ export default function CharacterDetail() {
                     <div className="main-content">
                       <div className="header-cards">
                         <img
-                          src={item.image}
+                          src={`http://localhost:4000/${item.image}`}
                           className="image-characters"
                           alt={item.name}
                         />

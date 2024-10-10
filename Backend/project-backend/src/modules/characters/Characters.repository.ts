@@ -24,6 +24,8 @@ export class CharactersRepository {
       const planet = planets.find((p) => p.name === element.originPlanet.name);
 
       if (planet) {
+        const characterImageFileName = element.image.split('/').pop();
+
         const newCharacter = this.characterDBRepository.create({
           name: element.name,
           ki: element.ki,
@@ -31,7 +33,7 @@ export class CharactersRepository {
           race: element.race,
           gender: element.gender,
           description: element.description,
-          image: element.image,
+          image: characterImageFileName,
           affiliation: element.affiliation,
           originPlanet: planet,
         });
@@ -39,9 +41,12 @@ export class CharactersRepository {
           await this.characterDBRepository.save(newCharacter);
 
         for (const transformation of element.transformations) {
+          const transformationImageFileName = transformation.image
+            .split('/')
+            .pop();
           const newTransformation = this.transformationRepository.create({
             name: transformation.name,
-            image: transformation.image,
+            image: transformationImageFileName,
             ki: transformation.ki,
             character: savedCharacters,
           });
@@ -79,7 +84,7 @@ export class CharactersRepository {
       return {
         id: element.id,
         name: element.name,
-        image: element.image,
+        image: `/assets/pj/${element.image}`,
         ki: element.ki,
         maxKi: element.maxKi,
         race: element.race,
