@@ -60,7 +60,7 @@ export default function Index() {
                 Indaga en la
                 <span className="highlight text-degrade"> información</span>
               </h1>
-              <p className="button-spacing subtitle-about margin-bottom-min ">
+              <p className="button-spacing subtitle-about margin-bottom-min subtitle-about-mobile  ">
                 Es una popular serie de manga y anime creada por Akira Toriyama.
                 La historia sigue las aventuras de Goku, un guerrero con
                 habilidades sobrehumanas, mientras busca las Esferas del Dragón,

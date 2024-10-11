@@ -97,7 +97,8 @@ export default function Planets() {
               </Link>
             </div>
             <div className="div-right">
-              <div className="div-planets">
+            <div className="div-father-planets-right">
+                 <div className="div-planets">
                 <div className="main">
                   <div className="randar-box">
                     <input
@@ -124,6 +125,8 @@ export default function Planets() {
                   </span>
                 </p>
               </div>
+            </div>
+           
             </div>
           </div>
         </div>{" "}

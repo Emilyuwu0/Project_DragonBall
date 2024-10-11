@@ -1,9 +1,5 @@
 :root {
     /** color system **/
-   
- 
-  
-
 
     /** planet's radius **/
     /* ♂ Mars real radius ≈ 3389.5km. */
@@ -26,9 +22,9 @@
     /** units **/
     --system-margin-mars: 18.25rem;
     --system-margin-earth: 2.1875rem;
-    --system-margin-venus: .9375rem;
+    --system-margin-venus: 0.9375rem;
     --system-margin-mercury: 2.375rem;
-    --system-border-width: min(.125rem, 0.4dvmin);
+    --system-border-width: min(0.125rem, 0.4dvmin);
 }
 
 *,
@@ -40,14 +36,12 @@
     padding: 0;
 }
 
-
-
 /* ☛ ⚠ The distances between the planets and the Sun are not respected because of the diameter of it.
      Also note that for aesthetic reasons, the planet's trajectories are not elliptical and are not oriented as they should be. */
 
 .solar-system {
     padding: 4em;
-/*     margin-top: 2.5rem; */
+    /*     margin-top: 2.5rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,8 +59,8 @@
     border-radius: 50%;
     background-color: var(--color-secondary);
     background: linear-gradient(135deg, var(--color-secondary) 20%, transparent);
-    filter: drop-shadow(0rem 0rem .125rem var(--color-secondary)) blur(.0625rem);
-    -webkit-filter: drop-shadow(0rem 0rem .125rem var(--color-secondary)) blur(.0625rem);
+    filter: drop-shadow(0rem 0rem 0.125rem var(--color-secondary)) blur(0.0625rem);
+    -webkit-filter: drop-shadow(0rem 0rem 0.125rem var(--color-secondary)) blur(0.0625rem);
     transform: skewX(45deg);
     -webkit-transform: skewX(45deg);
 }
@@ -80,9 +74,9 @@
     aspect-ratio: 1;
     border-radius: 50%;
     background: transparent;
-    border-width: var( --color-secondary-optio);
+    border-width: var(--color-secondary-optio);
     border-style: solid;
-    border-color: var( --color-secondary-optio);
+    border-color: var(--color-secondary-optio);
 }
 
 .solar-system article:not(.solar-system__sun)::after {
@@ -91,8 +85,8 @@
     inline-size: 40%;
     border-radius: 50%;
     background: var(--color-secondary);
-    -webkit-filter: drop-shadow(0rem 0rem .3rem var(--color-accent)) blur(.0313rem);
-    filter: drop-shadow(0rem 0rem .3rem var(--color-accent)) blur(.0313rem);
+    -webkit-filter: drop-shadow(0rem 0rem 0.3rem var(--color-accent)) blur(0.0313rem);
+    filter: drop-shadow(0rem 0rem 0.3rem var(--color-accent)) blur(0.0313rem);
 }
 
 .solar-system section {
@@ -102,7 +96,7 @@
     border-radius: 50%;
     border-width: var(--system-border-width);
     border-style: solid;
-    border-color: var(  --bg-card-into-optional);
+    border-color: var(--bg-card-into-optional);
 }
 
 .solar-system .solar-system__mercury-trajectory {
@@ -234,7 +228,7 @@
 
     .solar-system .solar-system__venus-trajectory .solar-system__venus-trajectory__venus {
         inline-size: calc(var(--planet-radius-venus) / 2);
-        top: calc(var(--system-margin-venus) - .5625rem);
+        top: calc(var(--system-margin-venus) - 0.5625rem);
     }
 
     .solar-system .solar-system__earth-trajectory {
@@ -271,8 +265,6 @@
   }
   */
 
-
-
 /* Tabs */
 
 .margin-div-universe {
@@ -285,7 +277,6 @@
     width: 100%;
     margin-bottom: 4rem;
 }
-
 
 .window {
     width: 100%;
@@ -308,7 +299,6 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom: 1px solid var(--bg-card-into-optional);
-
 }
 
 .image-planets {
@@ -332,11 +322,7 @@
     padding: 0rem 4rem;
 }
 
-@media (max-width: 768px) {
-    .column-p {
-        flex-basis: 100%;
-    }
-}
+
 
 /* .tabs {
     flex-grow: 1;
@@ -444,6 +430,132 @@ li button {
     pointer-events: none;
 }
 
-.margin-top-planets{
+.margin-top-planets {
     margin-top: 10rem;
 }
+
+.left-description-planets {
+    width: 100%;
+    max-width: 80%;
+    text-align: center;
+    color: var(--color-subtext);
+    text-align: left;
+}
+
+
+.select-planets {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid var(--bg-card-into-optional);
+    border-radius: 5px;
+    background-color: var(--color-secondary);
+    color: white;
+    outline: none;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.select-planets:focus {
+    border-color: black;
+    box-shadow: 0 0 5px rgba(53, 122, 189, 0.5);
+}
+
+.select-planets option {
+    padding: 10px;
+    background-color: var(--bg-card-into-optional);
+    color: white;
+    border: 0px;
+}
+
+.select-planets option:hover {
+    background-color: #eee;
+}
+
+
+@media (max-width: 480px) {
+    .title-tabs-p {
+        margin-top: 2rem;
+    }
+
+    .left-description-planets {
+  
+        margin-bottom: 2rem;
+    }
+
+    .container-tabs-p {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .column-p {
+        padding: 0.2rem;
+        text-align: center;
+        margin: auto;
+        display: contents;
+    }
+
+    .title-tabs-p {
+        text-align: center;
+    }
+
+    .image-planets {
+        margin-bottom: 4rem;
+    }
+
+    .solar-system {
+
+        inline-size: 60%;
+        block-size: 67%;
+        margin: auto;
+    }
+
+    .solar-system .solar-system__mars-trajectory {
+        width: 9rem;
+    }
+
+}
+/* 
+@media (max-width: 768px) {
+    .column-p {
+        flex-basis: 100%;
+    }
+
+    .margin-top-planets {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .margin-top-min-planets {
+        margin-top: 2rem !important;
+    }
+
+    .container-tabs-p {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .column-p {
+        padding: 0.2rem;
+        text-align: center;
+        margin: auto;
+        display: contents;
+    }
+
+    .left-description-planets {
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1300px) {
+    .margin-top-planets{
+        flex-direction: column;
+    }
+    .solar-system {
+    
+        width: 25rem;
+        margin: auto;
+    }
+} */

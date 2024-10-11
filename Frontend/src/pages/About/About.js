@@ -67,14 +67,14 @@ export default function Index() {
       </div>{" "}
       {/*  Dragon ball */}
       <div className="parents" id="about">
-        <div className="content-parents border-div padding-max-about flex-column">
+        <div className="content-parents border-div padding-max-about flex-column flex-column-mobile">
           <div className="div-left ">
             <span className="title-head-section "> 1986-1989</span>
             <h1 className="title-gradient-left titles-mobile">
               Dragon
               <span className="highlight text-degrade"> Ball</span>
             </h1>
-            <p className="button-spacing subtitle-about margin-bottom-min ">
+            <p className="button-spacing subtitle-about margin-bottom-min margin-top-min">
               Gokū, un niño con una cola de mono, en su aventura para encontrar
               las Esferas del Dragón junto a Bulma. Durante el camino, Gokū
               entrena en artes marciales, participa en torneos y enfrenta a
@@ -167,7 +167,7 @@ export default function Index() {
               Dragon
               <span className="highlight text-degrade"> Ball Z</span>
             </h1>
-            <p className="button-spacing subtitle-about margin-bottom-min ">
+            <p className="button-spacing subtitle-about margin-bottom-min margin-top-min">
               Sigue las aventuras de Gokū y los Guerreros Z mientras defienden
               la Tierra de poderosos enemigos, como los Saiyajins, Freezer, los
               Androides, Cell y Majin Buu. A lo largo de la serie, los
@@ -199,7 +199,7 @@ export default function Index() {
           <div className="div-cards-gt padding-min">
             {Series.filter((item) => item.saga === "Dragon Ball GT").map(
               (item) => (
-                <div className="notification div-cards-gt">
+                <div className="notification div-cards-gt notification-gt">
                   <div className="notiglow"></div>
                   <div className="notiborderglow"></div>
                   <div className="notititle">
@@ -241,7 +241,7 @@ export default function Index() {
               Dragon
               <span className="highlight text-degrade"> Ball Super</span>
             </h1>
-            <p className="button-spacing subtitle-about margin-bottom-min ">
+            <p className="button-spacing subtitle-about margin-bottom-min margin-top-min">
               Tras la derrota de Majin Buu. La serie introduce nuevos enemigos y
               aliados, como Bills, el Dios de la Destrucción, y Goku Black, un
               misterioso villano. Gokū y Vegeta alcanzan nuevas
