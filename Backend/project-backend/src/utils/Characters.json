@@ -377,7 +377,7 @@
     "race": "Anthropomorphic Dog",
     "gender": "Male",
     "description": "Un ninja torpe que sirve a Pilaf.",
-    "image": "https://dragonball-api.com/characters/shu.webp",
+    "image": "/assets/pj/Shu.png",
     "affiliation": "Pilaf Gang",
     "originPlanet": {
       "name": "Earth",
@@ -394,7 +394,7 @@
     "race": "Genie",
     "gender": "Male",
     "description": "El asistente de Kami y protector del Templo Sagrado.",
-    "image": "https://dragonball-api.com/characters/mr_popo.webp",
+    "image": "/assets/pj/MrPopo.webp",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -411,7 +411,7 @@
     "race": "Namekian",
     "gender": "Male",
     "description": "El antiguo guardián de la Tierra y creador de las esferas del dragón.",
-    "image": "https://dragonball-api.com/characters/kami.webp",
+    "image": "/assets/pj/Kami.webp",
     "affiliation": "None",
     "originPlanet": {
       "name": "Namek",
@@ -428,7 +428,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El padre de Bulma y el inventor de la tecnología Capsule.",
-    "image": "https://dragonball-api.com/characters/dr_briefs.webp",
+    "image": "/assets/pj/DrBrief.webp",
     "affiliation": "Capsule Corporation",
     "originPlanet": {
       "name": "Earth",
@@ -445,7 +445,7 @@
     "race": "Saiyan",
     "gender": "Male",
     "description": "El rey de los Saiyans y padre del Príncipe Vegeta.",
-    "image": "https://dragonball-api.com/characters/king_vegeta.webp",
+    "image": "/assets/pj/KingVegeta.webp",
     "affiliation": "Saiyan Royal Family",
     "originPlanet": {
       "name": "Vegeta",
@@ -462,7 +462,7 @@
     "race": "Saiyan-Human Hybrid",
     "gender": "Male",
     "description": "Hijo de Goku y Chi-Chi, Gohan es un híbrido saiyan-human con un inmenso poder latente. A lo largo de su vida, Gohan se convierte en uno de los guerreros más fuertes de la Tierra, pero prefiere una vida tranquila como académico. Su furia es la clave para liberar su verdadero potencial.",
-    "image": "https://postimg.cc/PC8XsW7W",
+    "image": "/assets/pj/Gohan.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -473,17 +473,17 @@
     "transformations": [
       {
         "name": "Gohan SSJ",
-        "image": "https://dragonball-api.com/transformaciones/gohan_ssj.webp",
+        "image": "/assets/transformations/GohanSSJ.png",
         "ki": "5 Billion"
       },
       {
         "name": "Gohan SSJ2",
-        "image": "https://dragonball-api.com/transformaciones/gohan_ssj2.webp",
+        "image": "/assets/transformations/GohanSSJ2.png",
         "ki": "15 Billion"
       },
       {
         "name": "Gohan Ultimate",
-        "image": "https://dragonball-api.com/transformaciones/gohan_ultimate.webp",
+        "image": "/assets/transformations/GohanUltimate.png",
         "ki": "100 Quadrillion"
       }
     ]
@@ -495,7 +495,7 @@
     "race": "Saiyan",
     "gender": "Male",
     "description": "El príncipe de los Saiyans, Vegeta es uno de los guerreros más poderosos del universo. Aunque inicialmente es un antagonista, más tarde se convierte en un aliado y rival de Goku. Vegeta se caracteriza por su orgullo y deseo de ser el más fuerte.",
-    "image": "https://postimg.cc/LnbtQDtm",
+    "image": "/assets/pj/Vegeta.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Vegeta",
@@ -506,17 +506,17 @@
     "transformations": [
       {
         "name": "Vegeta SSJ",
-        "image": "https://dragonball-api.com/transformaciones/vegeta_ssj.webp",
+        "image": "/assets/transformations/VegetaSSJ.png",
         "ki": "4 Billion"
       },
       {
         "name": "Vegeta SSJ2",
-        "image": "https://dragonball-api.com/transformaciones/vegeta_ssj2.webp",
+        "image": "/assets/transformations/VegetaSSJ2.png",
         "ki": "8 Billion"
       },
       {
         "name": "Vegeta SSJ Blue",
-        "image": "https://dragonball-api.com/transformaciones/vegeta_ssjb.webp",
+        "image": "/assets/transformations/VegetaSSJBlue.png",
         "ki": "200 Quintillion"
       }
     ]
@@ -528,7 +528,7 @@
     "race": "Saiyan",
     "gender": "Male",
     "description": "Nappa es un saiyan de alto rango que acompaña a Vegeta en su misión para conquistar la Tierra. Aunque poderoso, es superado por los Guerreros Z y finalmente traicionado por Vegeta.",
-    "image": "https://dragonball-api.com/characters/nappa.webp",
+    "image": "/assets/pj/Nappa.png",
     "affiliation": "Saiyan Army",
     "originPlanet": {
       "name": "Vegeta",
@@ -545,7 +545,7 @@
     "race": "Saiyan",
     "gender": "Male",
     "description": "Hermano mayor de Goku, Raditz es un saiyan de baja clase que llega a la Tierra para forzar a Goku a unirse a la conquista del universo. Es derrotado por Goku y Piccolo en un acto de sacrificio.",
-    "image": "https://dragonball-api.com/characters/raditz.webp",
+    "image": "/assets/pj/Raditz.png",
     "affiliation": "Saiyan Army",
     "originPlanet": {
       "name": "Vegeta",
@@ -562,7 +562,7 @@
     "race": "Namekian",
     "gender": "Male",
     "description": "Piccolo es un guerrero Namekian y ex enemigo de Goku, que luego se convierte en uno de sus aliados más fuertes. Es el mentor de Gohan y uno de los luchadores más sabios y estratégicos en la defensa de la Tierra.",
-    "image": "https://dragonball-api.com/characters/piccolo.webp",
+    "image": "/assets/pj/Piccolo.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Namek",
@@ -579,7 +579,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "Freezer es el emperador del universo que gobierna con mano de hierro y es responsable de la destrucción del planeta Vegeta. Es uno de los enemigos más icónicos de Goku y los Guerreros Z.",
-    "image": "https://dragonball-api.com/characters/freezer.webp",
+    "image": "/assets/pj/Freezer.png",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -590,12 +590,12 @@
     "transformations": [
       {
         "name": "Freezer Final Form",
-        "image": "https://dragonball-api.com/transformaciones/freezer_final.webp",
+        "image": "/assets/transformations/FreezerFinalForm.png",
         "ki": "120 Million"
       },
       {
         "name": "Golden Freezer",
-        "image": "https://dragonball-api.com/transformaciones/golden_freezer.webp",
+        "image": "/assets/transformations/GoldenFreezer.png",
         "ki": "100 Quintillion"
       }
     ]
@@ -607,7 +607,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "Zarbon es uno de los comandantes de élite de Freezer, conocido tanto por su apariencia como por su poder. Puede transformarse en una versión más poderosa pero menos atractiva de sí mismo.",
-    "image": "https://dragonball-api.com/characters/zarbon.webp",
+    "image": "/assets/pj/Zarbon.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -618,7 +618,7 @@
     "transformations": [
       {
         "name": "Zarbon Transformed",
-        "image": "https://dragonball-api.com/transformaciones/zarbon_transformed.webp",
+        "image": "/assets/transformations/ZarbonTransformed.png",
         "ki": "55.000"
       }
     ]
@@ -630,7 +630,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "Dodoria es un guerrero corpulento y brutal que sirve como uno de los principales secuaces de Freezer. Es conocido por su fuerza física y su falta de compasión.",
-    "image": "https://dragonball-api.com/characters/dodoria.webp",
+    "image": "/assets/pj/Dodoria.png",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -647,7 +647,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "El Capitán Ginyu es el líder del escuadrón de élite de Freezer, las Fuerzas Especiales Ginyu. Es un maestro del cambio de cuerpo, lo que le permite tomar el control de cuerpos más fuertes para mejorar su poder.",
-    "image": "https://dragonball-api.com/characters/capitan_ginyu.webp",
+    "image": "/assets/pj/CapitanGinyu.png",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -664,7 +664,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "Recoome es uno de los miembros más poderosos de las Fuerzas Especiales Ginyu, famoso por su fuerza bruta y su capacidad de recibir grandes cantidades de daño sin ser derrotado.",
-    "image": "https://dragonball-api.com/characters/recoome.webp",
+    "image": "/assets/pj/Recoome.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -681,7 +681,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "Jeice es uno de los miembros de las Fuerzas Especiales Ginyu, conocido por su velocidad y su lucha en equipo junto a Burter. Su apariencia y acento lo distinguen de los demás.",
-    "image": "https://dragonball-api.com/characters/jeice.webp",
+    "image": "/assets/pj/Jeice.png",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -698,7 +698,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "Burter es uno de los guerreros más rápidos de las Fuerzas Especiales Ginyu. Su velocidad es su mayor ventaja en combate, y normalmente lucha en tándem con Jeice.",
-    "image": "https://dragonball-api.com/characters/burter.webp",
+    "image": "/assets/pj/Burter.png",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -715,7 +715,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "Guldo es el miembro más débil de las Fuerzas Especiales Ginyu, pero compensa su falta de fuerza con la habilidad de detener el tiempo brevemente, lo que le da una ventaja estratégica en combate.",
-    "image": "https://dragonball-api.com/characters/guldo.webp",
+    "image": "/assets/pj/Guldo.png",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -732,7 +732,7 @@
     "race": "Saiyan",
     "gender": "Male",
     "description": "Trunks es el hijo de Vegeta y Bulma, que viaja desde el futuro para advertir a los Guerreros Z sobre la amenaza de los androides. Es un poderoso luchador y capaz de transformarse en Super Saiyan.",
-    "image": "https://dragonball-api.com/characters/future_trunks.webp",
+    "image": "/assets/pj/TrunksFuturo.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -744,7 +744,7 @@
       {
         "id": 1,
         "name": "Super Saiyan",
-        "image": "https://dragonball-api.com/transformaciones/super_saiyan.webp",
+        "image": "/assets/transformations/TrunksSSJ2.webp",
         "ki": "50 Million"
       }
     ]
@@ -756,7 +756,7 @@
     "race": "Android",
     "gender": "Male",
     "description": "El Androide 16 es un androide creado por el Dr. Gero, diseñado para ser pacífico, pero extremadamente poderoso en combate. Está programado para destruir a Goku, pero desarrolla una conexión con la naturaleza.",
-    "image": "https://dragonball-api.com/characters/android_16.webp",
+    "image": "/assets/pj/Androide16.png",
     "affiliation": "Red Ribbon Army",
     "originPlanet": {
       "name": "Earth",
@@ -773,7 +773,7 @@
     "race": "Android",
     "gender": "Male",
     "description": "El Androide 17 es uno de los androides creados por el Dr. Gero, originalmente con el objetivo de destruir a Goku. Sin embargo, más tarde se vuelve independiente y ayuda a proteger la Tierra.",
-    "image": "https://dragonball-api.com/characters/android_17.webp",
+    "image": "/assets/pj/Androide17.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -790,7 +790,7 @@
     "race": "Android",
     "gender": "Female",
     "description": "El Androide 18 es la hermana gemela del Androide 17, creada por el Dr. Gero. Tras ser derrotada por los Guerreros Z, eventualmente se casa con Krillin y se convierte en una aliada.",
-    "image": "https://dragonball-api.com/characters/android_18.webp",
+    "image": "/assets/pj/Androide18.png",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
