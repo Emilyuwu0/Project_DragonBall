@@ -10,6 +10,8 @@ export default function Planets() {
   const [selectedTab, setSelectedTab] = useState(null);
   const windowWidth = useWindowSize();
   const isMobile = windowWidth < 788;
+
+
   useEffect(() => {
     fetch("https://dragonball-api.com/api/planets")
       .then((response) => response.json())
@@ -19,11 +21,12 @@ export default function Planets() {
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
+  
   return (
     <div>
       <NavbarComponent />
       <div className="parents margin-top-min margin-bottom-min">
-        <div className="content-parents border-div padding-max margin-top-planets">
+        <div className="content-parents border-div padding-max margin-top-planets padding-mobile">
           <div className="div-left ">
             {" "}
             <h1 className="title-gradient-left titles-mobile margin-top-min">

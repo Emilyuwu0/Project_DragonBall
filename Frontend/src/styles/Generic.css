@@ -51,12 +51,14 @@ p {
   color: var(--background);
   font-size: 4em;
   text-align: center;
+  margin-bottom: 2rem !important;
 }
 
 .title-gradient-left {
   color: var(--background);
   font-size: 4em;
   text-align: left;
+  margin-bottom: 2rem !important;
 }
 
 .text-degrade {
@@ -148,7 +150,7 @@ p {
   border-radius: 40px;
   text-align: center;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .title-head-section-centered {
@@ -164,6 +166,7 @@ p {
   margin-bottom: 1rem;
   margin: auto;
   margin-top: 6rem;
+  margin-bottom: 3rem;
 }
 
 .button-colors {
@@ -203,7 +206,7 @@ p {
 .framer-blur {
   -webkit-filter: blur(62px);
   background-color: #fa691b1d;
-  bottom: -36rem;
+  bottom: -24rem;
   filter: blur(62px);
   flex: none;
   height: 735px;
@@ -211,7 +214,7 @@ p {
   position: absolute;
   transform: rotate(-90deg);
   width: 212px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .framer-blur-pj {
@@ -400,6 +403,7 @@ p {
     height: 2.5rem;
     text-align: center;
     margin: auto;
+    margin-bottom: 3rem;
   }
 
   .title-head-section-centered {
@@ -458,11 +462,13 @@ p {
     text-align: center;
     margin: auto;
     max-width: 12rem;
+    margin-bottom: 2rem;
   }
 
   .title-gradient-left {
     text-align: center;
     font-size: 3rem;
+    margin-bottom: 2rem !important;
   }
 
   .subtitle-about {
@@ -505,7 +511,7 @@ p {
 @media (min-width: 1024px) and (max-width: 1200px) {
   .title-head-section {
     text-align: center;
-    margin: auto;
+margin: auto;
     max-height: 12rem;
   }
 
@@ -544,6 +550,9 @@ p {
   }
   .subtitle-about-mobile {
     text-align: center;
+  }
+  .padding-max {
+    padding: 2rem;
   }
 }
 

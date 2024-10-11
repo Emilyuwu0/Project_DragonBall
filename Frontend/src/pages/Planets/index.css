@@ -40,7 +40,7 @@
      Also note that for aesthetic reasons, the planet's trajectories are not elliptical and are not oriented as they should be. */
 
 .solar-system {
-    padding: 4em;
+    padding: 6em;
     /*     margin-top: 2.5rem; */
     display: flex;
     justify-content: center;
@@ -454,6 +454,7 @@ li button {
     outline: none;
     transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 
 .select-planets:focus {
@@ -559,3 +560,18 @@ li button {
         margin: auto;
     }
 } */
+@media (min-width: 700px) and (max-width: 1020px) {
+.solar-system{
+    padding: 10rem;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1480px) {
+    .solar-system{
+        margin-top: 2rem;
+        padding: 12rem;
+    }
+     .solar-system__mercury-trajectory{
+        width: 10rem;
+    }
+}
