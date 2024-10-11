@@ -504,6 +504,11 @@ input[type="radio"]:checked+.tab-filter {
         grid-template-columns: repeat(1, 1fr);
         padding: 0;
     }
+
+    .img-character{
+        width: 15rem;
+
+    }
 }
 
 @media (min-width: 700px) and (max-width: 1020px) {
