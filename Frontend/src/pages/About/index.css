@@ -596,9 +596,9 @@
 }
 
 @media (min-width: 1210px) and (max-width: 1500px) {
-  .flex-column {
+/*   .flex-column {
     flex-direction: column;
-  }
+  } */
 
   .flex-column-reverse {
     flex-direction: column-reverse;
@@ -640,8 +640,8 @@
   .title-head-section,
   .title-gradient-left,
   .subtitle-about {
-    margin: auto;
-   /*  text-align: center !important; */
+  /*    margin: auto;
+   text-align: center !important; */
     max-height: 30rem;
   }
 }
