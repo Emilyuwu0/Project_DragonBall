@@ -807,7 +807,7 @@
     "race": "Bio-Android",
     "gender": "Male",
     "description": "Cell es un bio-androide creado por el Dr. Gero utilizando las células de varios guerreros poderosos, incluyendo Goku, Vegeta, Piccolo, y Freezer. Su objetivo es alcanzar la perfección y destruir todo.",
-    "image": "https://dragonball-api.com/characters/cell.webp",
+    "image": "/assets/pj/cell.png",
     "affiliation": "Red Ribbon Army",
     "originPlanet": {
       "name": "Earth",
@@ -818,7 +818,7 @@
     "transformations": [
       {
         "name": "Cell Perfecto",
-        "image": "https://dragonball-api.com/transformaciones/cell_perfecto.webp",
+        "image": "/assets/transformations/cellPerfecto.png",
         "ki": "50 Billion"
       }
     ]
@@ -830,7 +830,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Mr. Satán es el campeón mundial de artes marciales y el autoproclamado salvador de la Tierra. Aunque carece de habilidades comparables a los Guerreros Z, es muy popular entre los humanos.",
-    "image": "https://dragonball-api.com/characters/mr_satan.webp",
+    "image": "/assets/pj/MrSatan.png",
     "affiliation": "World Martial Arts",
     "originPlanet": {
       "name": "Earth",
@@ -847,7 +847,7 @@
     "race": "Majin",
     "gender": "Male",
     "description": "Majin Buu es una entidad malévola creada hace millones de años por el mago Bibidi. Con el tiempo, adopta varias formas, desde el Majin Buu gordo y amable hasta el malvado Super Buu y Kid Buu.",
-    "image": "https://dragonball-api.com/characters/majin_buu.webp",
+    "image": "/assets/pj/MajinBuu.png",
     "affiliation": "Babidi's Army",
     "originPlanet": {
       "name": "Unknown",
@@ -857,23 +857,18 @@
     },
     "transformations": [
       {
-        "name": "Fat Buu",
-        "image": "https://dragonball-api.com/transformaciones/fat_buu.webp",
-        "ki": "Infinite"
-      },
-      {
         "name": "Evil Buu",
-        "image": "https://dragonball-api.com/transformaciones/evil_buu.webp",
+        "image": "/assets/transformations/EvilBuu.png",
         "ki": "Infinite"
       },
       {
         "name": "Super Buu",
-        "image": "https://dragonball-api.com/transformaciones/super_buu.webp",
+        "image": "/assets/transformations/SuperBuu.png",
         "ki": "Infinite"
       },
       {
         "name": "Kid Buu",
-        "image": "https://dragonball-api.com/transformaciones/kid_buu.webp",
+        "image": "/assets/transformations/KidBuu.png",
         "ki": "Infinite"
       }
     ]
@@ -885,7 +880,7 @@
     "race": "Namekian",
     "gender": "Male",
     "description": "Dende es un Namekiano con habilidades curativas que se convierte en el nuevo Dios de la Tierra después de la muerte de Kami. También juega un papel crucial en la creación de las Esferas del Dragón de la Tierra.",
-    "image": "https://dragonball-api.com/characters/dende.webp",
+    "image": "/assets/pj/Dende.png",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Namek",
@@ -902,7 +897,7 @@
     "race": "Shinjin",
     "gender": "Male",
     "description": "Kibito es el asistente personal de Kaio Shin. Tiene habilidades de teletransportación y curación. Más tarde, se fusiona con Kaio Shin para formar Kibitoshin.",
-    "image": "https://dragonball-api.com/characters/kibito.webp",
+    "image": "/assets/pj/Kibito.png",
     "affiliation": "Kaioshin",
     "originPlanet": {
       "name": "World of the Kais",
@@ -919,7 +914,7 @@
     "race": "Shinjin",
     "gender": "Male",
     "description": "Kaio Shin es uno de los dioses supremos del universo que supervisa la protección del mismo. Durante la saga de Majin Buu, trabaja junto con Goku y los demás para derrotar a Buu.",
-    "image": "https://dragonball-api.com/characters/kaioshin.webp",
+    "image": "/assets/pj/KaioShin.png",
     "affiliation": "Kaioshin",
     "originPlanet": {
       "name": "World of the Kais",
@@ -930,30 +925,13 @@
     "transformations": []
   },
   {
-    "name": "Tenshinhan",
-    "ki": "1.800",
-    "maxKi": "3.000",
-    "race": "Human",
-    "gender": "Male",
-    "description": "Tenshinhan es un guerrero humanoide que se entrena junto a su mejor amigo, Chaoz. Es conocido por su técnica de combate de múltiples brazos y su habilidad en artes marciales.",
-    "image": "https://dragonball-api.com/characters/tenshinhan.webp",
-    "affiliation": "Z Fighter",
-    "originPlanet": {
-      "name": "Earth",
-      "isDestroyed": false,
-      "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp"
-    },
-    "transformations": []
-  },
-  {
     "name": "Korin",
     "ki": "1.200",
     "maxKi": "Unknown",
     "race": "Cat",
     "gender": "Male",
     "description": "Korin es un gato inmortal que vive en la Torre Korin. Es un maestro que entrenó a Goku y otros guerreros. También es el guardián de las Semillas del Ermitaño, que son esenciales para la recuperación rápida.",
-    "image": "https://dragonball-api.com/characters/korin.webp",
+    "image": "/assets/pj/Korin.png",
     "affiliation": "Earth's Guardians",
     "originPlanet": {
       "name": "Earth",
@@ -970,7 +948,7 @@
     "race": "Sorcerer",
     "gender": "Male",
     "description": "Babidi es un mago maligno que busca revivir a Majin Buu para dominar el universo. Es el hijo de Bibidi y utiliza el poder de la magia para controlar a los guerreros más fuertes.",
-    "image": "https://dragonball-api.com/characters/babidi.webp",
+    "image": "/assets/pj/Babidi.png",
     "affiliation": "Majin Buu",
     "originPlanet": {
       "name": "Unknown",
@@ -987,7 +965,7 @@
     "race": "Demon",
     "gender": "Male",
     "description": "Dabura es el rey del Mundo de los Demonios y el principal sirviente de Babidi. Tiene la habilidad de convertir a sus enemigos en piedra mediante su saliva y es un combatiente formidable.",
-    "image": "https://dragonball-api.com/characters/dabura.webp",
+    "image": "/assets/pj/Dabura.png",
     "affiliation": "Majin Buu",
     "originPlanet": {
       "name": "Demon Realm",
@@ -1004,7 +982,7 @@
     "race": "Saiyan/Human hybrid",
     "gender": "Male",
     "description": "Goten es el segundo hijo de Goku y Chi-Chi. Aunque es joven, muestra un gran potencial en combate, al punto de alcanzar la forma de Super Saiyan a una edad temprana.",
-    "image": "https://dragonball-api.com/characters/goten.webp",
+    "image": "/assets/pj/Goten.png",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1017,7 +995,7 @@
         "name": "Goten Super Saiyan",
         "ki": "Unknown",
         "description": "Goten alcanza esta transformación a una edad sorprendentemente joven.",
-        "image": "https://dragonball-api.com/transformations/goten_super_saiyan.webp"
+        "image": "/assets/transformations/GotenSSJ.png"
       }
     ]
   },
@@ -1028,7 +1006,7 @@
     "race": "Human",
     "gender": "Female",
     "description": "Videl es la hija de Mr. Satán y más tarde se convierte en la esposa de Gohan. Es una luchadora talentosa y valiente, a pesar de no tener las habilidades de los Saiyans.",
-    "image": "https://dragonball-api.com/characters/videl.webp",
+    "image": "/assets/pj/Videl.png",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1045,7 +1023,7 @@
     "race": "Saiyan/Human hybrid",
     "gender": "Female",
     "description": "Pan es la hija de Gohan y Videl. A pesar de su corta edad, muestra gran potencial de combate, heredando las habilidades de lucha de su padre.",
-    "image": "https://dragonball-api.com/characters/pan.webp",
+    "image": "/assets/pj/Pan.png",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1062,25 +1040,8 @@
     "race": "Android (formerly Human)",
     "gender": "Male",
     "description": "Dr. Gero es un científico malvado de la Red Ribbon Army y el creador de muchos androides, incluidos los Androides 17, 18 y Cell. Después de modificar su propio cuerpo, se convierte en Androide 20.",
-    "image": "https://dragonball-api.com/characters/dr_gero.webp",
+    "image": "/assets/pj/DoctorGero.webp",
     "affiliation": "Red Ribbon Army",
-    "originPlanet": {
-      "name": "Earth",
-      "isDestroyed": false,
-      "description": "Planeta natal de la mayoría de los Guerreros Z.",
-      "image": "https://dragonball-api.com/planetas/earth.webp"
-    },
-    "transformations": []
-  },
-  {
-    "name": "Kuririn",
-    "ki": "250.000",
-    "maxKi": "Unknown",
-    "race": "Human",
-    "gender": "Male",
-    "description": "Kuririn (o Krillin) es uno de los amigos más cercanos de Goku y un miembro importante de los Guerreros Z. Aunque no posee las habilidades de un Saiyan, es uno de los humanos más poderosos y un luchador valiente.",
-    "image": "https://dragonball-api.com/characters/krillin.webp",
-    "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
       "isDestroyed": false,
@@ -1096,7 +1057,7 @@
     "race": "Tuffle Parasite",
     "gender": "Male",
     "description": "Baby es un parásito de la raza Tsufurujin, creado con el objetivo de vengar la destrucción de su raza por los Saiyans. Controla los cuerpos de otros seres y se convierte en uno de los mayores antagonistas de Dragon Ball GT.",
-    "image": "https://dragonball-api.com/characters/baby.webp",
+    "image": "/assets/pj/Baby.webp",
     "affiliation": "Tsufurujin",
     "originPlanet": {
       "name": "Planet Tsufuru",
@@ -1107,7 +1068,7 @@
     "transformations": [
       {
         "name": "Baby Vegeta",
-        "image": "https://dragonball-api.com/transformaciones/baby_vegeta.webp",
+        "image": "/assets/transformations/BabyVegeta.png",
         "ki": "200 Billion"
       }
     ]
@@ -1119,7 +1080,7 @@
     "race": "Android",
     "gender": "Male",
     "description": "Super A-17 es la fusión del Androide 17 original con un nuevo Androide 17 creado por el Dr. Myuu y el Dr. Gero, haciéndolo uno de los androides más poderosos y un formidable enemigo en Dragon Ball GT.",
-    "image": "https://dragonball-api.com/characters/super_17.webp",
+    "image": "/assets/pj/Super_Android_17.webp",
     "affiliation": "Machine Mutants",
     "originPlanet": {
       "name": "Earth",
@@ -1136,7 +1097,7 @@
     "race": "Shadow Dragon",
     "gender": "Male",
     "description": "Omega Shenron es el último de los dragones oscuros y el más poderoso, formado por la energía negativa de los deseos realizados con las Dragon Balls.",
-    "image": "https://dragonball-api.com/characters/omega_shenron.webp",
+    "image": "Omega_Shenron.png",
     "affiliation": "Shadow Dragons",
     "originPlanet": {
       "name": "Earth",
@@ -1153,7 +1114,7 @@
     "race": "Human (reincarnated Majin)",
     "gender": "Male",
     "description": "Uub es la reencarnación humana de Kid Buu. Aunque al principio es inexperto, se convierte en un valioso luchador bajo el entrenamiento de Goku.",
-    "image": "https://dragonball-api.com/characters/uub.webp",
+    "image": "/assets/pj/Uub.png",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1164,7 +1125,7 @@
     "transformations": [
       {
         "name": "Majuub",
-        "image": "https://dragonball-api.com/transformaciones/majuub.webp",
+        "image": "/assets/transformations/Majuub.png",
         "ki": "1 Billion"
       }
     ]
@@ -1176,7 +1137,7 @@
     "race": "Saiyan-Human Hybrid",
     "gender": "Male",
     "description": "Goku Jr. es un descendiente lejano de Goku que aparece en los últimos episodios de Dragon Ball GT. Aunque joven y débil, muestra el potencial Saiyan.",
-    "image": "https://dragonball-api.com/characters/goku_jr.webp",
+    "image": "/assets/pj/GokuJr.png",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1193,7 +1154,7 @@
     "race": "Saiyan-Human Hybrid",
     "gender": "Male",
     "description": "Vegeta Jr. es un descendiente lejano de Vegeta, similar a Goku Jr. en poder y potencial. Participa en un torneo de artes marciales en el futuro de Dragon Ball GT.",
-    "image": "https://dragonball-api.com/characters/vegeta_jr.webp",
+    "image": "/assets/pj/VegetaJr.png",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1204,21 +1165,27 @@
     "transformations": []
   },
   {
-    "name": "Trunks",
+    "name": "Trunks (Niño)",
     "ki": "Unknown",
     "maxKi": "Unknown",
-    "race": "Half-Saiyan",
+    "race": "Saiyan/Human hybrid",
     "gender": "Male",
-    "description": "Trunks es el hijo de Vegeta y Bulma, un guerrero fuerte y experimentado que viaja por el espacio en Dragon Ball GT para ayudar a Goku y Pan.",
-    "image": "https://dragonball-api.com/characters/trunks.webp",
+    "description": "Trunks es el hijo de Vegeta y Bulma, perteneciente a la raza Half-Saiyan.",
+    "image": "/assets/pj/Trunks_Niño.png",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
       "isDestroyed": false,
-      "description": "Planeta natal de la mayoría de los Guerreros Z.",
+      "description": "Planeta natal de la mayoría de los Guerreros Z, incluyendo a Trunks.",
       "image": "https://dragonball-api.com/planetas/earth.webp"
     },
-    "transformations": []
+    "transformations": [
+      {
+        "name": "Super Saiyan",
+        "ki": "Desconocido",
+        "image": "/assets/transformations/Trunks_Niño_SSJ.png"
+      }
+    ]
   },
   {
     "name": "Gotenks",
@@ -1227,7 +1194,7 @@
     "race": "Saiyan-Human Hybrid",
     "gender": "Male",
     "description": "Gotenks es la fusión de Goten y Trunks mediante la Danza de la Fusión. Aunque muy poderoso, es impulsivo y tiende a subestimar a sus oponentes.",
-    "image": "https://dragonball-api.com/characters/gotenks.webp",
+    "image": "/assets/pj/Gotenks.png",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1238,7 +1205,7 @@
     "transformations": [
       {
         "name": "Gotenks Super Saiyan 3",
-        "image": "https://dragonball-api.com/transformaciones/gotenks_ssj3.webp",
+        "image": "/assets/transformations/Gotenks_SSJ3.png",
         "ki": "10 Trillion"
       }
     ]
@@ -1250,7 +1217,7 @@
     "race": "Machine Mutant",
     "gender": "Male",
     "description": "Dr. Myuu es el científico detrás de la creación de Baby y otros enemigos poderosos en Dragon Ball GT. Es un genio malvado que busca venganza contra los Saiyans.",
-    "image": "https://dragonball-api.com/characters/dr_myuu.webp",
+    "image": "/assets/pj/Dr_Myuu.webp",
     "affiliation": "Machine Mutants",
     "originPlanet": {
       "name": "M2",
@@ -1267,7 +1234,7 @@
     "race": "Machine Mutant",
     "gender": "Male",
     "description": "General Rilldo es uno de los principales antagonistas en la saga de Baby. Es el general supremo del ejército Machine Mutant y un poderoso guerrero.",
-    "image": "https://dragonball-api.com/characters/general_rilldo.webp",
+    "image": "/assets/pj/General_Rilldo.webp",
     "affiliation": "Machine Mutants",
     "originPlanet": {
       "name": "M2",
@@ -1278,7 +1245,7 @@
     "transformations": [
       {
         "name": "Meta-Rilldo",
-        "image": "https://dragonball-api.com/transformaciones/meta_rilldo.webp",
+        "image": "/assets/transformations/Meta-Rilldo.webp",
         "ki": "2 Billion"
       }
     ]
@@ -1290,7 +1257,7 @@
     "race": "Machine Mutant",
     "gender": "Male",
     "description": "Cardinal Mutchy es un subordinado de Dr. Myuu que comanda el Mutchy Army. Controla a los Mutchy Mutchy, poderosos enemigos que atacan a Goku y sus amigos.",
-    "image": "https://dragonball-api.com/characters/cardinal_mutchy.webp",
+    "image": "/assets/pj/Cardinal_Mutchy.webp",
     "affiliation": "Machine Mutants",
     "originPlanet": {
       "name": "M2",
@@ -1307,7 +1274,7 @@
     "race": "Shadow Dragon",
     "gender": "Male",
     "description": "Eis Shenron es uno de los dragones oscuros nacidos de las Dragon Balls. Representa la bola de tres estrellas y controla el poder del hielo, enfrentándose a Goku.",
-    "image": "https://dragonball-api.com/characters/eis_shenron.webp",
+    "image": "/assets/pj/Eis_Shenron.webp",
     "affiliation": "Shadow Dragons",
     "originPlanet": {
       "name": "Earth",
@@ -1324,7 +1291,7 @@
     "race": "Shadow Dragon",
     "gender": "Male",
     "description": "Nuova Shenron es otro de los dragones oscuros, nacido de la bola de cuatro estrellas. A diferencia de los demás, tiene un sentido del honor y respeto hacia sus enemigos.",
-    "image": "https://dragonball-api.com/characters/nuova_shenron.webp",
+    "image": "/assets/pj/Nuova_Shenron.png",
     "affiliation": "Shadow Dragons",
     "originPlanet": {
       "name": "Earth",
@@ -1341,7 +1308,7 @@
     "race": "Shadow Dragon",
     "gender": "Male",
     "description": "Rage Shenron es el dragón oscuro de la bola de cinco estrellas. Usa la electricidad como su principal arma en combate, pero es derrotado por Goku.",
-    "image": "https://dragonball-api.com/characters/rage_shenron.webp",
+    "image": "/assets/pj/Rage_Shenron.webp",
     "affiliation": "Shadow Dragons",
     "originPlanet": {
       "name": "Earth",
@@ -1358,7 +1325,7 @@
     "race": "Shadow Dragon",
     "gender": "Male",
     "description": "Naturon Shenron es el dragón oscuro de la bola de siete estrellas. Usa el poder de la tierra para manipular su entorno y enfrenta a Goku en una batalla.",
-    "image": "https://dragonball-api.com/characters/naturon_shenron.webp",
+    "image": "/assets/pj/Naturon_Shenron.webp",
     "affiliation": "Shadow Dragons",
     "originPlanet": {
       "name": "Earth",
@@ -1375,7 +1342,7 @@
     "race": "Unknown",
     "gender": "Male",
     "description": "Nazo es un personaje de Dragon Ball GT cuya información es muy escasa. Aparece en material promocional y fuera de la serie principal.",
-    "image": "https://dragonball-api.com/characters/nazo.webp",
+    "image": "/assets/pj/Nazo.png",
     "affiliation": "Unknown",
     "originPlanet": {
       "name": "Earth",
