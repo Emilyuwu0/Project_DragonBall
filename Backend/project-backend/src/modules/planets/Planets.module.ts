@@ -10,4 +10,11 @@ import { PlanetEntity } from 'src/entities/Planets.entity';
   controllers: [PlanetsController],
   providers: [PlanetsService, PlanetsRepository],
 })
-export class PlanetsModule {}
+export class PlanetsModule {
+  constructor(private readonly planetRepository: PlanetsRepository) {}
+
+  async onModuleInit() {
+    console.log('preloading planets');
+    await this.planetRepository.seedPlanets();
+  }
+}
