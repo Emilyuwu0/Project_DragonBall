@@ -1351,5 +1351,565 @@
       "image": "https://dragonball-api.com/planetas/earth.webp"
     },
     "transformations": []
+  },
+
+
+
+
+  {
+    "name": "Beerus",
+    "ki": "Unknown",
+    "maxKi": "Unknown",
+    "race": "Dios",
+    "gender": "Male",
+    "description": "Beerus is the God of Destruction of Universe 7, responsible for maintaining balance by destroying planets. Known for his capricious and lazy nature, Beerus is one of the most powerful beings in Dragon Ball Super.",
+    "image": "https://dragonball-api.com/characters/beerus.webp",
+    "affiliation": "Universe 7",
+    "originPlanet": {
+      "id": 1,
+      "name": "Unknown",
+      "isDestroyed": false,
+      "description": "Beerus's homeworld is not explicitly named in the series.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Whis",
+    "ki": "Unknown",
+    "maxKi": "Unknown",
+    "race": "Angel",
+    "gender": "Male",
+    "description": "Whis is the angel attendant of Beerus, as well as his martial arts teacher. Whis is an incredibly powerful being and has vast knowledge of the universe.",
+    "image": "https://dragonball-api.com/characters/whis.webp",
+    "affiliation": "Universe 7",
+    "originPlanet": {
+      "name": "Unknown",
+      "isDestroyed": false,
+      "description": "Whis's origin is unknown, as angels do not have a specific homeworld.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Champa",
+    "ki": "Unknown",
+    "maxKi": "Unknown",
+    "race": "God of Destruction",
+    "gender": "Male",
+    "description": "Champa is the God of Destruction of Universe 6 and the twin brother of Beerus. Despite his similar role, he has a more gluttonous personality and frequently quarrels with his brother.",
+    "image": "https://dragonball-api.com/characters/champa.webp",
+    "affiliation": "Universe 6",
+    "originPlanet": {
+      "name": "Unknown",
+      "isDestroyed": false,
+      "description": "Champa's homeworld is not explicitly named in the series.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Vados",
+    "ki": "Unknown",
+    "maxKi": "Unknown",
+    "race": "Angel",
+    "gender": "Female",
+    "description": "Vados is the angel attendant of Champa and his martial arts teacher. She is also Whis's older sister, and like him, she is immensely powerful.",
+    "image": "https://dragonball-api.com/characters/vados.webp",
+    "affiliation": "Universe 6",
+    "originPlanet": {
+      "name": "Unknown",
+      "isDestroyed": false,
+      "description": "Vados's origin is unknown, as angels do not have a specific homeworld.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Zamasu",
+    "ki": "Unknown",
+    "maxKi": "Unknown",
+    "race": "Kai",
+    "gender": "Male",
+    "description": "Zamasu is a former North Kai and the main antagonist of the 'Future' Trunks Saga in Dragon Ball Super. He becomes obsessed with his idea of 'Zero Mortals Plan,' which leads him to swap bodies with Goku, becoming Goku Black.",
+    "image": "https://dragonball-api.com/characters/zamasu.webp",
+    "affiliation": "Universe 10",
+    "originPlanet": {
+      "name": "Planet Zamasu",
+      "isDestroyed": false,
+      "description": "The homeworld of Zamasu, located in Universe 10.",
+      "image": "https://dragonball-api.com/planets/zamasu.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Goku Black",
+    "ki": "Unknown",
+    "maxKi": "Unknown",
+    "race": "Saiyan (Zamasu in Goku's body)",
+    "gender": "Male",
+    "description": "Goku Black is the result of Zamasu using the Super Dragon Balls to switch bodies with Goku. He is a powerful and ruthless warrior, responsible for causing chaos in the future timeline.",
+    "image": "https://dragonball-api.com/characters/goku_black.webp",
+    "affiliation": "Universe 10",
+    "originPlanet": {
+      "name": "Earth (Future)",
+      "isDestroyed": false,
+      "description": "The Earth in the future timeline, which was ravaged by Goku Black and Zamasu.",
+      "image": "https://dragonball-api.com/planets/earth_future.webp"
+    },
+    "transformations": [
+      {
+        "name": "Super Saiyan Rose",
+        "image": "https://dragonball-api.com/transformations/goku_black_rose.webp",
+        "ki": "Unknown"
+      }
+    ]
+  },
+  {
+    "name": "Hit",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Hit es un asesino del Universo 6, conocido por su habilidad para manipular el tiempo. Es un luchador estoico y profesional con un nivel de combate muy alto.",
+    "image": "/assets/pj/Hit.png",
+    "affiliation": "Universo 6",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El origen de Hit es desconocido, pero es un luchador prominente del Universo 6.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Jiren",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Jiren es un miembro de los Pride Troopers del Universo 11, conocido por su abrumadora fuerza y determinación. Es considerado uno de los guerreros más poderosos del multiverso.",
+    "image": "/assets/pj/Jiren.png",
+    "affiliation": "Universo 11",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Jiren no ha sido revelado en la serie.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Toppo",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Toppo es un miembro de alto rango de los Pride Troopers y candidato a Dios de la Destrucción del Universo 11. Es un guerrero formidable, profundamente comprometido con la justicia.",
+    "image": "/assets/pj/Toppo.png",
+    "affiliation": "Universo 11",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El mundo natal de Toppo no ha sido especificado.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": [
+      {
+        "name": "Modo Dios de la Destrucción",
+        "image": "/assets/transformations/GodOfDestructionToppo.png",
+        "ki": "Desconocido"
+      }
+    ]
+  },
+  {
+    "name": "Cabba",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Saiyajin",
+    "gender": "Masculino",
+    "description": "Cabba es un Saiyajin del Universo 6. A diferencia de los Saiyajin del Universo 7, Cabba proviene de una raza pacífica. Es entrenado por Vegeta y se convierte en Super Saiyajin durante su encuentro.",
+    "image": "/assets/pj/Cabba.png",
+    "affiliation": "Universo 6",
+    "originPlanet": {
+      "name": "Planeta Sadala",
+      "isDestroyed": false,
+      "description": "El mundo natal de los Saiyajin en el Universo 6, un planeta pacífico a diferencia de su contraparte en el Universo 7.",
+      "image": "https://dragonball-api.com/planets/planet_sadala.webp"
+    },
+    "transformations": [
+      {
+        "name": "Super Saiyajin",
+        "image": "/assets/transformations/SuperSaiyanCabba.png",
+        "ki": "Desconocido"
+      }
+    ]
+  },
+  {
+    "name": "Caulifla",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Saiyajin",
+    "gender": "Femenino",
+    "description": "Caulifla es una Saiyajin rebelde del Universo 6 que rápidamente se convierte en Super Saiyajin tras aprender sobre la transformación de Cabba. Es conocida por su actitud audaz y confiada.",
+    "image": "/assets/pj/Caulifla.png",
+    "affiliation": "Universo 6",
+    "originPlanet": {
+      "name": "Planeta Sadala",
+      "isDestroyed": false,
+      "description": "El mundo natal de los Saiyajin en el Universo 6.",
+      "image": "https://dragonball-api.com/planets/planet_sadala.webp"
+    },
+    "transformations": [
+      {
+        "name": "Super Saiyajin",
+        "image": "/assets/transformations/SuperSaiyanCaulifla.png",
+        "ki": "Desconocido"
+      }
+    ]
+  },
+  {
+    "name": "Kale",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Saiyajin",
+    "gender": "Femenino",
+    "description": "Kale es una Saiyajin del Universo 6 que se transforma en un Super Saiyajin berserker. Inicialmente tímida y reservada, gana un poder inmenso cuando es llevada al límite.",
+    "image": "/assets/pj/Kale.png",
+    "affiliation": "Universo 6",
+    "originPlanet": {
+      "name": "Planeta Sadala",
+      "isDestroyed": false,
+      "description": "El mundo natal de Kale y otros Saiyajin del Universo 6.",
+      "image": "https://dragonball-api.com/planets/planet_sadala.webp",
+      "deletedAt": null
+    },
+    "transformations": [
+      {
+        "name": "Super Saiyajin Berserker",
+        "image": "/assets/transformations/BerserkSuperSaiyanKale.png",
+        "ki": "Desconocido"
+      }
+    ]
+  },
+  {
+    "name": "Zeno (Rey de Todo)",
+    "ki": "Infinito",
+    "maxKi": "Infinito",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Zeno es el gobernante absoluto de todo el multiverso. Aunque tiene una apariencia infantil, es increíblemente poderoso y puede destruir universos enteros sin esfuerzo.",
+    "image": "/assets/pj/Zeno.png",
+    "affiliation": "Multiverso",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El lugar de origen de Zeno no ha sido revelado, aunque se sabe que existe fuera del tiempo y espacio conocidos.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Broly (Super)",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Saiyajin",
+    "gender": "Masculino",
+    "description": "Broly es un Saiyajin legendario con un poder descomunal que crece exponencialmente cuando se enfurece. En Dragon Ball Super, es mostrado como un personaje más trágico y emocionalmente complejo.",
+    "image": "/assets/pj/BrolySuper.png",
+    "affiliation": "Planeta Vampa",
+    "originPlanet": {
+      "name": "Planeta Vampa",
+      "isDestroyed": false,
+      "description": "El planeta desértico donde Broly y su padre fueron exiliados. Es un lugar inhóspito y apenas habitable.",
+      "image": "https://dragonball-api.com/planets/vampa.webp"
+    },
+    "transformations": [
+      {
+        "name": "Super Saiyajin Legendario",
+        "image": "/assets/transformations/LegendarySuperSaiyanBroly.png",
+        "ki": "Desconocido"
+      }
+    ]
+  },
+  {
+    "name": "Moro",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Moro es un mago antiguo y extremadamente poderoso que ha existido por millones de años. Es capaz de absorber la energía vital de planetas enteros para aumentar su poder.",
+    "image": "/assets/pj/Moro.png",
+    "affiliation": "Criminal Galáctico",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta natal de Moro no ha sido revelado en la serie.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Gowasu",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Kaioshin",
+    "gender": "Masculino",
+    "description": "Gowasu es el Kaioshin del Universo 10. Es el mentor de Zamasu y un defensor de la paz, aunque su ingenuidad respecto a su aprendiz lleva a consecuencias catastróficas.",
+    "image": "/assets/pj/Gowasu.png",
+    "affiliation": "Universo 10",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Gowasu no ha sido especificado.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Kaioshin del Universo 10",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Kaioshin",
+    "gender": "Masculino",
+    "description": "Este Kaioshin fue el aprendiz de Gowasu y terminó rebelándose debido a su creencia de que los mortales no merecen vivir. Su ambición lo llevó a fusionarse con Goku Black.",
+    "image": "/assets/pj/KaioshinU10.png",
+    "affiliation": "Universo 10",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta natal del Kaioshin del Universo 10 es desconocido.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Belmod (Dios de la Destrucción del Universo 11)",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Belmod es el Dios de la Destrucción del Universo 11. Tiene una apariencia similar a la de un payaso y es conocido por su fuerte sentido de la justicia, lo que lo convierte en un dios algo peculiar.",
+    "image": "/assets/pj/Belmod.png",
+    "affiliation": "Universo 11",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Belmod es desconocido.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Jiraiya (Dios de la Destrucción del Universo 3)",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Jiraiya es el Dios de la Destrucción del Universo 3, un universo centrado en la tecnología. Es un dios calmado que utiliza estrategias para mantener el equilibrio en su universo.",
+    "image": "/assets/pj/Jiraiya.png",
+    "affiliation": "Universo 3",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Jiraiya no ha sido revelado.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Mosco (Dios de la Destrucción del Universo 4)",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Robot",
+    "gender": "Desconocido",
+    "description": "Mosco es el Dios de la Destrucción del Universo 4 y es un dios con cuerpo de robot. Se comunica a través de sonidos robóticos y su asistente lo traduce.",
+    "image": "/assets/pj/Mosco.png",
+    "affiliation": "Universo 4",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta natal de Mosco es desconocido.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Rumsshi (Dios de la Destrucción del Universo 10)",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Rumsshi es el Dios de la Destrucción del Universo 10. Es extremadamente confiado en su poder y tiene una fuerte presencia física que intimida a otros.",
+    "image": "/assets/pj/Rumsshi.png",
+    "affiliation": "Universo 10",
+    "originPlanet": {
+      "id": 13,
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Rumsshi no ha sido revelado.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Topo (Dios de la Destrucción del Universo 11)",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Topo es un Guerrero del Orgullo del Universo 11 que eventualmente obtiene los poderes de un Dios de la Destrucción. Es conocido por su sentido de la justicia y su fuerte moral.",
+    "image": "/assets/pj/Topo.png",
+    "affiliation": "Universo 11",
+    "originPlanet": {
+      "id": 10,
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Topo no se ha revelado.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Dyspo",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Dyspo es un miembro de los Guerreros del Orgullo del Universo 11. Tiene una velocidad increíble, rivalizando incluso con algunos de los luchadores más poderosos del multiverso.",
+    "image": "/assets/pj/Dyspo.png",
+    "affiliation": "Universo 11",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Dyspo es desconocido.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Brianne de Chateau",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Femenino",
+    "description": "Brianne de Chateau es una guerrera del Universo 2 que se transforma en Ribrianne, la guerrera del amor. Sus ataques están basados en la energía del amor y la felicidad.",
+    "image": "/assets/pj/BrianneDeChateau.png",
+    "affiliation": "Universo 2",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Brianne de Chateau es desconocido.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": [
+      {
+        "name": "Ribrianne",
+        "image": "/assets/transformations/Ribrianne.png",
+        "ki": "Desconocido"
+      }
+    ]
+  },
+  {
+    "name": "Su Roas",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Su Roas es un guerrero del Universo 2 que lucha por el amor y la justicia. Tiene una gran velocidad y es miembro del equipo de los guerreros más fuertes de su universo.",
+    "image": "/assets/pj/SuRoas.png",
+    "affiliation": "Universo 2",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Su Roas es desconocido.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Vikal",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Femenino",
+    "description": "Vikal es una luchadora del Universo 2 que también lucha por el amor y la justicia. Se une a los guerreros más poderosos de su universo para participar en el Torneo de Poder.",
+    "image": "/assets/pj/Vikal.png",
+    "affiliation": "Universo 2",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Vikal no se ha revelado.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Zarbuto",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Zarbuto es un guerrero del Universo 2 que lucha en el Torneo de Poder. Tiene una gran fe en sus compañeros y en la capacidad de su universo para prevalecer.",
+    "image": "/assets/pj/Zarbuto.png",
+    "affiliation": "Universo 2",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Zarbuto es desconocido.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Rabanra",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Rabanra es un luchador del Universo 2 que participa en el Torneo de Poder. Es un guerrero comprometido con la justicia y el amor, siguiendo la filosofía de su universo.",
+    "image": "/assets/pj/Rabanra.png",
+    "affiliation": "Universo 2",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Rabanra no ha sido revelado.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Zirloin",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Zirloin es un luchador del Universo 2 que se une a la causa del amor y la justicia en el Torneo de Poder. Es uno de los luchadores más fieles a la causa de su universo.",
+    "image": "/assets/pj/Zirloin.png",
+    "affiliation": "Universo 2",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta natal de Zirloin es desconocido.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Kettol",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
+    "gender": "Masculino",
+    "description": "Kettol es un luchador del Universo 2 que también participa en el Torneo de Poder, luchando al lado de Brianne de Chateau y los demás guerreros del amor.",
+    "image": "/assets/pj/Kettol.png",
+    "affiliation": "Universo 2",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Kettol no se ha especificado.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
   }
 ]
