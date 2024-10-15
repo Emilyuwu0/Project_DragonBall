@@ -16,4 +16,11 @@ import { TransformationEntity } from 'src/entities/Transformations.entity';
   controllers: [CharactersController],
   providers: [CharactersService, CharactersRepository],
 })
-export class CharactersModule {}
+export class CharactersModule {
+  constructor(private readonly charactersRepository: CharactersRepository) {}
+
+  async onModuleInit() {
+    console.log('preloading Characters...');
+    await this.charactersRepository.seederCharacters();
+  }
+}
