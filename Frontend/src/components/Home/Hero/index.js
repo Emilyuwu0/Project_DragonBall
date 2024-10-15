@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion, useInView } from "framer-motion";
 import Characters from "../../../pages/Characters/Characters";
 import About from "../../../pages/About/About";
-import GokuHero from "../../../assets/goku-hero.png";
+import GokuHero from "../../../assets/goku-hero.webp";
 import useWindowSize from "../../../hook/sizeScreen";
 import Planets from "../Planets";
 import Esfera from "../../../assets/esfera.png";

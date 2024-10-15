@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getData } from "../../api/characters";
-import Character from "../../assets/dragonballch.png";
+import Character from "../../assets/Characters.webp";
 import NavbarComponent from "../../components/Home/Hero/navbar";
 import Footer from "../../components/Home/Footer";
 import { useNavigate } from "react-router-dom";

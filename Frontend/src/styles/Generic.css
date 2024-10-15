@@ -318,7 +318,7 @@ p {
 }
 
 .framer-left {
-  align-items: flex-start;
+ /*  align-items: flex-start;
   display: flex;
 
   flex-direction: column;
@@ -331,7 +331,7 @@ p {
   position: relative;
 
   flex: 1;
-  padding: 1rem;
+  padding: 1rem; */
 }
 
 /* Clases */

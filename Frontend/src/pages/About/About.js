@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import NavbarComponent from "../../components/Home/Hero/navbar";
 import { Link } from "react-router-dom";
 import { Series } from "./data-about";
-import Akira from "../../assets/R.png";
+import Akira from "../../assets/timeline.webp";
 import Footer from "../../components/Home/Footer/index";
 
 import "./index.css";
@@ -23,7 +23,6 @@ export default function Index() {
     <div className="about-parent">
       <NavbarComponent />
       <span className="title-head-section center-text margin-top-about ">
-
         Historia
       </span>
       <h1 className="title-gradient-left titles-mobile center-text">
@@ -39,22 +38,25 @@ export default function Index() {
           <div className="framer-left">
             <span className="title-head-section "> Contexto </span>
             <p className="subtitle-about">
+              <br />
               <span className="font-white"> Dragon Ball </span>fue creado por
               Akira Toriyama en 1984 como un manga. La historia se inspira en la
               novela china Viaje al Oeste y sigue a Goku, un niño con cola de
               mono que tiene habilidades extraordinarias. Goku fue criado en las
               montañas por su abuelo adoptivo, Gohan, quien le enseñó artes
               marciales.
-              <br />
-              <br />
-              La trama comienza cuando Goku conoce a Bulma, una chica que busca
-              las Esferas del Dragón, siete objetos mágicos que, al reunirse,
-              convocan al dragón Shenron, capaz de conceder cualquier deseo. A
-              partir de ahí, Goku vive muchas aventuras, enfrentándose a
+              <br /> <br />
+              <p>
+                {" "}
+                La trama comienza cuando Goku conoce a Bulma, una chica que
+                busca las Esferas del Dragón, siete objetos mágicos que, al
+                reunirse, convocan al dragón Shenron, capaz de conceder
+                cualquier deseo.{" "}<br /><br />
+              </p>
+              A partir de ahí, Goku vive muchas aventuras, enfrentándose a
               poderosos enemigos, haciendo nuevos amigos y entrenando para
               volverse cada vez más fuerte.
-              <br />
-              <br />
+              <br /><br />
               Con el tiempo, la historia evoluciona hacia combates épicos y la
               exploración de otros planetas, mientras Goku descubre su origen
               extraterrestre como un Saiyajin, una raza de guerreros.
@@ -62,6 +64,7 @@ export default function Index() {
           </div>
           <div>
             <img src={Akira} alt="Akira" className="img-about" />
+         
           </div>
         </div>
       </div>{" "}

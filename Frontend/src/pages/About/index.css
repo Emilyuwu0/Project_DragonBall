@@ -8,7 +8,9 @@
   align-items: center;
   position: relative;
 }
-
+.max-width-pagraph {
+  max-width: 90% !important;
+}
 .padding-max-about {
   padding: 2rem;
 }
