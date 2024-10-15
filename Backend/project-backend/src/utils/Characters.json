@@ -6,7 +6,7 @@
     "race": "Saiyan",
     "gender": "Male",
     "description": "El protagonista de la serie, conocido por su gran poder y personalidad amigable.",
-    "image": "/assets/pj/goku.png",
+    "image": "/assets/pj/goku.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Vegeta",
@@ -54,7 +54,7 @@
     "race": "Human",
     "gender": "Female",
     "description": "Una científica brillante y amiga cercana de Goku. Fundadora de la Corporación Cápsula.",
-    "image": "/assets/pj/Bulma.png",
+    "image": "/assets/pj/Bulma.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -71,7 +71,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Un bandido reformado que se convierte en uno de los amigos cercanos y aliados de Goku.",
-    "image": "/assets/pj/Yamcha.png",
+    "image": "/assets/pj/Yamcha.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -88,7 +88,7 @@
     "race": "Shapeshifter",
     "gender": "Male",
     "description": "Un compañero fiel de Yamcha que tiene la habilidad de cambiar de forma.",
-    "image": "/assets/pj/Puar.png",
+    "image": "/assets/pj/Puar.webp",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -122,7 +122,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El mejor amigo de Goku y uno de los guerreros Z más poderosos de la Tierra.",
-    "image": "/assets/pj/Krillin.png",
+    "image": "/assets/pj/Krillin.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -139,7 +139,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El maestro de artes marciales de Goku y Krillin, y el creador del Kamehameha.",
-    "image": "/assets/pj/MaestroRoshi.png",
+    "image": "/assets/pj/MaestroRoshi.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -156,7 +156,7 @@
     "race": "Human",
     "gender": "Female",
     "description": "La esposa de Goku y madre de Gohan, conocida por su carácter fuerte.",
-    "image": "/assets/pj/Chi-Chi.png",
+    "image": "/assets/pj/Chi-Chi.webp",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -173,7 +173,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Un maestro de artes marciales con tres ojos que se convierte en aliado de Goku.",
-    "image": "/assets/pj/TenChinHan.png",
+    "image": "/assets/pj/TenChinHan.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -190,7 +190,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Un pequeño luchador con habilidades psíquicas y leal amigo de Ten Shin Han.",
-    "image": "/assets/pj/Chaoz.png",
+    "image": "/assets/pj/Chaoz.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -207,7 +207,7 @@
     "race": "Namekian",
     "gender": "Male",
     "description": "El lado malvado de Kami que desea conquistar la Tierra.",
-    "image": "/assets/pj/PiccoloDaimao.png",
+    "image": "/assets/pj/PiccoloDaimao.webp",
     "affiliation": "None",
     "originPlanet": {
       "name": "Namek",
@@ -224,7 +224,7 @@
     "race": "Human-Saiyan Hybrid",
     "gender": "Male",
     "description": "El hijo de Goku y Chi-Chi, conocido por su gran potencial oculto.",
-    "image": "/assets/pj/sonGohan.png",
+    "image": "/assets/pj/sonGohan.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -241,7 +241,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El padre de Chi-Chi y un antiguo estudiante del Maestro Roshi.",
-    "image": "/assets/pj/OxKing.png",
+    "image": "/assets/pj/OxKing.webp",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -258,7 +258,7 @@
     "race": "Human",
     "gender": "Female",
     "description": "Una mujer con doble personalidad: dulce o violenta según su estornudo.",
-    "image": "/assets/pj/Launch.png",
+    "image": "/assets/pj/Launch.webp",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -275,7 +275,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Un samurái perezoso pero habilidoso que ayuda a Goku en momentos cruciales.",
-    "image": "/assets/pj/Yajirobe.png",
+    "image": "/assets/pj/Yajirobe.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -292,7 +292,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El hijo de Bora, que ayuda a Goku en su búsqueda de las esferas del dragón.",
-    "image": "/assets/pj/Upa.png",
+    "image": "/assets/pj/Upa.webp",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -309,7 +309,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "El padre de Upa, un guerrero indígena que protege la Torre de Karin.",
-    "image": "/assets/pj/Bora.png",
+    "image": "/assets/pj/Bora.webp",
     "affiliation": "None",
     "originPlanet": {
       "name": "Earth",
@@ -343,7 +343,7 @@
     "race": "Monster",
     "gender": "Male",
     "description": "Un villano cómico que busca las esferas del dragón para gobernar el mundo.",
-    "image": "/assets/pj/Pilaf.png",
+    "image": "/assets/pj/Pilaf.webp",
     "affiliation": "Pilaf Gang",
     "originPlanet": {
       "name": "Earth",
@@ -377,7 +377,7 @@
     "race": "Anthropomorphic Dog",
     "gender": "Male",
     "description": "Un ninja torpe que sirve a Pilaf.",
-    "image": "/assets/pj/Shu.png",
+    "image": "/assets/pj/Shu.webp",
     "affiliation": "Pilaf Gang",
     "originPlanet": {
       "name": "Earth",
@@ -462,7 +462,7 @@
     "race": "Saiyan-Human Hybrid",
     "gender": "Male",
     "description": "Hijo de Goku y Chi-Chi, Gohan es un híbrido saiyan-human con un inmenso poder latente. A lo largo de su vida, Gohan se convierte en uno de los guerreros más fuertes de la Tierra, pero prefiere una vida tranquila como académico. Su furia es la clave para liberar su verdadero potencial.",
-    "image": "/assets/pj/Gohan.png",
+    "image": "/assets/pj/Gohan.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -495,7 +495,7 @@
     "race": "Saiyan",
     "gender": "Male",
     "description": "El príncipe de los Saiyans, Vegeta es uno de los guerreros más poderosos del universo. Aunque inicialmente es un antagonista, más tarde se convierte en un aliado y rival de Goku. Vegeta se caracteriza por su orgullo y deseo de ser el más fuerte.",
-    "image": "/assets/pj/Vegeta.png",
+    "image": "/assets/pj/Vegeta.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Vegeta",
@@ -528,7 +528,7 @@
     "race": "Saiyan",
     "gender": "Male",
     "description": "Nappa es un saiyan de alto rango que acompaña a Vegeta en su misión para conquistar la Tierra. Aunque poderoso, es superado por los Guerreros Z y finalmente traicionado por Vegeta.",
-    "image": "/assets/pj/Nappa.png",
+    "image": "/assets/pj/Nappa.webp",
     "affiliation": "Saiyan Army",
     "originPlanet": {
       "name": "Vegeta",
@@ -545,7 +545,7 @@
     "race": "Saiyan",
     "gender": "Male",
     "description": "Hermano mayor de Goku, Raditz es un saiyan de baja clase que llega a la Tierra para forzar a Goku a unirse a la conquista del universo. Es derrotado por Goku y Piccolo en un acto de sacrificio.",
-    "image": "/assets/pj/Raditz.png",
+    "image": "/assets/pj/Raditz.webp",
     "affiliation": "Saiyan Army",
     "originPlanet": {
       "name": "Vegeta",
@@ -562,7 +562,7 @@
     "race": "Namekian",
     "gender": "Male",
     "description": "Piccolo es un guerrero Namekian y ex enemigo de Goku, que luego se convierte en uno de sus aliados más fuertes. Es el mentor de Gohan y uno de los luchadores más sabios y estratégicos en la defensa de la Tierra.",
-    "image": "/assets/pj/Piccolo.png",
+    "image": "/assets/pj/Piccolo.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Namek",
@@ -579,7 +579,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "Freezer es el emperador del universo que gobierna con mano de hierro y es responsable de la destrucción del planeta Vegeta. Es uno de los enemigos más icónicos de Goku y los Guerreros Z.",
-    "image": "/assets/pj/Freezer.png",
+    "image": "/assets/pj/Freezer.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -630,7 +630,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "Dodoria es un guerrero corpulento y brutal que sirve como uno de los principales secuaces de Freezer. Es conocido por su fuerza física y su falta de compasión.",
-    "image": "/assets/pj/Dodoria.png",
+    "image": "/assets/pj/Dodoria.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -647,7 +647,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "El Capitán Ginyu es el líder del escuadrón de élite de Freezer, las Fuerzas Especiales Ginyu. Es un maestro del cambio de cuerpo, lo que le permite tomar el control de cuerpos más fuertes para mejorar su poder.",
-    "image": "/assets/pj/CapitanGinyu.png",
+    "image": "/assets/pj/CapitanGinyu.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -681,7 +681,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "Jeice es uno de los miembros de las Fuerzas Especiales Ginyu, conocido por su velocidad y su lucha en equipo junto a Burter. Su apariencia y acento lo distinguen de los demás.",
-    "image": "/assets/pj/Jeice.png",
+    "image": "/assets/pj/Jeice.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -698,7 +698,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "Burter es uno de los guerreros más rápidos de las Fuerzas Especiales Ginyu. Su velocidad es su mayor ventaja en combate, y normalmente lucha en tándem con Jeice.",
-    "image": "/assets/pj/Burter.png",
+    "image": "/assets/pj/Burter.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -715,7 +715,7 @@
     "race": "Frieza's Race",
     "gender": "Male",
     "description": "Guldo es el miembro más débil de las Fuerzas Especiales Ginyu, pero compensa su falta de fuerza con la habilidad de detener el tiempo brevemente, lo que le da una ventaja estratégica en combate.",
-    "image": "/assets/pj/Guldo.png",
+    "image": "/assets/pj/Guldo.webp",
     "affiliation": "Frieza's Army",
     "originPlanet": {
       "name": "Frieza Planet",
@@ -756,7 +756,7 @@
     "race": "Android",
     "gender": "Male",
     "description": "El Androide 16 es un androide creado por el Dr. Gero, diseñado para ser pacífico, pero extremadamente poderoso en combate. Está programado para destruir a Goku, pero desarrolla una conexión con la naturaleza.",
-    "image": "/assets/pj/Androide16.png",
+    "image": "/assets/pj/Androide16.webp",
     "affiliation": "Red Ribbon Army",
     "originPlanet": {
       "name": "Earth",
@@ -773,7 +773,7 @@
     "race": "Android",
     "gender": "Male",
     "description": "El Androide 17 es uno de los androides creados por el Dr. Gero, originalmente con el objetivo de destruir a Goku. Sin embargo, más tarde se vuelve independiente y ayuda a proteger la Tierra.",
-    "image": "/assets/pj/Androide17.png",
+    "image": "/assets/pj/Androide17.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -790,7 +790,7 @@
     "race": "Android",
     "gender": "Female",
     "description": "El Androide 18 es la hermana gemela del Androide 17, creada por el Dr. Gero. Tras ser derrotada por los Guerreros Z, eventualmente se casa con Krillin y se convierte en una aliada.",
-    "image": "/assets/pj/Androide18.png",
+    "image": "/assets/pj/Androide18.webp",
     "affiliation": "Z Fighter",
     "originPlanet": {
       "name": "Earth",
@@ -807,7 +807,7 @@
     "race": "Bio-Android",
     "gender": "Male",
     "description": "Cell es un bio-androide creado por el Dr. Gero utilizando las células de varios guerreros poderosos, incluyendo Goku, Vegeta, Piccolo, y Freezer. Su objetivo es alcanzar la perfección y destruir todo.",
-    "image": "/assets/pj/cell.png",
+    "image": "/assets/pj/cell.webp",
     "affiliation": "Red Ribbon Army",
     "originPlanet": {
       "name": "Earth",
@@ -830,7 +830,7 @@
     "race": "Human",
     "gender": "Male",
     "description": "Mr. Satán es el campeón mundial de artes marciales y el autoproclamado salvador de la Tierra. Aunque carece de habilidades comparables a los Guerreros Z, es muy popular entre los humanos.",
-    "image": "/assets/pj/MrSatan.png",
+    "image": "/assets/pj/MrSatan.webp",
     "affiliation": "World Martial Arts",
     "originPlanet": {
       "name": "Earth",
@@ -847,7 +847,7 @@
     "race": "Majin",
     "gender": "Male",
     "description": "Majin Buu es una entidad malévola creada hace millones de años por el mago Bibidi. Con el tiempo, adopta varias formas, desde el Majin Buu gordo y amable hasta el malvado Super Buu y Kid Buu.",
-    "image": "/assets/pj/MajinBuu.png",
+    "image": "/assets/pj/MajinBuu.webp",
     "affiliation": "Babidi's Army",
     "originPlanet": {
       "name": "Unknown",
@@ -880,7 +880,7 @@
     "race": "Namekian",
     "gender": "Male",
     "description": "Dende es un Namekiano con habilidades curativas que se convierte en el nuevo Dios de la Tierra después de la muerte de Kami. También juega un papel crucial en la creación de las Esferas del Dragón de la Tierra.",
-    "image": "/assets/pj/Dende.png",
+    "image": "/assets/pj/Dende.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Namek",
@@ -897,7 +897,7 @@
     "race": "Shinjin",
     "gender": "Male",
     "description": "Kibito es el asistente personal de Kaio Shin. Tiene habilidades de teletransportación y curación. Más tarde, se fusiona con Kaio Shin para formar Kibitoshin.",
-    "image": "/assets/pj/Kibito.png",
+    "image": "/assets/pj/Kibito.webp",
     "affiliation": "Kaioshin",
     "originPlanet": {
       "name": "World of the Kais",
@@ -914,7 +914,7 @@
     "race": "Shinjin",
     "gender": "Male",
     "description": "Kaio Shin es uno de los dioses supremos del universo que supervisa la protección del mismo. Durante la saga de Majin Buu, trabaja junto con Goku y los demás para derrotar a Buu.",
-    "image": "/assets/pj/KaioShin.png",
+    "image": "/assets/pj/KaioShin.webp",
     "affiliation": "Kaioshin",
     "originPlanet": {
       "name": "World of the Kais",
@@ -931,7 +931,7 @@
     "race": "Cat",
     "gender": "Male",
     "description": "Korin es un gato inmortal que vive en la Torre Korin. Es un maestro que entrenó a Goku y otros guerreros. También es el guardián de las Semillas del Ermitaño, que son esenciales para la recuperación rápida.",
-    "image": "/assets/pj/Korin.png",
+    "image": "/assets/pj/Korin.webp",
     "affiliation": "Earth's Guardians",
     "originPlanet": {
       "name": "Earth",
@@ -948,7 +948,7 @@
     "race": "Sorcerer",
     "gender": "Male",
     "description": "Babidi es un mago maligno que busca revivir a Majin Buu para dominar el universo. Es el hijo de Bibidi y utiliza el poder de la magia para controlar a los guerreros más fuertes.",
-    "image": "/assets/pj/Babidi.png",
+    "image": "/assets/pj/Babidi.webp",
     "affiliation": "Majin Buu",
     "originPlanet": {
       "name": "Unknown",
@@ -965,7 +965,7 @@
     "race": "Demon",
     "gender": "Male",
     "description": "Dabura es el rey del Mundo de los Demonios y el principal sirviente de Babidi. Tiene la habilidad de convertir a sus enemigos en piedra mediante su saliva y es un combatiente formidable.",
-    "image": "/assets/pj/Dabura.png",
+    "image": "/assets/pj/Dabura.webp",
     "affiliation": "Majin Buu",
     "originPlanet": {
       "name": "Demon Realm",
@@ -982,7 +982,7 @@
     "race": "Saiyan/Human hybrid",
     "gender": "Male",
     "description": "Goten es el segundo hijo de Goku y Chi-Chi. Aunque es joven, muestra un gran potencial en combate, al punto de alcanzar la forma de Super Saiyan a una edad temprana.",
-    "image": "/assets/pj/Goten.png",
+    "image": "/assets/pj/Goten.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1006,7 +1006,7 @@
     "race": "Human",
     "gender": "Female",
     "description": "Videl es la hija de Mr. Satán y más tarde se convierte en la esposa de Gohan. Es una luchadora talentosa y valiente, a pesar de no tener las habilidades de los Saiyans.",
-    "image": "/assets/pj/Videl.png",
+    "image": "/assets/pj/Videl.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1023,7 +1023,7 @@
     "race": "Saiyan/Human hybrid",
     "gender": "Female",
     "description": "Pan es la hija de Gohan y Videl. A pesar de su corta edad, muestra gran potencial de combate, heredando las habilidades de lucha de su padre.",
-    "image": "/assets/pj/Pan.png",
+    "image": "/assets/pj/Pan.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1097,7 +1097,7 @@
     "race": "Shadow Dragon",
     "gender": "Male",
     "description": "Omega Shenron es el último de los dragones oscuros y el más poderoso, formado por la energía negativa de los deseos realizados con las Dragon Balls.",
-    "image": "Omega_Shenron.png",
+    "image": "/assets/pj/Omega_Shenron.webp",
     "affiliation": "Shadow Dragons",
     "originPlanet": {
       "name": "Earth",
@@ -1114,7 +1114,7 @@
     "race": "Human (reincarnated Majin)",
     "gender": "Male",
     "description": "Uub es la reencarnación humana de Kid Buu. Aunque al principio es inexperto, se convierte en un valioso luchador bajo el entrenamiento de Goku.",
-    "image": "/assets/pj/Uub.png",
+    "image": "/assets/pj/Uub.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1137,7 +1137,7 @@
     "race": "Saiyan-Human Hybrid",
     "gender": "Male",
     "description": "Goku Jr. es un descendiente lejano de Goku que aparece en los últimos episodios de Dragon Ball GT. Aunque joven y débil, muestra el potencial Saiyan.",
-    "image": "/assets/pj/GokuJr.png",
+    "image": "/assets/pj/GokuJr.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1154,7 +1154,7 @@
     "race": "Saiyan-Human Hybrid",
     "gender": "Male",
     "description": "Vegeta Jr. es un descendiente lejano de Vegeta, similar a Goku Jr. en poder y potencial. Participa en un torneo de artes marciales en el futuro de Dragon Ball GT.",
-    "image": "/assets/pj/VegetaJr.png",
+    "image": "/assets/pj/VegetaJr.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1171,7 +1171,7 @@
     "race": "Saiyan/Human hybrid",
     "gender": "Male",
     "description": "Trunks es el hijo de Vegeta y Bulma, perteneciente a la raza Half-Saiyan.",
-    "image": "/assets/pj/Trunks_Niño.png",
+    "image": "/assets/pj/Trunks_Niño.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1194,7 +1194,7 @@
     "race": "Saiyan-Human Hybrid",
     "gender": "Male",
     "description": "Gotenks es la fusión de Goten y Trunks mediante la Danza de la Fusión. Aunque muy poderoso, es impulsivo y tiende a subestimar a sus oponentes.",
-    "image": "/assets/pj/Gotenks.png",
+    "image": "/assets/pj/Gotenks.webp",
     "affiliation": "Z Fighters",
     "originPlanet": {
       "name": "Earth",
@@ -1291,7 +1291,7 @@
     "race": "Shadow Dragon",
     "gender": "Male",
     "description": "Nuova Shenron es otro de los dragones oscuros, nacido de la bola de cuatro estrellas. A diferencia de los demás, tiene un sentido del honor y respeto hacia sus enemigos.",
-    "image": "/assets/pj/Nuova_Shenron.png",
+    "image": "/assets/pj/Nuova_Shenron.webp",
     "affiliation": "Shadow Dragons",
     "originPlanet": {
       "name": "Earth",
@@ -1342,7 +1342,7 @@
     "race": "Unknown",
     "gender": "Male",
     "description": "Nazo es un personaje de Dragon Ball GT cuya información es muy escasa. Aparece en material promocional y fuera de la serie principal.",
-    "image": "/assets/pj/Nazo.png",
+    "image": "/assets/pj/Nazo.webp",
     "affiliation": "Unknown",
     "originPlanet": {
       "name": "Earth",
@@ -1356,14 +1356,15 @@
 
 
 
+  
   {
-    "name": "Beerus",
+    "name": "Bills",
     "ki": "Unknown",
     "maxKi": "Unknown",
     "race": "Dios",
     "gender": "Male",
-    "description": "Beerus is the God of Destruction of Universe 7, responsible for maintaining balance by destroying planets. Known for his capricious and lazy nature, Beerus is one of the most powerful beings in Dragon Ball Super.",
-    "image": "https://dragonball-api.com/characters/beerus.webp",
+    "description": "Beerus es el Dios de la Destrucción del Universo 7, responsable de mantener el equilibrio destruyendo planetas. Conocido por su naturaleza caprichosa y perezosa, Bills es uno de los seres más poderosos de Dragon Ball Super.",
+    "image": "/assets/pj/Bills.webp",
     "affiliation": "Universe 7",
     "originPlanet": {
       "id": 1,
@@ -1380,8 +1381,8 @@
     "maxKi": "Unknown",
     "race": "Angel",
     "gender": "Male",
-    "description": "Whis is the angel attendant of Beerus, as well as his martial arts teacher. Whis is an incredibly powerful being and has vast knowledge of the universe.",
-    "image": "https://dragonball-api.com/characters/whis.webp",
+    "description": "Whis es el ángel asistente de Bills, así como su maestro de artes marciales. Whis es un ser increíblemente poderoso y tiene un vasto conocimiento del universo.",
+    "image": "/assets/pj/Whis.webp",
     "affiliation": "Universe 7",
     "originPlanet": {
       "name": "Unknown",
@@ -1397,8 +1398,8 @@
     "maxKi": "Unknown",
     "race": "God of Destruction",
     "gender": "Male",
-    "description": "Champa is the God of Destruction of Universe 6 and the twin brother of Beerus. Despite his similar role, he has a more gluttonous personality and frequently quarrels with his brother.",
-    "image": "https://dragonball-api.com/characters/champa.webp",
+    "description": "Champa es el Dios de la Destrucción del Universo 6 y el hermano gemelo de Bills. A pesar de su papel similar, tiene una personalidad más glotona y frecuentemente se pelea con su hermano.",
+    "image": "/assets/pj/Champa.webp",
     "affiliation": "Universe 6",
     "originPlanet": {
       "name": "Unknown",
@@ -1414,8 +1415,8 @@
     "maxKi": "Unknown",
     "race": "Angel",
     "gender": "Female",
-    "description": "Vados is the angel attendant of Champa and his martial arts teacher. She is also Whis's older sister, and like him, she is immensely powerful.",
-    "image": "https://dragonball-api.com/characters/vados.webp",
+    "description": "Vados es el ángel asistente de Champa y su maestro de artes marciales. También es la hermana mayor de Whis y, como él, es inmensamente poderosa.",
+    "image": "/assets/pj/Vados.webp",
     "affiliation": "Universe 6",
     "originPlanet": {
       "name": "Unknown",
@@ -1431,8 +1432,8 @@
     "maxKi": "Unknown",
     "race": "Kai",
     "gender": "Male",
-    "description": "Zamasu is a former North Kai and the main antagonist of the 'Future' Trunks Saga in Dragon Ball Super. He becomes obsessed with his idea of 'Zero Mortals Plan,' which leads him to swap bodies with Goku, becoming Goku Black.",
-    "image": "https://dragonball-api.com/characters/zamasu.webp",
+    "description": "Zamasu es un ex Kai del Norte y el principal antagonista de la saga Trunks 'Futuro' en Dragon Ball Super. Se obsesiona con su idea del 'Plan Cero Mortales', lo que lo lleva a intercambiar cuerpos con Goku, convirtiéndose en Goku Black.",
+    "image": "/assets/pj/Zamasu.webp",
     "affiliation": "Universe 10",
     "originPlanet": {
       "name": "Planet Zamasu",
@@ -1446,7 +1447,7 @@
     "name": "Goku Black",
     "ki": "Unknown",
     "maxKi": "Unknown",
-    "race": "Saiyan (Zamasu in Goku's body)",
+    "race": "Saiyan",
     "gender": "Male",
     "description": "Goku Black is the result of Zamasu using the Super Dragon Balls to switch bodies with Goku. He is a powerful and ruthless warrior, responsible for causing chaos in the future timeline.",
     "image": "https://dragonball-api.com/characters/goku_black.webp",
@@ -1469,7 +1470,7 @@
     "name": "Hit",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
-    "race": "Desconocido",
+    "race": "Los cabeza de miembro",
     "gender": "Masculino",
     "description": "Hit es un asesino del Universo 6, conocido por su habilidad para manipular el tiempo. Es un luchador estoico y profesional con un nivel de combate muy alto.",
     "image": "/assets/pj/Hit.png",
@@ -1610,7 +1611,7 @@
     "transformations": []
   },
   {
-    "name": "Broly (Super)",
+    "name": "Broly",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
     "race": "Saiyajin",
@@ -1667,7 +1668,7 @@
     "transformations": []
   },
   {
-    "name": "Kaioshin del Universo 10",
+    "name": "Kaioshin",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
     "race": "Kaioshin",
@@ -1684,10 +1685,10 @@
     "transformations": []
   },
   {
-    "name": "Belmod (Dios de la Destrucción del Universo 11)",
+    "name": "Belmod",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
-    "race": "Desconocido",
+    "race": "Dios",
     "gender": "Masculino",
     "description": "Belmod es el Dios de la Destrucción del Universo 11. Tiene una apariencia similar a la de un payaso y es conocido por su fuerte sentido de la justicia, lo que lo convierte en un dios algo peculiar.",
     "image": "/assets/pj/Belmod.png",
@@ -1701,10 +1702,10 @@
     "transformations": []
   },
   {
-    "name": "Jiraiya (Dios de la Destrucción del Universo 3)",
+    "name": "Jiraiya",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
-    "race": "Desconocido",
+    "race": "Dios",
     "gender": "Masculino",
     "description": "Jiraiya es el Dios de la Destrucción del Universo 3, un universo centrado en la tecnología. Es un dios calmado que utiliza estrategias para mantener el equilibrio en su universo.",
     "image": "/assets/pj/Jiraiya.png",
@@ -1718,10 +1719,10 @@
     "transformations": []
   },
   {
-    "name": "Mosco (Dios de la Destrucción del Universo 4)",
+    "name": "Mosco",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
-    "race": "Robot",
+    "race": "Dios",
     "gender": "Desconocido",
     "description": "Mosco es el Dios de la Destrucción del Universo 4 y es un dios con cuerpo de robot. Se comunica a través de sonidos robóticos y su asistente lo traduce.",
     "image": "/assets/pj/Mosco.png",
@@ -1735,10 +1736,10 @@
     "transformations": []
   },
   {
-    "name": "Rumsshi (Dios de la Destrucción del Universo 10)",
+    "name": "Rumsshi",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
-    "race": "Desconocido",
+    "race": "Dios",
     "gender": "Masculino",
     "description": "Rumsshi es el Dios de la Destrucción del Universo 10. Es extremadamente confiado en su poder y tiene una fuerte presencia física que intimida a otros.",
     "image": "/assets/pj/Rumsshi.png",
@@ -1753,10 +1754,10 @@
     "transformations": []
   },
   {
-    "name": "Topo (Dios de la Destrucción del Universo 11)",
+    "name": "Topo",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
-    "race": "Desconocido",
+    "race": "Dios",
     "gender": "Masculino",
     "description": "Topo es un Guerrero del Orgullo del Universo 11 que eventualmente obtiene los poderes de un Dios de la Destrucción. Es conocido por su sentido de la justicia y su fuerte moral.",
     "image": "/assets/pj/Topo.png",
@@ -1788,7 +1789,7 @@
     "transformations": []
   },
   {
-    "name": "Brianne de Chateau",
+    "name": "Brianne",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
     "race": "Desconocido",

@@ -130,7 +130,6 @@ export class CharactersRepository {
           return transformation.character?.id === element.id; //
         },
       );
-      console.log(characterTransformations);
       return {
         id: element.id,
         name: element.name,
