@@ -17,7 +17,7 @@
     "transformations": [
       {
         "name": "Goku SSJ",
-        "image": "/assets/transformations/gokuSSJ1.png",
+        "image": "/assets/transformations/gokuSSJ1.webp",
         "ki": "150 Million"
       },
       {
@@ -27,22 +27,22 @@
       },
       {
         "name": "Goku SSJ3",
-        "image": "/assets/transformations/gokuSSJ3.png",
+        "image": "/assets/transformations/gokuSSJ3.webp",
         "ki": "4 Billion"
       },
       {
         "name": "Goku SSJ God",
-        "image": "/assets/transformations/gokuSSJGod.png",
+        "image": "/assets/transformations/gokuSSJGod.webp",
         "ki": "1 Trillion"
       },
       {
         "name": "Goku SSJ Blue",
-        "image": "/assets/transformations/GokuSSJBlue.png",
+        "image": "/assets/transformations/GokuSSJBlue.webp",
         "ki": "200 Quintillion"
       },
       {
         "name": "Goku Ultra Instinct",
-        "image": "/assets/transformations/GokuUltraInstint.png",
+        "image": "/assets/transformations/GokuUltraInstint.webp",
         "ki": "Over 20 Quintillion"
       }
     ]
@@ -473,17 +473,17 @@
     "transformations": [
       {
         "name": "Gohan SSJ",
-        "image": "/assets/transformations/GohanSSJ.png",
+        "image": "/assets/transformations/GohanSSJ.webp",
         "ki": "5 Billion"
       },
       {
         "name": "Gohan SSJ2",
-        "image": "/assets/transformations/GohanSSJ2.png",
+        "image": "/assets/transformations/GohanSSJ2.webp",
         "ki": "15 Billion"
       },
       {
         "name": "Gohan Ultimate",
-        "image": "/assets/transformations/GohanUltimate.png",
+        "image": "/assets/transformations/GohanUltimate.webp",
         "ki": "100 Quadrillion"
       }
     ]
@@ -506,17 +506,17 @@
     "transformations": [
       {
         "name": "Vegeta SSJ",
-        "image": "/assets/transformations/VegetaSSJ.png",
+        "image": "/assets/transformations/VegetaSSJ.webp",
         "ki": "4 Billion"
       },
       {
         "name": "Vegeta SSJ2",
-        "image": "/assets/transformations/VegetaSSJ2.png",
+        "image": "/assets/transformations/VegetaSSJ2.webp",
         "ki": "8 Billion"
       },
       {
         "name": "Vegeta SSJ Blue",
-        "image": "/assets/transformations/VegetaSSJBlue.png",
+        "image": "/assets/transformations/VegetaSSJBlue.webp",
         "ki": "200 Quintillion"
       }
     ]
@@ -590,12 +590,12 @@
     "transformations": [
       {
         "name": "Freezer Final Form",
-        "image": "/assets/transformations/FreezerFinalForm.png",
+        "image": "/assets/transformations/FreezerFinalForm.webp",
         "ki": "120 Million"
       },
       {
         "name": "Golden Freezer",
-        "image": "/assets/transformations/GoldenFreezer.png",
+        "image": "/assets/transformations/GoldenFreezer.webp",
         "ki": "100 Quintillion"
       }
     ]
@@ -618,7 +618,7 @@
     "transformations": [
       {
         "name": "Zarbon Transformed",
-        "image": "/assets/transformations/ZarbonTransformed.png",
+        "image": "/assets/transformations/ZarbonTransformed.webp",
         "ki": "55.000"
       }
     ]
@@ -818,7 +818,7 @@
     "transformations": [
       {
         "name": "Cell Perfecto",
-        "image": "/assets/transformations/cellPerfecto.png",
+        "image": "/assets/transformations/cellPerfecto.webp",
         "ki": "50 Billion"
       }
     ]
@@ -858,17 +858,17 @@
     "transformations": [
       {
         "name": "Evil Buu",
-        "image": "/assets/transformations/EvilBuu.png",
+        "image": "/assets/transformations/EvilBuu.webp",
         "ki": "Infinite"
       },
       {
         "name": "Super Buu",
-        "image": "/assets/transformations/SuperBuu.png",
+        "image": "/assets/transformations/SuperBuu.webp",
         "ki": "Infinite"
       },
       {
         "name": "Kid Buu",
-        "image": "/assets/transformations/KidBuu.png",
+        "image": "/assets/transformations/KidBuu.webp",
         "ki": "Infinite"
       }
     ]
@@ -995,7 +995,7 @@
         "name": "Goten Super Saiyan",
         "ki": "Desconocido",
         "description": "Goten alcanza esta transformación a una edad sorprendentemente joven.",
-        "image": "/assets/transformations/GotenSSJ.png"
+        "image": "/assets/transformations/GotenSSJ.webp"
       }
     ]
   },
@@ -1068,7 +1068,7 @@
     "transformations": [
       {
         "name": "Baby Vegeta",
-        "image": "/assets/transformations/BabyVegeta.png",
+        "image": "/assets/transformations/BabyVegeta.webp",
         "ki": "200 Billion"
       }
     ]
@@ -1125,7 +1125,7 @@
     "transformations": [
       {
         "name": "Majuub",
-        "image": "/assets/transformations/Majuub.png",
+        "image": "/assets/transformations/Majuub.webp",
         "ki": "1 Billion"
       }
     ]
@@ -1183,7 +1183,7 @@
       {
         "name": "Super Saiyan",
         "ki": "Desconocido",
-        "image": "/assets/transformations/Trunks_Niño_SSJ.png"
+        "image": "/assets/transformations/Trunks_Niño_SSJ.webp"
       }
     ]
   },
@@ -1205,7 +1205,7 @@
     "transformations": [
       {
         "name": "Gotenks Super Saiyan 3",
-        "image": "/assets/transformations/Gotenks_SSJ3.png",
+        "image": "/assets/transformations/Gotenks_SSJ3.webp",
         "ki": "10 Trillion"
       }
     ]
@@ -1871,7 +1871,7 @@
     "transformations": [
       {
         "name": "Modo Dios de la Destrucción",
-        "image": "/assets/transformations/ToppoDios.png",
+        "image": "/assets/transformations/ToppoDios.webp",
         "ki": "Desconocido"
       }
     ]
