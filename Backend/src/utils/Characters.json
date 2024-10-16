@@ -1168,7 +1168,7 @@
     "name": "Trunks (Niño)",
     "ki": "Unknown",
     "maxKi": "Unknown",
-    "race": "Saiyan/Human hybrid",
+    "race": "Saiyan/Human Hybrid",
     "gender": "Male",
     "description": "Trunks es el hijo de Vegeta y Bulma, perteneciente a la raza Half-Saiyan.",
     "image": "/assets/pj/Trunks_Niño.webp",
@@ -1191,7 +1191,7 @@
     "name": "Gotenks",
     "ki": "Unknown",
     "maxKi": "Unknown",
-    "race": "Saiyan-Human Hybrid",
+    "race": "Saiyan/Human Hybrid",
     "gender": "Male",
     "description": "Gotenks es la fusión de Goten y Trunks mediante la Danza de la Fusión. Aunque muy poderoso, es impulsivo y tiende a subestimar a sus oponentes.",
     "image": "/assets/pj/Gotenks.webp",
@@ -1396,7 +1396,7 @@
     "name": "Champa",
     "ki": "Unknown",
     "maxKi": "Unknown",
-    "race": "God of Destruction",
+    "race": "Dios",
     "gender": "Male",
     "description": "Champa es el Dios de la Destrucción del Universo 6 y el hermano gemelo de Bills. A pesar de su papel similar, tiene una personalidad más glotona y frecuentemente se pelea con su hermano.",
     "image": "/assets/pj/Champa.webp",
@@ -1473,7 +1473,7 @@
     "race": "Los cabeza de miembro",
     "gender": "Masculino",
     "description": "Hit es un asesino del Universo 6, conocido por su habilidad para manipular el tiempo. Es un luchador estoico y profesional con un nivel de combate muy alto.",
-    "image": "/assets/pj/Hit.png",
+    "image": "/assets/pj/Hit.webp",
     "affiliation": "Universo 6",
     "originPlanet": {
       "name": "Desconocido",
@@ -1490,7 +1490,7 @@
     "race": "Desconocido",
     "gender": "Masculino",
     "description": "Jiren es un miembro de los Pride Troopers del Universo 11, conocido por su abrumadora fuerza y determinación. Es considerado uno de los guerreros más poderosos del multiverso.",
-    "image": "/assets/pj/Jiren.png",
+    "image": "/assets/pj/Jiren.webp",
     "affiliation": "Universo 11",
     "originPlanet": {
       "name": "Desconocido",
@@ -1507,7 +1507,7 @@
     "race": "Desconocido",
     "gender": "Masculino",
     "description": "Toppo es un miembro de alto rango de los Pride Troopers y candidato a Dios de la Destrucción del Universo 11. Es un guerrero formidable, profundamente comprometido con la justicia.",
-    "image": "/assets/pj/Toppo.png",
+    "image": "/assets/pj/Toppo.webp",
     "affiliation": "Universo 11",
     "originPlanet": {
       "name": "Desconocido",
@@ -1518,7 +1518,7 @@
     "transformations": [
       {
         "name": "Modo Dios de la Destrucción",
-        "image": "/assets/transformations/GodOfDestructionToppo.png",
+        "image": "/assets/transformations/ToppoDios.png",
         "ki": "Desconocido"
       }
     ]
@@ -1527,10 +1527,10 @@
     "name": "Cabba",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
-    "race": "Saiyajin",
+    "race": "Saiyan",
     "gender": "Masculino",
     "description": "Cabba es un Saiyajin del Universo 6. A diferencia de los Saiyajin del Universo 7, Cabba proviene de una raza pacífica. Es entrenado por Vegeta y se convierte en Super Saiyajin durante su encuentro.",
-    "image": "/assets/pj/Cabba.png",
+    "image": "/assets/pj/Cabba.webp",
     "affiliation": "Universo 6",
     "originPlanet": {
       "name": "Planeta Sadala",
@@ -1540,8 +1540,8 @@
     },
     "transformations": [
       {
-        "name": "Super Saiyajin",
-        "image": "/assets/transformations/SuperSaiyanCabba.png",
+        "name": "Cabba Super Saiyan",
+        "image": "/assets/transformations/CabbaSSJ.webp",
         "ki": "Desconocido"
       }
     ]
@@ -1550,10 +1550,10 @@
     "name": "Caulifla",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
-    "race": "Saiyajin",
+    "race": "Saiyan",
     "gender": "Femenino",
     "description": "Caulifla es una Saiyajin rebelde del Universo 6 que rápidamente se convierte en Super Saiyajin tras aprender sobre la transformación de Cabba. Es conocida por su actitud audaz y confiada.",
-    "image": "/assets/pj/Caulifla.png",
+    "image": "/assets/pj/Caulifla.webp",
     "affiliation": "Universo 6",
     "originPlanet": {
       "name": "Planeta Sadala",
@@ -1563,8 +1563,8 @@
     },
     "transformations": [
       {
-        "name": "Super Saiyajin",
-        "image": "/assets/transformations/SuperSaiyanCaulifla.png",
+        "name": " Caulifla Super Saiyan",
+        "image": "/assets/transformations/Caulifla_SSJ.webp",
         "ki": "Desconocido"
       }
     ]
@@ -1573,10 +1573,10 @@
     "name": "Kale",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
-    "race": "Saiyajin",
+    "race": "Saiyan",
     "gender": "Femenino",
     "description": "Kale es una Saiyajin del Universo 6 que se transforma en un Super Saiyajin berserker. Inicialmente tímida y reservada, gana un poder inmenso cuando es llevada al límite.",
-    "image": "/assets/pj/Kale.png",
+    "image": "/assets/pj/Kale.webp",
     "affiliation": "Universo 6",
     "originPlanet": {
       "name": "Planeta Sadala",
@@ -1587,8 +1587,8 @@
     },
     "transformations": [
       {
-        "name": "Super Saiyajin Berserker",
-        "image": "/assets/transformations/BerserkSuperSaiyanKale.png",
+        "name": "Super Saiyan Berserker",
+        "image": "/assets/transformations/KaleSSJBerserker.webp",
         "ki": "Desconocido"
       }
     ]
@@ -1600,7 +1600,7 @@
     "race": "Desconocido",
     "gender": "Masculino",
     "description": "Zeno es el gobernante absoluto de todo el multiverso. Aunque tiene una apariencia infantil, es increíblemente poderoso y puede destruir universos enteros sin esfuerzo.",
-    "image": "/assets/pj/Zeno.png",
+    "image": "/assets/pj/Zeno.webp",
     "affiliation": "Multiverso",
     "originPlanet": {
       "name": "Desconocido",
@@ -1614,10 +1614,10 @@
     "name": "Broly",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
-    "race": "Saiyajin",
+    "race": "Saiyan",
     "gender": "Masculino",
     "description": "Broly es un Saiyajin legendario con un poder descomunal que crece exponencialmente cuando se enfurece. En Dragon Ball Super, es mostrado como un personaje más trágico y emocionalmente complejo.",
-    "image": "/assets/pj/BrolySuper.png",
+    "image": "/assets/pj/Broly.webp",
     "affiliation": "Planeta Vampa",
     "originPlanet": {
       "name": "Planeta Vampa",
@@ -1627,8 +1627,8 @@
     },
     "transformations": [
       {
-        "name": "Super Saiyajin Legendario",
-        "image": "/assets/transformations/LegendarySuperSaiyanBroly.png",
+        "name": "Super Saiyan Legendario",
+        "image": "/assets/transformations/BrolySSJ.webp",
         "ki": "Desconocido"
       }
     ]
