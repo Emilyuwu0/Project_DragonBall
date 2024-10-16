@@ -850,7 +850,7 @@
     "image": "/assets/pj/MajinBuu.webp",
     "affiliation": "Babidi's Army",
     "originPlanet": {
-      "name": "Unknown",
+      "name": "Desconocido",
       "isDestroyed": false,
       "description": "Planeta de origen desconocido.",
       "image": "https://dragonball-api.com/planetas/desconocido.webp"
@@ -876,7 +876,7 @@
   {
     "name": "Dende",
     "ki": "20.000",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Namekian",
     "gender": "Male",
     "description": "Dende es un Namekiano con habilidades curativas que se convierte en el nuevo Dios de la Tierra después de la muerte de Kami. También juega un papel crucial en la creación de las Esferas del Dragón de la Tierra.",
@@ -893,7 +893,7 @@
   {
     "name": "Kibito",
     "ki": "50.000",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Shinjin",
     "gender": "Male",
     "description": "Kibito es el asistente personal de Kaio Shin. Tiene habilidades de teletransportación y curación. Más tarde, se fusiona con Kaio Shin para formar Kibitoshin.",
@@ -910,7 +910,7 @@
   {
     "name": "Kaio Shin",
     "ki": "200.000",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Shinjin",
     "gender": "Male",
     "description": "Kaio Shin es uno de los dioses supremos del universo que supervisa la protección del mismo. Durante la saga de Majin Buu, trabaja junto con Goku y los demás para derrotar a Buu.",
@@ -927,7 +927,7 @@
   {
     "name": "Korin",
     "ki": "1.200",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Cat",
     "gender": "Male",
     "description": "Korin es un gato inmortal que vive en la Torre Korin. Es un maestro que entrenó a Goku y otros guerreros. También es el guardián de las Semillas del Ermitaño, que son esenciales para la recuperación rápida.",
@@ -944,14 +944,14 @@
   {
     "name": "Babidi",
     "ki": "1.800",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Sorcerer",
     "gender": "Male",
     "description": "Babidi es un mago maligno que busca revivir a Majin Buu para dominar el universo. Es el hijo de Bibidi y utiliza el poder de la magia para controlar a los guerreros más fuertes.",
     "image": "/assets/pj/Babidi.webp",
     "affiliation": "Majin Buu",
     "originPlanet": {
-      "name": "Unknown",
+      "name": "Desconocido",
       "isDestroyed": false,
       "description": "Planeta de origen desconocido.",
       "image": null
@@ -961,7 +961,7 @@
   {
     "name": "Dabura",
     "ki": "40.000.000",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Demon",
     "gender": "Male",
     "description": "Dabura es el rey del Mundo de los Demonios y el principal sirviente de Babidi. Tiene la habilidad de convertir a sus enemigos en piedra mediante su saliva y es un combatiente formidable.",
@@ -978,7 +978,7 @@
   {
     "name": "Goten",
     "ki": "1.500.000",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Saiyan/Human hybrid",
     "gender": "Male",
     "description": "Goten es el segundo hijo de Goku y Chi-Chi. Aunque es joven, muestra un gran potencial en combate, al punto de alcanzar la forma de Super Saiyan a una edad temprana.",
@@ -993,7 +993,7 @@
     "transformations": [
       {
         "name": "Goten Super Saiyan",
-        "ki": "Unknown",
+        "ki": "Desconocido",
         "description": "Goten alcanza esta transformación a una edad sorprendentemente joven.",
         "image": "/assets/transformations/GotenSSJ.png"
       }
@@ -1002,7 +1002,7 @@
   {
     "name": "Videl",
     "ki": "100",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Human",
     "gender": "Female",
     "description": "Videl es la hija de Mr. Satán y más tarde se convierte en la esposa de Gohan. Es una luchadora talentosa y valiente, a pesar de no tener las habilidades de los Saiyans.",
@@ -1019,7 +1019,7 @@
   {
     "name": "Pan",
     "ki": "100.000",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Saiyan/Human hybrid",
     "gender": "Female",
     "description": "Pan es la hija de Gohan y Videl. A pesar de su corta edad, muestra gran potencial de combate, heredando las habilidades de lucha de su padre.",
@@ -1035,8 +1035,8 @@
   },
   {
     "name": "Dr. Gero",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
     "race": "Android (formerly Human)",
     "gender": "Male",
     "description": "Dr. Gero es un científico malvado de la Red Ribbon Army y el creador de muchos androides, incluidos los Androides 17, 18 y Cell. Después de modificar su propio cuerpo, se convierte en Androide 20.",
@@ -1053,7 +1053,7 @@
   {
     "name": "Baby",
     "ki": "100 Billion",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Tuffle Parasite",
     "gender": "Male",
     "description": "Baby es un parásito de la raza Tsufurujin, creado con el objetivo de vengar la destrucción de su raza por los Saiyans. Controla los cuerpos de otros seres y se convierte en uno de los mayores antagonistas de Dragon Ball GT.",
@@ -1075,8 +1075,8 @@
   },
   {
     "name": "Super A-17",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
     "race": "Android",
     "gender": "Male",
     "description": "Super A-17 es la fusión del Androide 17 original con un nuevo Androide 17 creado por el Dr. Myuu y el Dr. Gero, haciéndolo uno de los androides más poderosos y un formidable enemigo en Dragon Ball GT.",
@@ -1093,7 +1093,7 @@
   {
     "name": "Omega Shenron",
     "ki": "1 Quintillion",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Shadow Dragon",
     "gender": "Male",
     "description": "Omega Shenron es el último de los dragones oscuros y el más poderoso, formado por la energía negativa de los deseos realizados con las Dragon Balls.",
@@ -1110,7 +1110,7 @@
   {
     "name": "Uub",
     "ki": "500 Million",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Human (reincarnated Majin)",
     "gender": "Male",
     "description": "Uub es la reencarnación humana de Kid Buu. Aunque al principio es inexperto, se convierte en un valioso luchador bajo el entrenamiento de Goku.",
@@ -1132,8 +1132,8 @@
   },
   {
     "name": "Goku Jr.",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
     "race": "Saiyan-Human Hybrid",
     "gender": "Male",
     "description": "Goku Jr. es un descendiente lejano de Goku que aparece en los últimos episodios de Dragon Ball GT. Aunque joven y débil, muestra el potencial Saiyan.",
@@ -1149,8 +1149,8 @@
   },
   {
     "name": "Vegeta Jr.",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
     "race": "Saiyan-Human Hybrid",
     "gender": "Male",
     "description": "Vegeta Jr. es un descendiente lejano de Vegeta, similar a Goku Jr. en poder y potencial. Participa en un torneo de artes marciales en el futuro de Dragon Ball GT.",
@@ -1166,8 +1166,8 @@
   },
   {
     "name": "Trunks (Niño)",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
     "race": "Saiyan/Human Hybrid",
     "gender": "Male",
     "description": "Trunks es el hijo de Vegeta y Bulma, perteneciente a la raza Half-Saiyan.",
@@ -1189,8 +1189,8 @@
   },
   {
     "name": "Gotenks",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
     "race": "Saiyan/Human Hybrid",
     "gender": "Male",
     "description": "Gotenks es la fusión de Goten y Trunks mediante la Danza de la Fusión. Aunque muy poderoso, es impulsivo y tiende a subestimar a sus oponentes.",
@@ -1212,8 +1212,8 @@
   },
   {
     "name": "Dr. Myuu",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
     "race": "Machine Mutant",
     "gender": "Male",
     "description": "Dr. Myuu es el científico detrás de la creación de Baby y otros enemigos poderosos en Dragon Ball GT. Es un genio malvado que busca venganza contra los Saiyans.",
@@ -1230,7 +1230,7 @@
   {
     "name": "General Rilldo",
     "ki": "1 Billion",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Machine Mutant",
     "gender": "Male",
     "description": "General Rilldo es uno de los principales antagonistas en la saga de Baby. Es el general supremo del ejército Machine Mutant y un poderoso guerrero.",
@@ -1252,8 +1252,8 @@
   },
   {
     "name": "Cardinal Mutchy",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
     "race": "Machine Mutant",
     "gender": "Male",
     "description": "Cardinal Mutchy es un subordinado de Dr. Myuu que comanda el Mutchy Army. Controla a los Mutchy Mutchy, poderosos enemigos que atacan a Goku y sus amigos.",
@@ -1270,7 +1270,7 @@
   {
     "name": "Eis Shenron",
     "ki": "2 Billion",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Shadow Dragon",
     "gender": "Male",
     "description": "Eis Shenron es uno de los dragones oscuros nacidos de las Dragon Balls. Representa la bola de tres estrellas y controla el poder del hielo, enfrentándose a Goku.",
@@ -1287,7 +1287,7 @@
   {
     "name": "Nuova Shenron",
     "ki": "3 Billion",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Shadow Dragon",
     "gender": "Male",
     "description": "Nuova Shenron es otro de los dragones oscuros, nacido de la bola de cuatro estrellas. A diferencia de los demás, tiene un sentido del honor y respeto hacia sus enemigos.",
@@ -1304,7 +1304,7 @@
   {
     "name": "Rage Shenron",
     "ki": "1 Billion",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Shadow Dragon",
     "gender": "Male",
     "description": "Rage Shenron es el dragón oscuro de la bola de cinco estrellas. Usa la electricidad como su principal arma en combate, pero es derrotado por Goku.",
@@ -1321,7 +1321,7 @@
   {
     "name": "Naturon Shenron",
     "ki": "1 Billion",
-    "maxKi": "Unknown",
+    "maxKi": "Desconocido",
     "race": "Shadow Dragon",
     "gender": "Male",
     "description": "Naturon Shenron es el dragón oscuro de la bola de siete estrellas. Usa el poder de la tierra para manipular su entorno y enfrenta a Goku en una batalla.",
@@ -1337,13 +1337,13 @@
   },
   {
     "name": "Nazo",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
-    "race": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Desconocido",
     "gender": "Male",
     "description": "Nazo es un personaje de Dragon Ball GT cuya información es muy escasa. Aparece en material promocional y fuera de la serie principal.",
     "image": "/assets/pj/Nazo.webp",
-    "affiliation": "Unknown",
+    "affiliation": "Desconocido",
     "originPlanet": {
       "name": "Earth",
       "isDestroyed": false,
@@ -1352,15 +1352,10 @@
     },
     "transformations": []
   },
-
-
-
-
-  
   {
     "name": "Bills",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
     "race": "Dios",
     "gender": "Male",
     "description": "Beerus es el Dios de la Destrucción del Universo 7, responsable de mantener el equilibrio destruyendo planetas. Conocido por su naturaleza caprichosa y perezosa, Bills es uno de los seres más poderosos de Dragon Ball Super.",
@@ -1368,7 +1363,7 @@
     "affiliation": "Universe 7",
     "originPlanet": {
       "id": 1,
-      "name": "Unknown",
+      "name": "Desconocido",
       "isDestroyed": false,
       "description": "Beerus's homeworld is not explicitly named in the series.",
       "image": "https://dragonball-api.com/planets/unknown.webp"
@@ -1377,15 +1372,15 @@
   },
   {
     "name": "Whis",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Infinito",
+    "maxKi": "Infinito",
     "race": "Angel",
     "gender": "Male",
     "description": "Whis es el ángel asistente de Bills, así como su maestro de artes marciales. Whis es un ser increíblemente poderoso y tiene un vasto conocimiento del universo.",
     "image": "/assets/pj/Whis.webp",
     "affiliation": "Universe 7",
     "originPlanet": {
-      "name": "Unknown",
+      "name": "Desconocido",
       "isDestroyed": false,
       "description": "Whis's origin is unknown, as angels do not have a specific homeworld.",
       "image": "https://dragonball-api.com/planets/unknown.webp"
@@ -1394,15 +1389,15 @@
   },
   {
     "name": "Champa",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
     "race": "Dios",
     "gender": "Male",
     "description": "Champa es el Dios de la Destrucción del Universo 6 y el hermano gemelo de Bills. A pesar de su papel similar, tiene una personalidad más glotona y frecuentemente se pelea con su hermano.",
     "image": "/assets/pj/Champa.webp",
     "affiliation": "Universe 6",
     "originPlanet": {
-      "name": "Unknown",
+      "name": "Desconocido",
       "isDestroyed": false,
       "description": "Champa's homeworld is not explicitly named in the series.",
       "image": "https://dragonball-api.com/planets/unknown.webp"
@@ -1411,15 +1406,15 @@
   },
   {
     "name": "Vados",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Infinito",
+    "maxKi": "Infinito",
     "race": "Angel",
     "gender": "Female",
     "description": "Vados es el ángel asistente de Champa y su maestro de artes marciales. También es la hermana mayor de Whis y, como él, es inmensamente poderosa.",
     "image": "/assets/pj/Vados.webp",
     "affiliation": "Universe 6",
     "originPlanet": {
-      "name": "Unknown",
+      "name": "Desconocido",
       "isDestroyed": false,
       "description": "Vados's origin is unknown, as angels do not have a specific homeworld.",
       "image": "https://dragonball-api.com/planets/unknown.webp"
@@ -1427,9 +1422,367 @@
     "transformations": []
   },
   {
+    "name": "Belmod",
+    "ki": "Infinito",
+    "maxKi": "Desconocido",
+    "race": "Dios",
+    "gender": "Masculino",
+    "description": "Belmod es el Dios de la Destrucción del Universo 11. Tiene una apariencia similar a la de un payaso y es conocido por su fuerte sentido de la justicia, lo que lo convierte en un dios algo peculiar.",
+    "image": "/assets/pj/Belmod.webp",
+    "affiliation": "Universo 11",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Belmod es desconocido.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Margarita",
+    "ki": "Infinito",
+    "maxKi": "Infinito",
+    "race": "Ángel",
+    "gender": "Femenino",
+    "description": "Margarita es el ángel asistente de Belmod en el Universo 11. Es calmada y profesional, y como todos los ángeles, su poder es superior al de los dioses de la destrucción.",
+    "image": "/assets/pj/Margarita.png",
+    "affiliation": "Ángeles",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Margarita no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Rumsshi",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Dios",
+    "gender": "Masculino",
+    "description": "Rumsshi es el Dios de la Destrucción del Universo 10. Es extremadamente confiado en su poder y tiene una fuerte presencia física que intimida a otros.",
+    "image": "/assets/pj/Rumsshi.png",
+    "affiliation": "Universo 10",
+    "originPlanet": {
+      "id": 13,
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Rumsshi no ha sido revelado.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Kusu",
+    "ki": "Infinito",
+    "maxKi": "Infinito",
+    "race": "Ángel",
+    "gender": "Femenino",
+    "description": "Kusu es el ángel asistente de Rumsshi en el Universo 10. A pesar de su apariencia pequeña y su personalidad infantil, es extremadamente poderosa y está entre los ángeles más respetados.",
+    "image": "/assets/pj/Kusu.png",
+    "affiliation": "Ángeles",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Kusu no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Sidra",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Dios",
+    "gender": "Masculino",
+    "description": "Sidra es el Dios de la Destrucción del Universo 9. A diferencia de otros dioses, es más vacilante a la hora de destruir, ya que no disfruta de su rol. Su naturaleza compasiva a veces le lleva a ser menos eficiente en su trabajo.",
+    "image": "/assets/pj/Sidra.png",
+    "affiliation": "Dioses de la Destrucción",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Sidra no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Mojito",
+    "ki": "Infinito",
+    "maxKi": "Infinito",
+    "race": "Ángel",
+    "gender": "Masculino",
+    "description": "Mojito es el ángel asistente de Sidra en el Universo 9. A menudo se muestra indiferente ante las dificultades de su dios y tiene una actitud fría y calculadora.",
+    "image": "/assets/pj/Mojito.png",
+    "affiliation": "Ángeles",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Mojito no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Liquir",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Dios",
+    "gender": "Masculino",
+    "description": "Liquiir es el Dios de la Destrucción del Universo 8, caracterizado por su apariencia similar a un zorro. Es un dios firme y tiene un gran control sobre su poder.",
+    "image": "/assets/pj/Liquiir.png",
+    "affiliation": "Dioses de la Destrucción",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Liquiir no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Korn",
+    "ki": "Infinito",
+    "maxKi": "Infinito",
+    "race": "Ángel",
+    "gender": "Masculino",
+    "description": "Korn es el ángel asistente de Liquiir en el Universo 8. Es un ángel tranquilo que sigue estrictamente las reglas y guía a Liquiir con sabiduría.",
+    "image": "/assets/pj/Korn.png",
+    "affiliation": "Ángeles",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Korn no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Iwen",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Dios",
+    "gender": "Masculino",
+    "description": "Iwen es el Dios de la Destrucción del Universo 1. Es uno de los dioses más eficientes y se toma su papel con gran seriedad. Su Universo es conocido por ser uno de los más pacíficos.",
+    "image": "/assets/pj/Iwen.png",
+    "affiliation": "Dioses de la Destrucción",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Iwen no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Awamo",
+    "ki": "Infinito",
+    "maxKi": "Infinito",
+    "race": "Ángel",
+    "gender": "Masculino",
+    "description": "Awamo es el ángel asistente de Iwen en el Universo 1. Es inteligente y sabio, y ayuda a su dios a mantener el orden en su universo con serenidad.",
+    "image": "/assets/pj/Awamo.png",
+    "affiliation": "Ángeles",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Awamo no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Heles",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Dios",
+    "gender": "Femenino",
+    "description": "Heles es la Diosa de la Destrucción del Universo 2. Es la única diosa de la destrucción femenina y tiene un fuerte sentido de la estética. Destruye basándose en lo que considera hermoso o feo.",
+    "image": "/assets/pj/Heles.png",
+    "affiliation": "Dioses de la Destrucción",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Heles no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Sour",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Ángel",
+    "gender": "Masculino",
+    "description": "Sour es el ángel asistente del Dios de la Destrucción de Heles. Es un ángel elegante que sigue fielmente su papel, aunque muestra una gran lealtad hacia su universo.",
+    "image": "/assets/pj/Sour.png",
+    "affiliation": "Ángeles del Universo 2",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Sour no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Gin",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Dios",
+    "gender": "Masculino",
+    "description": "Gin es el Dios de la Destrucción del Universo 12. Tiene la apariencia de un lobo con pelo plateado. Es conocido por ser justo y calculador en sus acciones como destructor.",
+    "image": "/assets/pj/Gin.png",
+    "affiliation": "Dioses de la Destrucción",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Gin no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Martinu",
+    "ki": "Infinite",
+    "maxKi": "Infinite",
+    "race": "Ángel",
+    "gender": "Female",
+    "description": "Martinu es la Ángel del Universo 12, asistente de Gin, el Dios de la Destrucción. Como todos los Ángeles, Martinu es extremadamente poderosa y está a cargo de guiar y entrenar a Gin en su papel como destructor.",
+    "image": "/assets/pj/Martinu.png",
+    "affiliation": "Ángel del Universo 12",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El origen de los Ángeles es desconocido.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Mosco",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Dios",
+    "gender": "Desconocido",
+    "description": "Mosco es el Dios de la Destrucción del Universo 3 y es un dios con cuerpo de robot. Se comunica a través de sonidos robóticos y su asistente lo traduce.",
+    "image": "/assets/pj/Mosco.png",
+    "affiliation": "Universo 3",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta natal de Mosco es desconocido.",
+      "image": "https://dragonball-api.com/planets/unknown.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Campari",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Ángel",
+    "gender": "Masculino",
+    "description": "Campari es el ángel asistente del Dios de la Destrucción de Mosco. Como todos los ángeles, es extremadamente poderoso y leal a su rol, aunque su expresión es más neutral y distante.",
+    "image": "/assets/pj/Campari.png",
+    "affiliation": "Ángeles del Universo 3",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Campari no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Quitela",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Dios",
+    "gender": "Masculino",
+    "description": "Quitela es el Dios de la Destrucción del Universo 4. Tiene la apariencia de un ratón y es conocido por ser astuto, traicionero y por usar tácticas engañosas para ganar en lugar de depender solo de su poder.",
+    "image": "/assets/pj/Quitela.png",
+    "affiliation": "Dioses de la Destrucción",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Quitela no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Cognac",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Ángel",
+    "gender": "Masculino",
+    "description": "Cognac es el ángel asistente del Dios de la Destrucción del Universo 4, Quitela. Es astuto y reservado, reflejando la personalidad engañosa de su dios, aunque como ángel, sigue siendo neutral.",
+    "image": "/assets/pj/Cognac.png",
+    "affiliation": "Ángeles del Universo 4",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Cognac no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Arak",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Dios",
+    "gender": "Masculino",
+    "description": "Arak es el Dios de la Destrucción del Universo 5. Es un dios bastante serio y toma su papel como destructor con gran responsabilidad, aunque no es conocido por ser sádico.",
+    "image": "/assets/pj/Arak.png",
+    "affiliation": "Dioses de la Destrucción",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Arak no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Cukatail",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
+    "race": "Ángel",
+    "gender": "Masculino",
+    "description": "Cukatail es el ángel asistente del Dios de la Destrucción del Universo 5, Arak. Como los demás ángeles, es extremadamente poderoso, aunque su carácter es más bien calmado y serio.",
+    "image": "/assets/pj/Cukatail.png",
+    "affiliation": "Ángeles del Universo 5",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen de Cukatail no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
+    "name": "Gran Sacerdote",
+    "ki": "Infinito",
+    "maxKi": "Infinito",
+    "race": "Ángel",
+    "gender": "Masculino",
+    "description": "El Gran Sacerdote es el ángel más poderoso y el asistente directo de Zeno, el Rey de Todo. Es el padre de Whis y de todos los ángeles, y se considera uno de los seres más fuertes del multiverso.",
+    "image": "/assets/pj/GrandPriest.png",
+    "affiliation": "Ángeles",
+    "originPlanet": {
+      "name": "Desconocido",
+      "isDestroyed": false,
+      "description": "El planeta de origen del Gran Sacerdote no ha sido revelado.",
+      "image": "https://dragonball-api.com/planetas/desconocido.webp"
+    },
+    "transformations": []
+  },
+  {
     "name": "Zamasu",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
     "race": "Kai",
     "gender": "Male",
     "description": "Zamasu es un ex Kai del Norte y el principal antagonista de la saga Trunks 'Futuro' en Dragon Ball Super. Se obsesiona con su idea del 'Plan Cero Mortales', lo que lo lleva a intercambiar cuerpos con Goku, convirtiéndose en Goku Black.",
@@ -1445,8 +1798,8 @@
   },
   {
     "name": "Goku Black",
-    "ki": "Unknown",
-    "maxKi": "Unknown",
+    "ki": "Desconocido",
+    "maxKi": "Desconocido",
     "race": "Saiyan",
     "gender": "Male",
     "description": "Goku Black is the result of Zamasu using the Super Dragon Balls to switch bodies with Goku. He is a powerful and ruthless warrior, responsible for causing chaos in the future timeline.",
@@ -1462,7 +1815,7 @@
       {
         "name": "Super Saiyan Rose",
         "image": "https://dragonball-api.com/transformations/goku_black_rose.webp",
-        "ki": "Unknown"
+        "ki": "Desconocido"
       }
     ]
   },
@@ -1640,7 +1993,7 @@
     "race": "Desconocido",
     "gender": "Masculino",
     "description": "Moro es un mago antiguo y extremadamente poderoso que ha existido por millones de años. Es capaz de absorber la energía vital de planetas enteros para aumentar su poder.",
-    "image": "/assets/pj/Moro.png",
+    "image": "/assets/pj/Moro.webp",
     "affiliation": "Criminal Galáctico",
     "originPlanet": {
       "name": "Desconocido",
@@ -1648,7 +2001,16 @@
       "description": "El planeta natal de Moro no ha sido revelado en la serie.",
       "image": "https://dragonball-api.com/planets/unknown.webp"
     },
-    "transformations": []
+    "transformations": [
+      {
+        "name": "Mago Antiguo",
+        "image": "/assets/transformations/Moro_Joven.webp"
+      },
+      {
+        "name": "Transformado",
+        "image": "/assets/transformations/Moro_Final.webp"
+      }
+    ]
   },
   {
     "name": "Gowasu",
@@ -1657,116 +2019,12 @@
     "race": "Kaioshin",
     "gender": "Masculino",
     "description": "Gowasu es el Kaioshin del Universo 10. Es el mentor de Zamasu y un defensor de la paz, aunque su ingenuidad respecto a su aprendiz lleva a consecuencias catastróficas.",
-    "image": "/assets/pj/Gowasu.png",
+    "image": "/assets/pj/Gowasu.webp",
     "affiliation": "Universo 10",
     "originPlanet": {
       "name": "Desconocido",
       "isDestroyed": false,
       "description": "El planeta de origen de Gowasu no ha sido especificado.",
-      "image": "https://dragonball-api.com/planets/unknown.webp"
-    },
-    "transformations": []
-  },
-  {
-    "name": "Kaioshin",
-    "ki": "Desconocido",
-    "maxKi": "Desconocido",
-    "race": "Kaioshin",
-    "gender": "Masculino",
-    "description": "Este Kaioshin fue el aprendiz de Gowasu y terminó rebelándose debido a su creencia de que los mortales no merecen vivir. Su ambición lo llevó a fusionarse con Goku Black.",
-    "image": "/assets/pj/KaioshinU10.png",
-    "affiliation": "Universo 10",
-    "originPlanet": {
-      "name": "Desconocido",
-      "isDestroyed": false,
-      "description": "El planeta natal del Kaioshin del Universo 10 es desconocido.",
-      "image": "https://dragonball-api.com/planets/unknown.webp"
-    },
-    "transformations": []
-  },
-  {
-    "name": "Belmod",
-    "ki": "Desconocido",
-    "maxKi": "Desconocido",
-    "race": "Dios",
-    "gender": "Masculino",
-    "description": "Belmod es el Dios de la Destrucción del Universo 11. Tiene una apariencia similar a la de un payaso y es conocido por su fuerte sentido de la justicia, lo que lo convierte en un dios algo peculiar.",
-    "image": "/assets/pj/Belmod.png",
-    "affiliation": "Universo 11",
-    "originPlanet": {
-      "name": "Desconocido",
-      "isDestroyed": false,
-      "description": "El planeta de origen de Belmod es desconocido.",
-      "image": "https://dragonball-api.com/planets/unknown.webp"
-    },
-    "transformations": []
-  },
-  {
-    "name": "Jiraiya",
-    "ki": "Desconocido",
-    "maxKi": "Desconocido",
-    "race": "Dios",
-    "gender": "Masculino",
-    "description": "Jiraiya es el Dios de la Destrucción del Universo 3, un universo centrado en la tecnología. Es un dios calmado que utiliza estrategias para mantener el equilibrio en su universo.",
-    "image": "/assets/pj/Jiraiya.png",
-    "affiliation": "Universo 3",
-    "originPlanet": {
-      "name": "Desconocido",
-      "isDestroyed": false,
-      "description": "El planeta de origen de Jiraiya no ha sido revelado.",
-      "image": "https://dragonball-api.com/planets/unknown.webp"
-    },
-    "transformations": []
-  },
-  {
-    "name": "Mosco",
-    "ki": "Desconocido",
-    "maxKi": "Desconocido",
-    "race": "Dios",
-    "gender": "Desconocido",
-    "description": "Mosco es el Dios de la Destrucción del Universo 4 y es un dios con cuerpo de robot. Se comunica a través de sonidos robóticos y su asistente lo traduce.",
-    "image": "/assets/pj/Mosco.png",
-    "affiliation": "Universo 4",
-    "originPlanet": {
-      "name": "Desconocido",
-      "isDestroyed": false,
-      "description": "El planeta natal de Mosco es desconocido.",
-      "image": "https://dragonball-api.com/planets/unknown.webp"
-    },
-    "transformations": []
-  },
-  {
-    "name": "Rumsshi",
-    "ki": "Desconocido",
-    "maxKi": "Desconocido",
-    "race": "Dios",
-    "gender": "Masculino",
-    "description": "Rumsshi es el Dios de la Destrucción del Universo 10. Es extremadamente confiado en su poder y tiene una fuerte presencia física que intimida a otros.",
-    "image": "/assets/pj/Rumsshi.png",
-    "affiliation": "Universo 10",
-    "originPlanet": {
-      "id": 13,
-      "name": "Desconocido",
-      "isDestroyed": false,
-      "description": "El planeta de origen de Rumsshi no ha sido revelado.",
-      "image": "https://dragonball-api.com/planets/unknown.webp"
-    },
-    "transformations": []
-  },
-  {
-    "name": "Topo",
-    "ki": "Desconocido",
-    "maxKi": "Desconocido",
-    "race": "Dios",
-    "gender": "Masculino",
-    "description": "Topo es un Guerrero del Orgullo del Universo 11 que eventualmente obtiene los poderes de un Dios de la Destrucción. Es conocido por su sentido de la justicia y su fuerte moral.",
-    "image": "/assets/pj/Topo.png",
-    "affiliation": "Universo 11",
-    "originPlanet": {
-      "id": 10,
-      "name": "Desconocido",
-      "isDestroyed": false,
-      "description": "El planeta de origen de Topo no se ha revelado.",
       "image": "https://dragonball-api.com/planets/unknown.webp"
     },
     "transformations": []
