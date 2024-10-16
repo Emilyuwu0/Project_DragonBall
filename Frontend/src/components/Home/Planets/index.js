@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
-
+import { Link } from "react-router-dom";
 import "./index.css";
 
-import { Link } from "react-router-dom";
 export default function Planets() {
   const controls = useAnimation();
   const titleControls = useAnimation();
@@ -97,36 +96,35 @@ export default function Planets() {
               </Link>
             </div>
             <div className="div-right">
-            <div className="div-father-planets-right">
-                 <div className="div-planets">
-                <div className="main">
-                  <div className="randar-box">
-                    <input
-                      type="checkbox"
-                      checked
-                      className="randar-checkbox"
-                    />
-                    <div className="randar-top"></div>
-                    <div className="randar-top-body"></div>
-                    <div className="randar-content">
-                      <div className="rander-ball"></div>
-                      <div className="rander-ball"></div>
-                      <div className="rander-ball"></div>
-                      <div className="rander-ball"></div>
-                      <div className="rander-pos"></div>
+              <div className="div-father-planets-right">
+                <div className="div-planets">
+                  <div className="main">
+                    <div className="randar-box">
+                      <input
+                        type="checkbox"
+                        checked
+                        className="randar-checkbox"
+                      />
+                      <div className="randar-top"></div>
+                      <div className="randar-top-body"></div>
+                      <div className="randar-content">
+                        <div className="rander-ball"></div>
+                        <div className="rander-ball"></div>
+                        <div className="rander-ball"></div>
+                        <div className="rander-ball"></div>
+                        <div className="rander-pos"></div>
+                      </div>
                     </div>
                   </div>
+                  <p className="dragon-title">
+                    {" "}
+                    Radar del Dragón{" "}
+                    <span className="title-color-primary">
+                      ( ドラゴンレーダー)
+                    </span>
+                  </p>
                 </div>
-                <p className="dragon-title">
-                  {" "}
-                  Radar del Dragón{" "}
-                  <span className="title-color-primary">
-                    ( ドラゴンレーダー)
-                  </span>
-                </p>
               </div>
-            </div>
-           
             </div>
           </div>
         </div>{" "}
