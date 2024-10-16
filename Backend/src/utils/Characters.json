@@ -1480,7 +1480,7 @@
     "race": "Ángel",
     "gender": "Femenino",
     "description": "Kusu es el ángel asistente de Rumsshi en el Universo 10. A pesar de su apariencia pequeña y su personalidad infantil, es extremadamente poderosa y está entre los ángeles más respetados.",
-    "image": "/assets/pj/Kusu.png",
+    "image": "/assets/pj/Kusu.webp",
     "affiliation": "Ángeles",
     "originPlanet": {
       "name": "Desconocido",
@@ -1497,7 +1497,7 @@
     "race": "Dios",
     "gender": "Masculino",
     "description": "Sidra es el Dios de la Destrucción del Universo 9. A diferencia de otros dioses, es más vacilante a la hora de destruir, ya que no disfruta de su rol. Su naturaleza compasiva a veces le lleva a ser menos eficiente en su trabajo.",
-    "image": "/assets/pj/Sidra.png",
+    "image": "/assets/pj/Sidra.webp",
     "affiliation": "Dioses de la Destrucción",
     "originPlanet": {
       "name": "Desconocido",
@@ -1514,7 +1514,7 @@
     "race": "Ángel",
     "gender": "Masculino",
     "description": "Mojito es el ángel asistente de Sidra en el Universo 9. A menudo se muestra indiferente ante las dificultades de su dios y tiene una actitud fría y calculadora.",
-    "image": "/assets/pj/Mojito.png",
+    "image": "/assets/pj/Mojito.webp",
     "affiliation": "Ángeles",
     "originPlanet": {
       "name": "Desconocido",
@@ -1531,7 +1531,7 @@
     "race": "Dios",
     "gender": "Masculino",
     "description": "Liquiir es el Dios de la Destrucción del Universo 8, caracterizado por su apariencia similar a un zorro. Es un dios firme y tiene un gran control sobre su poder.",
-    "image": "/assets/pj/Liquiir.png",
+    "image": "/assets/pj/Liquir.webp",
     "affiliation": "Dioses de la Destrucción",
     "originPlanet": {
       "name": "Desconocido",
@@ -1548,7 +1548,7 @@
     "race": "Ángel",
     "gender": "Masculino",
     "description": "Korn es el ángel asistente de Liquiir en el Universo 8. Es un ángel tranquilo que sigue estrictamente las reglas y guía a Liquiir con sabiduría.",
-    "image": "/assets/pj/Korn.png",
+    "image": "/assets/pj/Korn.webp",
     "affiliation": "Ángeles",
     "originPlanet": {
       "name": "Desconocido",
@@ -1565,7 +1565,7 @@
     "race": "Dios",
     "gender": "Masculino",
     "description": "Iwen es el Dios de la Destrucción del Universo 1. Es uno de los dioses más eficientes y se toma su papel con gran seriedad. Su Universo es conocido por ser uno de los más pacíficos.",
-    "image": "/assets/pj/Iwen.png",
+    "image": "/assets/pj/Iwen.webp",
     "affiliation": "Dioses de la Destrucción",
     "originPlanet": {
       "name": "Desconocido",
@@ -1582,7 +1582,7 @@
     "race": "Ángel",
     "gender": "Masculino",
     "description": "Awamo es el ángel asistente de Iwen en el Universo 1. Es inteligente y sabio, y ayuda a su dios a mantener el orden en su universo con serenidad.",
-    "image": "/assets/pj/Awamo.png",
+    "image": "/assets/pj/Awamo.webp",
     "affiliation": "Ángeles",
     "originPlanet": {
       "name": "Desconocido",
@@ -1599,7 +1599,7 @@
     "race": "Dios",
     "gender": "Femenino",
     "description": "Heles es la Diosa de la Destrucción del Universo 2. Es la única diosa de la destrucción femenina y tiene un fuerte sentido de la estética. Destruye basándose en lo que considera hermoso o feo.",
-    "image": "/assets/pj/Heles.png",
+    "image": "/assets/pj/Helles.webp",
     "affiliation": "Dioses de la Destrucción",
     "originPlanet": {
       "name": "Desconocido",
@@ -1616,7 +1616,7 @@
     "race": "Ángel",
     "gender": "Masculino",
     "description": "Sour es el ángel asistente del Dios de la Destrucción de Heles. Es un ángel elegante que sigue fielmente su papel, aunque muestra una gran lealtad hacia su universo.",
-    "image": "/assets/pj/Sour.png",
+    "image": "/assets/pj/Sour.webp",
     "affiliation": "Ángeles del Universo 2",
     "originPlanet": {
       "name": "Desconocido",
@@ -1633,7 +1633,7 @@
     "race": "Dios",
     "gender": "Masculino",
     "description": "Gin es el Dios de la Destrucción del Universo 12. Tiene la apariencia de un lobo con pelo plateado. Es conocido por ser justo y calculador en sus acciones como destructor.",
-    "image": "/assets/pj/Gin.png",
+    "image": "/assets/pj/Gin.webp",
     "affiliation": "Dioses de la Destrucción",
     "originPlanet": {
       "name": "Desconocido",
@@ -1650,7 +1650,7 @@
     "race": "Ángel",
     "gender": "Female",
     "description": "Martinu es la Ángel del Universo 12, asistente de Gin, el Dios de la Destrucción. Como todos los Ángeles, Martinu es extremadamente poderosa y está a cargo de guiar y entrenar a Gin en su papel como destructor.",
-    "image": "/assets/pj/Martinu.png",
+    "image": "/assets/pj/Martinu.webp",
     "affiliation": "Ángel del Universo 12",
     "originPlanet": {
       "name": "Desconocido",
@@ -1667,7 +1667,7 @@
     "race": "Dios",
     "gender": "Desconocido",
     "description": "Mosco es el Dios de la Destrucción del Universo 3 y es un dios con cuerpo de robot. Se comunica a través de sonidos robóticos y su asistente lo traduce.",
-    "image": "/assets/pj/Mosco.png",
+    "image": "/assets/pj/Mosco.webp",
     "affiliation": "Universo 3",
     "originPlanet": {
       "name": "Desconocido",
@@ -1678,13 +1678,13 @@
     "transformations": []
   },
   {
-    "name": "Campari",
+    "name": "Campahri",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
     "race": "Ángel",
     "gender": "Masculino",
     "description": "Campari es el ángel asistente del Dios de la Destrucción de Mosco. Como todos los ángeles, es extremadamente poderoso y leal a su rol, aunque su expresión es más neutral y distante.",
-    "image": "/assets/pj/Campari.png",
+    "image": "/assets/pj/Campahri.webp",
     "affiliation": "Ángeles del Universo 3",
     "originPlanet": {
       "name": "Desconocido",
@@ -1701,7 +1701,7 @@
     "race": "Dios",
     "gender": "Masculino",
     "description": "Quitela es el Dios de la Destrucción del Universo 4. Tiene la apariencia de un ratón y es conocido por ser astuto, traicionero y por usar tácticas engañosas para ganar en lugar de depender solo de su poder.",
-    "image": "/assets/pj/Quitela.png",
+    "image": "/assets/pj/Quitela.webp",
     "affiliation": "Dioses de la Destrucción",
     "originPlanet": {
       "name": "Desconocido",
@@ -1718,7 +1718,7 @@
     "race": "Ángel",
     "gender": "Masculino",
     "description": "Cognac es el ángel asistente del Dios de la Destrucción del Universo 4, Quitela. Es astuto y reservado, reflejando la personalidad engañosa de su dios, aunque como ángel, sigue siendo neutral.",
-    "image": "/assets/pj/Cognac.png",
+    "image": "/assets/pj/Cognac.webp",
     "affiliation": "Ángeles del Universo 4",
     "originPlanet": {
       "name": "Desconocido",
@@ -1735,7 +1735,7 @@
     "race": "Dios",
     "gender": "Masculino",
     "description": "Arak es el Dios de la Destrucción del Universo 5. Es un dios bastante serio y toma su papel como destructor con gran responsabilidad, aunque no es conocido por ser sádico.",
-    "image": "/assets/pj/Arak.png",
+    "image": "/assets/pj/Arak.webp",
     "affiliation": "Dioses de la Destrucción",
     "originPlanet": {
       "name": "Desconocido",
@@ -1746,13 +1746,13 @@
     "transformations": []
   },
   {
-    "name": "Cukatail",
+    "name": "Cucatail",
     "ki": "Desconocido",
     "maxKi": "Desconocido",
     "race": "Ángel",
     "gender": "Masculino",
     "description": "Cukatail es el ángel asistente del Dios de la Destrucción del Universo 5, Arak. Como los demás ángeles, es extremadamente poderoso, aunque su carácter es más bien calmado y serio.",
-    "image": "/assets/pj/Cukatail.png",
+    "image": "/assets/pj/Cucatail.webp",
     "affiliation": "Ángeles del Universo 5",
     "originPlanet": {
       "name": "Desconocido",
@@ -1769,7 +1769,7 @@
     "race": "Ángel",
     "gender": "Masculino",
     "description": "El Gran Sacerdote es el ángel más poderoso y el asistente directo de Zeno, el Rey de Todo. Es el padre de Whis y de todos los ángeles, y se considera uno de los seres más fuertes del multiverso.",
-    "image": "/assets/pj/GrandPriest.png",
+    "image": "/assets/pj/GranSacerdote.webp",
     "affiliation": "Ángeles",
     "originPlanet": {
       "name": "Desconocido",
@@ -1803,7 +1803,7 @@
     "race": "Saiyan",
     "gender": "Male",
     "description": "Goku Black is the result of Zamasu using the Super Dragon Balls to switch bodies with Goku. He is a powerful and ruthless warrior, responsible for causing chaos in the future timeline.",
-    "image": "https://dragonball-api.com/characters/goku_black.webp",
+    "image": "/assets/pj/GokuBlack.webp",
     "affiliation": "Universe 10",
     "originPlanet": {
       "name": "Earth (Future)",
@@ -1814,7 +1814,7 @@
     "transformations": [
       {
         "name": "Super Saiyan Rose",
-        "image": "https://dragonball-api.com/transformations/goku_black_rose.webp",
+        "image": "/assets/transformations/GokuBlackSSJ.webp",
         "ki": "Desconocido"
       }
     ]
@@ -2004,11 +2004,13 @@
     "transformations": [
       {
         "name": "Mago Antiguo",
-        "image": "/assets/transformations/Moro_Joven.webp"
+        "image": "/assets/transformations/Moro_Joven.webp",
+        "ki": "Desconocido"
       },
       {
         "name": "Transformado",
-        "image": "/assets/transformations/Moro_Final.webp"
+        "image": "/assets/transformations/Moro_Final.webp",
+        "ki": "Desconocido"
       }
     ]
   },
@@ -2036,7 +2038,7 @@
     "race": "Desconocido",
     "gender": "Masculino",
     "description": "Dyspo es un miembro de los Guerreros del Orgullo del Universo 11. Tiene una velocidad increíble, rivalizando incluso con algunos de los luchadores más poderosos del multiverso.",
-    "image": "/assets/pj/Dyspo.png",
+    "image": "/assets/pj/Dyspo.webp",
     "affiliation": "Universo 11",
     "originPlanet": {
       "name": "Desconocido",
@@ -2053,7 +2055,7 @@
     "race": "Desconocido",
     "gender": "Femenino",
     "description": "Brianne de Chateau es una guerrera del Universo 2 que se transforma en Ribrianne, la guerrera del amor. Sus ataques están basados en la energía del amor y la felicidad.",
-    "image": "/assets/pj/BrianneDeChateau.png",
+    "image": "/assets/pj/Brianne.webp",
     "affiliation": "Universo 2",
     "originPlanet": {
       "name": "Desconocido",
@@ -2064,7 +2066,7 @@
     "transformations": [
       {
         "name": "Ribrianne",
-        "image": "/assets/transformations/Ribrianne.png",
+        "image": "/assets/transformations/Ribrianne.webp",
         "ki": "Desconocido"
       }
     ]
@@ -2076,7 +2078,7 @@
     "race": "Desconocido",
     "gender": "Masculino",
     "description": "Su Roas es un guerrero del Universo 2 que lucha por el amor y la justicia. Tiene una gran velocidad y es miembro del equipo de los guerreros más fuertes de su universo.",
-    "image": "/assets/pj/SuRoas.png",
+    "image": "/assets/pj/SuRoas.webp",
     "affiliation": "Universo 2",
     "originPlanet": {
       "name": "Desconocido",
@@ -2093,7 +2095,7 @@
     "race": "Desconocido",
     "gender": "Femenino",
     "description": "Vikal es una luchadora del Universo 2 que también lucha por el amor y la justicia. Se une a los guerreros más poderosos de su universo para participar en el Torneo de Poder.",
-    "image": "/assets/pj/Vikal.png",
+    "image": "/assets/pj/Vikal.webp",
     "affiliation": "Universo 2",
     "originPlanet": {
       "name": "Desconocido",
@@ -2110,7 +2112,7 @@
     "race": "Desconocido",
     "gender": "Masculino",
     "description": "Zarbuto es un guerrero del Universo 2 que lucha en el Torneo de Poder. Tiene una gran fe en sus compañeros y en la capacidad de su universo para prevalecer.",
-    "image": "/assets/pj/Zarbuto.png",
+    "image": "/assets/pj/Zarbuto.webp",
     "affiliation": "Universo 2",
     "originPlanet": {
       "name": "Desconocido",
@@ -2127,7 +2129,7 @@
     "race": "Desconocido",
     "gender": "Masculino",
     "description": "Rabanra es un luchador del Universo 2 que participa en el Torneo de Poder. Es un guerrero comprometido con la justicia y el amor, siguiendo la filosofía de su universo.",
-    "image": "/assets/pj/Rabanra.png",
+    "image": "/assets/pj/Rabanra.webp",
     "affiliation": "Universo 2",
     "originPlanet": {
       "name": "Desconocido",
@@ -2144,7 +2146,7 @@
     "race": "Desconocido",
     "gender": "Masculino",
     "description": "Zirloin es un luchador del Universo 2 que se une a la causa del amor y la justicia en el Torneo de Poder. Es uno de los luchadores más fieles a la causa de su universo.",
-    "image": "/assets/pj/Zirloin.png",
+    "image": "/assets/pj/Zirloin.webp",
     "affiliation": "Universo 2",
     "originPlanet": {
       "name": "Desconocido",
@@ -2161,7 +2163,7 @@
     "race": "Desconocido",
     "gender": "Masculino",
     "description": "Kettol es un luchador del Universo 2 que también participa en el Torneo de Poder, luchando al lado de Brianne de Chateau y los demás guerreros del amor.",
-    "image": "/assets/pj/Kettol.png",
+    "image": "/assets/pj/Kettol.webp",
     "affiliation": "Universo 2",
     "originPlanet": {
       "name": "Desconocido",
