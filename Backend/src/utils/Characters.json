@@ -1445,7 +1445,7 @@
     "race": "Ángel",
     "gender": "Femenino",
     "description": "Margarita es el ángel asistente de Belmod en el Universo 11. Es calmada y profesional, y como todos los ángeles, su poder es superior al de los dioses de la destrucción.",
-    "image": "/assets/pj/Margarita.png",
+    "image": "/assets/pj/Margarita.webp",
     "affiliation": "Ángeles",
     "originPlanet": {
       "name": "Desconocido",
@@ -1462,7 +1462,7 @@
     "race": "Dios",
     "gender": "Masculino",
     "description": "Rumsshi es el Dios de la Destrucción del Universo 10. Es extremadamente confiado en su poder y tiene una fuerte presencia física que intimida a otros.",
-    "image": "/assets/pj/Rumsshi.png",
+    "image": "/assets/pj/Rumsshi.webp",
     "affiliation": "Universo 10",
     "originPlanet": {
       "id": 13,
