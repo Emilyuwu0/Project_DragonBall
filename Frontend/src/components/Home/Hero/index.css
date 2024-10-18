@@ -200,6 +200,9 @@
 @media (max-width: 480px) {
   .hero-content {
     padding-top: 4rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+
   }
 
   .title-hero-text {
@@ -257,8 +260,8 @@
       var(--_g),
       var(--c1) 96%) var(--c1);
   background-size: var(--s) var(--s); */
-background: black;
-/*   background: linear-gradient(375deg, var(--color-secondary), var(--c1)); */
+  background: black;
+  /*   background: linear-gradient(375deg, var(--color-secondary), var(--c1)); */
   /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
   transition: all 0.6s ease-in-out;
 }
@@ -271,8 +274,9 @@ background: black;
 .menu-btn {
   position: absolute;
   z-index: 2;
+  background-color: var(--color-secondary);
+  top: 1rem;
 
-  top: 2px;
   height: 50px;
   width: 50px;
   text-align: center;
@@ -289,8 +293,8 @@ background: black;
   content: "";
   position: absolute;
   top: calc(50% - 1px);
-  left: 6%;
-  width: 60%;
+  left: 25%;
+  width: 50%;
   border-bottom: 3px solid #fff;
   transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -403,13 +407,17 @@ input[type="checkbox"] {
   width: 62%;
   border: 1px solid #fa681b30;
 }
+
 @media (max-width: 1200px) {
   .navbar-desktop {
-    width: 90%; /* Aumentamos el ancho para usar más espacio horizontal */
-    padding: 0.5rem; /* Reducimos el padding */
+    width: 90%;
+    /* Aumentamos el ancho para usar más espacio horizontal */
+    padding: 0.5rem;
+    /* Reducimos el padding */
     border-radius: 1.5rem
   }
 }
+
 .logo-icon {
   width: 20px;
   margin-right: 10px;

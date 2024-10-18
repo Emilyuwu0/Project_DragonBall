@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useParams } from "react-router-dom";
 import { getData } from "../../api/characters"; // Asegúrate de que esta función obtenga los datos de un personaje por ID
 import NavbarComponent from "../../components/Home/Hero/navbar";
+import Footer from "../../components/Home/Footer";
 
 export default function CharacterDetail() {
   const { id } = useParams(); // Obtiene el ID de la URL
@@ -64,11 +65,14 @@ export default function CharacterDetail() {
               <h1 className="title-gradient-left titles-mobile">
                 {character.name}
               </h1>
-              <img
+              <div className="container-image-ch">
+                  <img
                 src={`http://localhost:4000${character.image}`}
                 alt={character.name}
                 className="image-view-characters "
               />
+              </div>
+            
             </div>
             <div className="div-right flex-wrap-character">
               <div className="items-for-character ">
@@ -97,7 +101,7 @@ export default function CharacterDetail() {
               <div className="content-parents border-div padding-max  center-cards-trans">
                 <div>
                   <h1 className="title-gradient-left titles-mobile center-text">
-                    Tranforma
+                    Transforma
                     <span className="highlight text-degrade">ciones </span>
                   </h1>
                 </div>
@@ -125,6 +129,7 @@ export default function CharacterDetail() {
           )}
         </div>
       </motion.div>
+      <Footer/>
     </div>
   );
 }
