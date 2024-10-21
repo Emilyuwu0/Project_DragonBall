@@ -28,30 +28,22 @@ export default function Planets() {
 
   const transition = { duration: 0.8, ease: "easeOut" };
 
-const  variantsText = {
-  hidden: { opacity: 0, y: 50 }, // Empieza un poco más abajo
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      type: "tween",
-      duration: 0.5,
-      ease: "easeInOut",
+  const variantsText = {
+    hidden: { opacity: 0, y: 50 }, // Empieza un poco más abajo
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        type: "tween",
+        duration: 0.5,
+        ease: "easeInOut",
+      },
     },
-  },
-};
+  };
 
   return (
     <div>
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        transition={transition}
-        variants={variants}
-      >
-        <NavbarComponent />
-      </motion.div>
+      <NavbarComponent />
 
       <motion.div
         initial="hidden"
@@ -65,10 +57,10 @@ const  variantsText = {
             <div className="div-left ">
               {" "}
               <motion.div
-              initial="hidden"
-              animate="visible"
-              exit="hidden" 
-              variants={variantsText} 
+                initial="hidden"
+                animate="visible"
+                exit="hidden"
+                variants={variantsText}
               >
                 <h1 className="title-gradient-left titles-mobile margin-top-min ">
                   Universo

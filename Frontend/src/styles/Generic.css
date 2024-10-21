@@ -16,7 +16,9 @@ p {
   font-size: 1.1rem;
 }
 
-
+.margin-auto{
+  margin: auto;
+}
 
 .display-block {
   display: block;
@@ -335,6 +337,10 @@ p {
 
 /* Clases */
 @media (max-width: 480px) {
+
+  .margin-top-button-mobile{
+    margin-top: 2rem;
+  }
   .framer-divs-center {
     border-radius: 16px;
     gap: 16px;
@@ -347,6 +353,7 @@ p {
   .framer-general {
     padding: 40px 0;
     border-radius: 24px;
+    max-width: 90%;
   }
 
   .padding-max {
@@ -360,6 +367,7 @@ p {
   .content-parents {
     max-width: 90%;
     border-radius: 20px;
+    padding: 2rem;
   }
 
   .padding-min {
@@ -410,6 +418,7 @@ p {
     width: 7rem;
     font-size: 0.8rem;
     height: 2.5rem;
+    margin-top: 2rem;
   }
 
   .subtitle-about {
@@ -444,7 +453,9 @@ p {
     flex: none;
     width: 100%;
   }
-
+  .title-cards{
+    font-size: 1rem;
+  }
   .framer-divs-center {
     padding: 24px;
     flex-direction: column;

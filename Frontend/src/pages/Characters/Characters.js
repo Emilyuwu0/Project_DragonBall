@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {  motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import useWindowSize from "../../hook/sizeScreen";
 import { getData } from "../../api/characters";
@@ -96,15 +96,8 @@ export default function Characters() {
 
   return (
     <div>
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        transition={transition}
-        variants={variants}
-      >
-        <NavbarComponent />
-      </motion.div>
+      <NavbarComponent />
+
       <div className="about-parent">
         {/* Header Section */}
         <div className="parents" id="about">
@@ -119,7 +112,7 @@ export default function Characters() {
               >
                 <h1 className="title-gradient-left titles-mobile ">
                   Personalidades
-                  <span className="highlight text-degrade"> Dragon Ball</span>
+
                 </h1>{" "}
               </motion.div>
               <p className="subtitle-about">

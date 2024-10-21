@@ -284,6 +284,7 @@
 @media (max-width: 480px) {
   .tabs {
     margin-top: -4rem;
+    border-radius: 20px;
   }
 
   .div-info-pj-data {
@@ -310,6 +311,7 @@
     margin-top: -4rem;
     margin-bottom: -4rem;
     overflow-y: scroll;
+    overflow: hidden;
   }
 
   .item-pj-card {

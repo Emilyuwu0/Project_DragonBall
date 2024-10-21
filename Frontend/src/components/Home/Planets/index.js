@@ -88,12 +88,15 @@ export default function Planets() {
                 mundos, cada uno con sus propias características, habitantes y
                 culturas.
               </p>
-              <Link
-                className="button-colors width-button-redirect "
+              <div className="margin-top-button-mobile">
+                 <Link
+                className="button-colors width-button-redirect  "
                 to="/planetas"
               >
                 Ver todos los planetas →
               </Link>
+              </div>
+             
             </div>
             <div className="div-right">
               <div className="div-father-planets-right">
