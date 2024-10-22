@@ -1,6 +1,8 @@
 import { Controller, Get, Query } from '@nestjs/common';
 import { CharactersService } from './Characters.service';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('Characters')
 @Controller('characters')
 export class CharactersController {
   constructor(private readonly charactersService: CharactersService) {}
