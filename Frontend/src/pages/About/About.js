@@ -12,12 +12,29 @@ import "../../styles/App.css";
 export default function Index() {
   const [selectedItem, setSelectedItem] = useState(null);
 
+  const [selectedItemZ, setSelectedItemZ] = useState(null);
+
+  const [selectedItemGt, setSelectedItemGt] = useState(null);
+
+  const [selectedItemSuper, setSelectedItemSuper] = useState(null);
+
   const handleClick = (item) => {
     setSelectedItem(item);
   };
-
+  const handleClickZ = (item) => {
+    setSelectedItemZ(item);
+  };
+  const handleClickGt = (item) => {
+    setSelectedItemGt(item);
+  };
+  const handleClickSuper = (item) => {
+    setSelectedItemSuper(item);
+  };
   const closeModal = () => {
     setSelectedItem(null);
+    setSelectedItemZ(null);
+    setSelectedItemGt(null);
+    setSelectedItemSuper(null);
   };
   const variants = {
     hidden: { opacity: 0, y: 40 },
@@ -143,11 +160,11 @@ export default function Index() {
                   <motion.div
                     className="carousel-wrapper {"
                     initial={{ y: 0 }}
-                    animate={{ y: ["0%", "-100%"] }} // Movimiento continuo
+                    animate={{ y: ["0%", "-100%"] }}
                     transition={{
                       ease: "linear",
-                      duration: 10, // Duración larga para un movimiento lento
-                      repeat: Infinity, // Repetir infinitamente
+                      duration: 10,
+                      repeat: Infinity,
                     }}
                   >
                     <div className="super-div-principal">
@@ -188,7 +205,17 @@ export default function Index() {
                             <p className="subtitle-about number-of-saga margin-bottom-min">
                               {selectedItem.description}
                             </p>
-                            <button onClick={closeModal}>Cerrar</button>
+                            <img
+                              src={selectedItem.img}
+                              alt="portada"
+                              className="img-modal-portada"
+                            />
+                            <button
+                              onClick={closeModal}
+                              className="button-colors button-hero"
+                            >
+                              Cerrar
+                            </button>
                           </div>
                         </div>
                       )}{" "}
@@ -216,7 +243,10 @@ export default function Index() {
                   {Series.filter((item) => item.saga === "Dragon Ball Z").map(
                     (item) => (
                       <>
-                        <div className="card-dbz">
+                        <div
+                          className="card-dbz"
+                          onClick={() => handleClickZ(item)}
+                        >
                           <div className="notiglow"></div>
                           <div className="notiborderglow"></div>
                           <span className="id-cards">{item.id}</span>
@@ -229,6 +259,35 @@ export default function Index() {
                     )
                   )}
                 </div>
+
+                <AnimatePresence>
+                  <motion.div onClick={(e) => e.stopPropagation()}>
+                    {selectedItemZ && (
+                      <div className="modal-overlay" onClick={closeModal}>
+                        <div
+                          className="modal-content"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          <p className="title-of-saga">{selectedItemZ.title}</p>
+                          <p className="subtitle-about number-of-saga margin-bottom-min">
+                            {selectedItemZ.description}
+                          </p>
+                          <img
+                            src={selectedItemZ.img}
+                            alt="portada"
+                            className="img-modal-portada"
+                          />
+                          <button
+                            onClick={closeModal}
+                            className="button-colors button-hero"
+                          >
+                            Cerrar
+                          </button>
+                        </div>
+                      </div>
+                    )}{" "}
+                  </motion.div>
+                </AnimatePresence>
 
                 {/* */}
               </div>
@@ -284,7 +343,10 @@ export default function Index() {
               <div className="div-cards-gt padding-min">
                 {Series.filter((item) => item.saga === "Dragon Ball GT").map(
                   (item) => (
-                    <div className="notification div-cards-gt notification-gt">
+                    <div
+                      className="notification div-cards-gt notification-gt"
+                      onClick={() => handleClickGt(item)}
+                    >
                       <div className="notiglow"></div>
                       <div className="notiborderglow"></div>
                       <div className="notititle">
@@ -301,6 +363,35 @@ export default function Index() {
             </div>
           </div>
         </motion.div>
+
+        <AnimatePresence>
+          <motion.div onClick={(e) => e.stopPropagation()}>
+            {selectedItemGt && (
+              <div className="modal-overlay" onClick={closeModal}>
+                <div
+                  className="modal-content"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <p className="title-of-saga">{selectedItemGt.title}</p>
+                  <p className="subtitle-about number-of-saga margin-bottom-min">
+                    {selectedItemGt.description}
+                  </p>
+                  <img
+                    src={selectedItemGt.img}
+                    alt="portada"
+                    className="img-modal-portada"
+                  />
+                  <button
+                    onClick={closeModal}
+                    className="button-colors button-hero"
+                  >
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            )}{" "}
+          </motion.div>
+        </AnimatePresence>
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -316,7 +407,10 @@ export default function Index() {
                   {Series.filter(
                     (item) => item.saga === "Dragon Ball Super"
                   ).map((item) => (
-                    <div className="notification super-ball">
+                    <div
+                      className="notification super-ball"
+                      onClick={() => handleClickSuper(item)}
+                    >
                       <div className="notiglow"></div>
                       <div className="notiborderglow"></div>
                       <div className="notititle">
@@ -349,6 +443,34 @@ export default function Index() {
             </div>
           </div>{" "}
         </motion.div>
+        <AnimatePresence>
+          <motion.div onClick={(e) => e.stopPropagation()}>
+            {selectedItemSuper && (
+              <div className="modal-overlay" onClick={closeModal}>
+                <div
+                  className="modal-content"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <p className="title-of-saga">{selectedItemSuper.title}</p>
+                  <p className="subtitle-about number-of-saga margin-bottom-min">
+                    {selectedItemSuper.description}
+                  </p>
+                  <img
+                    src={selectedItemSuper.img}
+                    alt="portada"
+                    className="img-modal-portada"
+                  />
+                  <button
+                    onClick={closeModal}
+                    className="button-colors button-hero"
+                  >
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            )}{" "}
+          </motion.div>
+        </AnimatePresence>
       </div>
 
       <Footer />

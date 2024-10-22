@@ -7,6 +7,7 @@ export const Series = [
     title: "Saga del Emperador Pilaf",
     description:
       "Gokū, un niño con una cola de mono, conoce a Bulma, quien busca las Esferas del Dragón. Juntos emprenden una aventura para reunirlas y evitar que el villano Pilaf pida un deseo malvado.",
+      img:"https://i.pinimg.com/736x/a3/22/85/a32285546999a244d47401ece3c3f8b8.jpg"
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const Series = [
     title: "Saga del Gran Torneo de Artes Marciales",
     description:
       "Gokū entrena con el Maestro Roshi junto a Krilin, su compañero de entrenamiento, para competir en el Torneo Mundial de Artes Marciales, donde se enfrentan a poderosos luchadores.",
+      img:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgBq29YzWOLXaT4JBYkn7inS2ox9iC4SML4iitWCoGKGlOSr7Qjy0OUpgTpgxCYWfqZhLB6ZWQ5ggg9N7VBWD1qLoKOSn0hA2_peAeAXei_cDTdj2c1cQgOlsNorXrIj7AOnjVpJg56nc/w680/5129802e2d3ebb16903d198578293d7c1497b0abr1-450-391v2_uhq.jpg"
   },
   {
     id: 3,
@@ -21,6 +23,7 @@ export const Series = [
     title: "Saga del Ejército Red Ribbon",
     description:
       "Gokū enfrenta al Ejército Red Ribbon, una organización militar que busca dominar el mundo utilizando las Esferas del Dragón. En esta saga, Gokū derrota a varios líderes del ejército.",
+      img:"https://comicstores.es/imagenes/8414906/841490689321.JPG"
   },
   {
     id: 4,
@@ -28,6 +31,7 @@ export const Series = [
     title: "Saga de Uranai Baba",
     description:
       "Gokū y sus amigos buscan la ayuda de la adivina Baba para encontrar la última Esfera del Dragón, lo que los lleva a enfrentar a poderosos luchadores, incluido el abuelo de Gokū.",
+img:"https://4.bp.blogspot.com/-M88ym64hEaE/T_saZcTFBQI/AAAAAAAAAvI/C11PVh7COYk/s1600/uranai.png"
   },
   {
     id: 5,
@@ -35,6 +39,7 @@ export const Series = [
     title: "Saga de Piccolo Daimaō",
     description:
       "El malvado Piccolo Daimaō aparece buscando vengarse de la humanidad. Gokū se enfrenta a este villano, pero no antes de sufrir grandes pérdidas.",
+      img:"https://images.cdn1.buscalibre.com/fit-in/360x360/cb/90/cb9006c96ad6a1ace033a5503787e2d0.jpg"
   },
   {
     id: 6,
@@ -42,6 +47,7 @@ export const Series = [
     title: "Saga de los Saiyajins",
     description:
       "Gokū descubre sus orígenes como Saiyajin mientras defiende la Tierra de otros guerreros de su raza.",
+      img:"https://images.cdn3.buscalibre.com/fit-in/360x360/4f/2a/4f2a439b4d61f35da2cedf331de35be6.jpg"
   },
   {
     id: 7,
@@ -49,6 +55,7 @@ export const Series = [
     title: "Saga de Freezer",
     description:
       "Gokū y sus amigos viajan al planeta Namek, donde enfrentan a Freezer, uno de los villanos más poderosos.",
+      img:" https://i1.whakoom.com/large/15/1b/ab77d133a59a4110a88c77b5c9fdc2a9.jpg"
   },
 
   {
@@ -57,6 +64,7 @@ export const Series = [
     title: "Saga de Garlic Jr.",
     description:
       "Garlic Jr., un villano inmortal, regresa para vengarse de Gokū y sus amigos, tratando de conquistar la Tierra mientras Gokū está ausente.",
+      img:"https://i.pinimg.com/736x/0f/1c/48/0f1c488c01b1c3255ff8df637e6c76a6.jpg"
   },
   {
     id: 9,
@@ -64,6 +72,7 @@ export const Series = [
     title: "Saga de los Androides",
     description:
       "Los androides 17 y 18, creados por el Dr. Gero, un científico del Ejército Red Ribbon, aparecen para destruir a Gokū y amenazan la paz mundial. Trunks del futuro advierte sobre su llegada.",
+      img:"https://ramenparados.com/wp-content/uploads/2015/10/portada_dragon-ball-color-cell-n-01_akira-toriyama_2015082513341-300x477.jpg"
   },
   {
     id: 10,
@@ -71,6 +80,7 @@ export const Series = [
     title: "Saga de Cell",
     description:
       "Un bioandroide llamado Cell amenaza el mundo, y Gohan se convierte en clave para derrotarlo.",
+      img:"https://images.cdn3.buscalibre.com/fit-in/360x360/28/ae/28ae6c3765030f06a8000dff52f4979b.jpg"
   },
   {
     id: 11,
@@ -78,6 +88,7 @@ export const Series = [
     title: "Saga de Majin Buu",
     description:
       "La Tierra es atacada por Majin Buu, un ser mágico con un inmenso poder.",
+      img:"https://i.pinimg.com/736x/25/53/97/25539790ee86c349fa44eefd92cc72fe.jpg"
   },
 {
       id: 12,
@@ -85,6 +96,7 @@ export const Series = [
       title: "Saga de las Esferas del Dragón Oscuras",
       description:
         "Gokū, ahora un niño debido a un deseo, viaja por el universo buscando esferas oscuras.",
+        img:"https://i.pinimg.com/474x/3b/a0/60/3ba060264126d6edfd936883b809c3b6.jpg"
     },
     {
       id: 13,
@@ -92,6 +104,7 @@ export const Series = [
       title: "Saga de Baby",
       description:
         "Gokū enfrenta a Baby, un villano que busca venganza contra los Saiyajins.",
+        img:"https://detodoexpres.com/45464-medium_default/dragon-ball-gt---la-saga-de-baby-vol-5-episodios-33---40.jpg"
     },
       {
       id: 14,
@@ -99,6 +112,7 @@ export const Series = [
       title: "Saga de Super A-17",
       description:
         "El Dr. Gero y el Dr. Myu crean a Super A-17, un androide más poderoso que los anteriores. Los Guerreros Z deben detener esta nueva amenaza que busca conquistar la Tierra.",
+        img:"https://pbs.twimg.com/media/EdZ49NtXkAEvmhL.jpg"
     },
     {
       id: 15,
@@ -106,12 +120,14 @@ export const Series = [
       title: "Saga de los Dragones Oscuros",
       description:
         "Dragones malignos emergen de las Esferas del Dragón, y Gokū debe detenerlos.",
+        img:"https://pbs.twimg.com/media/Ep8RwFGXMAASo-7.jpg"
     },
    {
       id: 16,
       saga: "Dragon Ball Super",
       title: "Saga de la Batalla de los Dioses",
       description: "Gokū enfrenta a Bills, el Dios de la Destrucción.",
+      img:"https://es.web.img3.acsta.net/pictures/14/03/13/09/32/445665.jpg"
     },
  
     {
@@ -120,6 +136,7 @@ export const Series = [
       title: "Saga del Torneo de Champa",
       description:
         "Un torneo entre los universos 6 y 7 se lleva a cabo con el destino de la Tierra en juego.",
+        img:"https://i.pinimg.com/736x/0e/8d/e5/0e8de5c9e42be6ae08b335ffb08a352c.jpg"
     },
     {
       id: 18,
@@ -127,6 +144,7 @@ export const Series = [
       title: "Saga de Goku Black",
       description:
         "Gokū se enfrenta a un villano que ha tomado su apariencia y amenaza a los universos.",
+        img:"https://i.pinimg.com/originals/2d/38/b9/2d38b99fae13780840f4009beb544103.jpg"
     },
     {
       id: 19,
@@ -134,6 +152,7 @@ export const Series = [
       title: "Saga del Torneo del Poder",
       description:
         "Universos compiten en un torneo en el que la existencia misma está en juego.",
+        img:"https://i.pinimg.com/originals/db/bb/11/dbbb11a43faa12d0ddb5f420e0abf00b.jpg"
     },   /*  */
 ];
 export const Movies = [
