@@ -63,7 +63,9 @@
   align-items: center;
   z-index: 4;
 }
-
+.img-about {
+  width: 100%;
+}
 .img-modal-portada {
   width: 40%;
   margin-bottom: 0rem;
@@ -446,6 +448,9 @@
 }
 
 @media (max-width: 500px) {
+  .img-about{
+    width: 10rem;
+  }
   .margin-top-about {
     margin-top: 4rem;
   }

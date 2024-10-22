@@ -348,6 +348,7 @@ p {
     align-items: center;
     width: 100%;
     padding: 0.5rem;
+    padding-top: 2rem;
   }
 
   .framer-general {
@@ -461,6 +462,7 @@ p {
     flex-direction: column;
     gap: 24px;
     width: 100%;
+    
   }
 
   .framer-general {

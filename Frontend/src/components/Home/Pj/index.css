@@ -293,17 +293,18 @@
   }
 
   .item-one-pj {
-    margin-left: 4rem;
+    margin-left: 2em;
+
   }
 
   .title-pj-data {
     margin-left: 0rem;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 
   .image-card-pj {
     width: 24rem;
-    height: 25rem;
+    height: 20rem;
     margin-top: -6rem;
   }
 
@@ -312,6 +313,7 @@
     margin-bottom: -4rem;
     overflow-y: scroll;
     overflow: hidden;
+    max-width: 20rem;
   }
 
   .item-pj-card {
@@ -332,7 +334,7 @@
   }
 
   .card-tab {
-    width: 100%;
+    width: 80%;
   }
 }
 

@@ -126,7 +126,7 @@ export default function Index() {
                 </p>
               </div>
               <div>
-                <img src={Akira} alt="Akira" className="img-about fade-in {" />
+                <img src={Akira} alt="Akira" className="img-about fade-in " />
               </div>
             </div>{" "}
           </div>
