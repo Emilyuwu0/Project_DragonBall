@@ -67,7 +67,7 @@ export default function Planets() {
       <div className="margin-planets-top ">
         {" "}
         <div className="parents ">
-          <div className="filter-bg-shadow"></div>
+        {/*   <div className="filter-bg-shadow"></div> */}
           <div className="content-parents border-div padding-min ">
             <div className="div-left padding-min  ">
               <span className="title-head-section"> Planetas </span>

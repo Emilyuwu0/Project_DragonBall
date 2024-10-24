@@ -40,6 +40,9 @@
   border-radius: 85px;
   margin: auto;
   background: var(--bg-card-optional) !important;
+  position: relative;
+  z-index: 4;
+ 
 }
 
 .tabs-container-pj {

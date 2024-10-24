@@ -156,7 +156,9 @@ export default function Tabs() {
         animate={controls} // Control de animaciones
         transition={{ duration: 1.9 }}
       >
-        <div className="framer-blur-pj"></div>
+        <div className="framer-blur-pj-div">
+          <div className="framer-blur-pj"></div>
+        </div>
         <div className="tabs-pj">
           <div className="tabs">
             <span className="title-head-section-centered center-text">

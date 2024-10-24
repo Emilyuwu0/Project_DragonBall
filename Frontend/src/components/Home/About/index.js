@@ -51,7 +51,7 @@ export default function Index() {
         animate={controls}
         transition={{ duration: 1.9 }}
       >
-        <div className="framer-blur"></div>
+     {/*    <div className="framer-blur"></div> */}
         <div className="parents" id="about">
           <div className="content-parents border-div padding-max">
             <div className="div-left ">

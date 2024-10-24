@@ -7,7 +7,7 @@ import About from "../../../pages/About/About";
 import { Link } from "react-router-dom";
 export default function Footer() {
   return (
-    <div className="group-relative">
+    <div className="group-relative" id="footer">
       <div class="container-footer">
         <div class="column-footer ">
           {" "}

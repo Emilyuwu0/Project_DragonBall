@@ -6,7 +6,7 @@ import About from "../../../pages/About/About";
 import GokuHero from "../../../assets/goku-hero.webp";
 import useWindowSize from "../../../hook/sizeScreen";
 import Planets from "../Planets";
-import Esfera from "../../../assets/esfera.png";
+import Esfera from "../../../assets/Kanji_Goku.webp";
 import "./index.css";
 
 export default function HeroIndex() {
@@ -60,7 +60,7 @@ export default function HeroIndex() {
               ))}
             </div>
 
-            <a href="#" className="sign-up">
+            <a href="#footer" className="sign-up">
               +
             </a>
           </nav>
