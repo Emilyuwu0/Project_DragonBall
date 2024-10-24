@@ -1,5 +1,4 @@
 import "../styles/App.css";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import About from "../components/Home/About";
 import HeroIndex from "../components/Home/Hero/index";
@@ -8,6 +7,7 @@ import Planets from "../components/Home/Planets";
 import Trans from "../components/Home/Trans/Trans";
 import Footer from "../components/Home/Footer";
 import { motion, useScroll, useSpring } from "framer-motion";
+
 export default function Home() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -24,6 +24,7 @@ export default function Home() {
       <Pjs/>
       <Trans/>
       <Planets/>
+    
       <Footer/>
     </div>
   );

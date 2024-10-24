@@ -328,7 +328,7 @@ export default function Characters() {
                               }
                             >
                               <img
-                                src={`http://localhost:4000${character.image}`}
+                                src={`https://dragon-ball-api-k1tv.onrender.com${character.image}`}
                                 className="image-characters"
                                 alt={character.name}
                               />

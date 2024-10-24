@@ -5,17 +5,21 @@ import Characters from "./Characters/Characters";
 import CharacterDetail from "./Characters/CharacterDetails";
 import Planets from "./Planets/Planets";
 import Race from "./Race/Race";
+import { ScrollToTopButton } from "../components/Ui/ButtonScroll/ButtonScroll";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/personajes" element={<Characters />} />
-      <Route path="/razas" element={<Race />} />
-      <Route path="/planetas" element={<Planets />} />
-      <Route path="/card/:id" element={<CharacterDetail />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/personajes" element={<Characters />} />
+        <Route path="/razas" element={<Race />} />
+        <Route path="/planetas" element={<Planets />} />
+        <Route path="/card/:id" element={<CharacterDetail />} />
+      </Routes>
+      <ScrollToTopButton/>
+    </>
   );
 }
 

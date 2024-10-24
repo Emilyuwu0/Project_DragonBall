@@ -67,7 +67,7 @@ export default function CharacterDetail() {
               </h1>
               <div className="container-image-ch">
                   <img
-                src={`http://localhost:4000${character.image}`}
+                src={`https://dragon-ball-api-k1tv.onrender.com${character.image}`}
                 alt={character.name}
                 className="image-view-characters "
               />
@@ -111,7 +111,7 @@ export default function CharacterDetail() {
                       <div className="main-content">
                         <div className="header-cards">
                           <img
-                            src={`http://localhost:4000/assets/transformations/${item.image}`}
+                            src={`https://dragon-ball-api-k1tv.onrender.com/assets/transformations/${item.image}`}
                             className="image-characters"
                             alt={item.name}
                           />
