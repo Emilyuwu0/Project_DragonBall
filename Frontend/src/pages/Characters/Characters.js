@@ -111,7 +111,7 @@ export default function Characters() {
                 variants={variantsText}
               >
                 <h1 className="title-gradient-left titles-mobile ">
-                  Personalidades
+                Personajes
 
                 </h1>{" "}
               </motion.div>
